@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Theren Vale - Wood Elf Ranger
 ---
 

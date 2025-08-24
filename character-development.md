@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Character Development - Theren Vale
 ---
 
