@@ -1,12 +1,13 @@
 title: D&D Characters
 description: My D&D character collection and planning resources
-theme: midnight
+remote_theme: pages-themes/midnight@v0.2.0
 markdown: kramdown
 highlighter: rouge
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Build settings
 exclude:
