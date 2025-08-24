@@ -1,0 +1,13 @@
+title: D&D Characters
+description: My D&D character collection and planning resources
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Build settings
+exclude:
+  - "*.pdf"

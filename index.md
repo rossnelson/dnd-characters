@@ -1,3 +1,8 @@
+---
+layout: home
+title: D&D Characters
+---
+
 # D&D Characters
 
 Welcome to my D&D character collection!

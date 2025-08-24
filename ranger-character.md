@@ -1,3 +1,8 @@
+---
+layout: page
+title: Theren Vale - Wood Elf Ranger
+---
+
 # Wood Elf Ranger - Character Summary
 
 ## Core Identity

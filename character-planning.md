@@ -1,3 +1,8 @@
+---
+layout: page
+title: Character Planning Checklist
+---
+
 # D&D Character Planning Checklist
 
 ## Questions for Your DM/Group
