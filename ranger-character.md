@@ -5,6 +5,9 @@ title: Theren Vale - Wood Elf Ranger
 
 # Wood Elf Ranger - Character Summary
 
+![Theren Vale Avatar](ranger-folk-hero-wood-elf.png)
+*Theren Vale - Wood Elf Folk Hero Ranger*
+
 ## Core Identity
 **Race**: Wood Elf  
 **Class**: Ranger (Level 1)  
