@@ -4,27 +4,6 @@ remote_theme: zerostaticthemes/jekyll-serif-theme
 markdown: kramdown
 highlighter: rouge
 
-# Navigation
-collections:
-  pages:
-    output: true
-    permalink: /:name/
-
-menu:
-  main:
-    - name: "Characters"
-      url: "/ranger-character/"
-      weight: 1
-    - name: "Sessions"
-      url: "/sessions/"
-      weight: 2
-    - name: "Development"
-      url: "/character-development/"
-      weight: 3
-    - name: "Party"
-      url: "/party-dynamics/"
-      weight: 4
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
