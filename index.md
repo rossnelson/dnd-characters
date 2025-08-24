@@ -22,10 +22,16 @@ Folk Hero ranger with a complex backstory involving betrayal and hard-earned wis
 
 ---
 
-## Character Planning
+## Campaign Resources
 
-### [Character Planning Checklist](character-planning.md)
-A comprehensive guide for creating D&D characters, including questions for your DM, party considerations, and character concept development.
+### [Session Journal](sessions/)
+Campaign notes, memorable moments, and character development tracking.
+
+### [Party Dynamics](party-dynamics.md)
+Relationships, trust levels, and group coordination notes.
+
+### [Character Development](character-development.md)
+Theren's personal growth, evolving perspectives, and key story moments.
 
 ---
 
