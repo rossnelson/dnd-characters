@@ -32,7 +32,21 @@ cat data/characters/{character-name}.json
 
 If JSON files don't exist, note what information is missing.
 
-### Step 3: Analyze Party Composition
+### Step 3: Look Up Spell/Ability Details (When Needed)
+
+For precise tactical advice (range, duration, damage dice, saving throws), look up spells and abilities on D&D Beyond:
+
+- **Spells**: `https://www.dndbeyond.com/spells/{spell-name-lowercase-hyphenated}`
+- **Class Features**: `https://www.dndbeyond.com/classes/{class}`
+- **2024 PHB Reference**: `https://www.dndbeyond.com/sources/dnd/phb-2024`
+
+Use this when:
+- Tactics depend on specific range or area of effect
+- You need exact duration for timing strategies
+- Concentration requirements affect spell combinations
+- Saving throw type matters for target selection
+
+### Step 4: Analyze Party Composition
 
 After reading all character data, identify:
 - **Frontline**: Who can take hits?
