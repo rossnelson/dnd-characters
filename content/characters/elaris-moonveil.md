@@ -1,6 +1,6 @@
 ---
 title: "Elaris Moonveil - Half-Elf College of Lore Bard"
-date: 2026-01-12
+date: 2026-01-13
 description: "Half-Elf College of Lore Bard - Level 3"
 character_name: "Elaris Moonveil"
 character_race: "Half-Elf"

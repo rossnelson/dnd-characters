@@ -1,0 +1,703 @@
+{
+  "id": 150807632,
+  "userId": 105783076,
+  "username": "Torinn_Nemonis1",
+  "readonlyUrl": "https://dndbeyond.com/characters/150807632",
+  "name": "Barzer",
+  "race": {
+    "fullName": "Variant Tiefling",
+    "baseRaceName": "Tiefling",
+    "subRaceShortName": "Variant",
+    "isHomebrew": false,
+    "weightSpeeds": {
+      "normal": {
+        "walk": 30
+      }
+    }
+  },
+  "classes": [
+    {
+      "id": 208021097,
+      "level": 3,
+      "definition": {
+        "name": "Wizard",
+        "hitDice": 6
+      },
+      "subclassDefinition": {
+        "name": "War Magic"
+      }
+    }
+  ],
+  "background": {
+    "definition": {
+      "name": "Sage",
+      "description": "\u003cp\u003eYou spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study.\u003c/p\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003cdl\u003e\r\n\u003cdt\u003e\u003cstrong\u003eSkill Proficiencies:\u003c/strong\u003e\u0026nbsp;Arcana, History\u003c/dt\u003e\r\n\u003cdt\u003e\u003cstrong\u003eLanguages:\u003c/strong\u003e Two of your choice\u003c/dt\u003e\r\n\u003cdt\u003e\u003cstrong\u003eEquipment:\u003c/strong\u003e A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of common clothes, and a pouch containing 10 gp\u003c/dt\u003e\r\n\u003c/dl\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003ch5\u003eSpecialty\u003c/h5\u003e\r\n\u003cp\u003eTo determine the nature of your scholarly training, roll a d8 or choose from the options in the table below.\u003c/p\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed8\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eSpecialty\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eAlchemist\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eAstronomer\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eDiscredited academic\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eLibrarian\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eProfessor\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eResearcher\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e7\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eWizard’s apprentice\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e8\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eScribe\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003cblockquote\u003e\r\n\u003cp id=\"researcher\"\u003e\u003cstrong\u003eFEATURE: RESEARCHER\u003c/strong\u003e\u003c/p\u003e\r\n\u003cp\u003eWhen you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign.\u003c/p\u003e\r\n\u003c/blockquote\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003ch5\u003eSuggested Characteristics\u003c/h5\u003e\r\n\u003cp\u003eSages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly\u0026mdash;sometimes in its own right, sometimes as a means toward other ideals.\u003c/p\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed8\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003ePersonality Trait\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI use polysyllabic words that convey the impression of great erudition.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’ve read every book in the world’s greatest libraries\u0026mdash;or I like to boast that I have.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’m used to helping out those who aren’t as smart as I am, and I patiently explain anything and everything to others.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eThere’s nothing I like more than a good mystery.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’m willing to listen to every side of an argument before I make my own judgment.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI \u0026hellip; speak \u0026hellip; slowly \u0026hellip; when talking \u0026hellip; to idiots, \u0026hellip; which \u0026hellip; almost \u0026hellip; everyone \u0026hellip; is \u0026hellip; compared \u0026hellip; to me.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e7\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI am horribly, horribly awkward in social situations.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e8\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’m convinced that people are always trying to steal my secrets.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eIdeal\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eKnowledge.\u003c/b\u003e The path to power and self-improvement is through knowledge. (Neutral)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eBeauty.\u003c/b\u003e What is beautiful points us beyond itself toward what is true. (Good)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eLogic.\u003c/b\u003e Emotions must not cloud our logical thinking. (Lawful)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eNo Limits.\u003c/b\u003e Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003ePower.\u003c/b\u003e Knowledge is the path to power and domination. (Evil)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eSelf-Improvement.\u003c/b\u003e The goal of a life of study is the betterment of oneself. (Any)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eBond\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eIt is my duty to protect my students.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI have an ancient text that holds terrible secrets that must not fall into the wrong hands.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI work to preserve a library, university, scriptorium, or monastery.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eMy life’s work is a series of tomes related to a specific field of lore.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’ve been searching my whole life for the answer to a certain question.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI sold my soul for knowledge. I hope to do great deeds and win it back.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eFlaw\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI am easily distracted by the promise of information.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eMost people scream and run when they see a demon. I stop and take notes on its anatomy.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eUnlocking an ancient mystery is worth the price of a civilization.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI overlook obvious solutions in favor of complicated ones.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI speak without really thinking through my words, invariably insulting others.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI can’t keep a secret to save my life, or anyone else’s.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e"
+    }
+  },
+  "stats": [
+    {
+      "id": 1,
+      "value": 9
+    },
+    {
+      "id": 2,
+      "value": 16
+    },
+    {
+      "id": 3,
+      "value": 16
+    },
+    {
+      "id": 4,
+      "value": 18
+    },
+    {
+      "id": 5,
+      "value": 14
+    },
+    {
+      "id": 6,
+      "value": 10
+    }
+  ],
+  "baseHitPoints": 10,
+  "bonusHitPoints": 0,
+  "removedHitPoints": 7,
+  "temporaryHitPoints": 0,
+  "currentXp": 900,
+  "alignmentId": 0,
+  "age": null,
+  "hair": null,
+  "eyes": null,
+  "skin": null,
+  "height": null,
+  "weight": null,
+  "faith": null,
+  "gender": null,
+  "inventory": [
+    {
+      "id": 1755318819,
+      "definition": {
+        "name": "Cloak of Protection",
+        "type": "Wondrous item",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eYou gain a +1 bonus to Armor Class and saving throws while you wear this cloak.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1740494489,
+      "definition": {
+        "name": "Enduring Spellbook",
+        "type": "Wondrous item",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis spellbook, along with anything written on its pages, can’t be damaged by fire or immersion in water. In addition, the spellbook doesn’t deteriorate\u003cspan class=\"No-Break\"\u003e\u0026nbsp;with age.\u003c/span\u003e\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1751764165,
+      "definition": {
+        "name": "Potion of Healing",
+        "type": "Potion",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 3
+    },
+    {
+      "id": 1740494155,
+      "definition": {
+        "name": "Ink (1 ounce bottle)",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eInk is\u0026nbsp;typically used with an ink pen to write.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1740494145,
+      "definition": {
+        "name": "Backpack",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold\u0026nbsp;1 cubic foot/ 30 pounds of gear.\u003c/p\u003e\r\n\u003cp\u003eYou can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1809411557,
+      "definition": {
+        "name": "Chalk (1 piece)",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA piece of chalk used for writing and marking on various surfaces.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1740494157,
+      "definition": {
+        "name": "Clothes, Common",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis set of clothes could consist of a loose shirt and baggy breeches, or a loose shirt and skirt or overdress. Cloth wrappings are used for shoes.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1764116407,
+      "definition": {
+        "name": "Potion of Healing",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1809409984,
+      "definition": {
+        "name": "Bit and Bridle",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eStandard equipment used to direct a mount.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1740494156,
+      "definition": {
+        "name": "Small Knife",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA small knife, typically found in a scholar's pack.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1809485068,
+      "definition": {
+        "name": "Tinderbox",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch\u0026mdash;or anything else with exposed fuel\u0026mdash;takes a Bonus Action. Lighting any other fire takes 1 minute.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1809409698,
+      "definition": {
+        "name": "Riding Saddle",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA standard saddle for a riding mount.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1740494147,
+      "definition": {
+        "name": "Staff",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eAn Arcane Focus is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1740494148,
+      "definition": {
+        "name": "Book",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1740494149,
+      "definition": {
+        "name": "Ink (1 ounce bottle)",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eInk is\u0026nbsp;typically used with an ink pen to write.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1740494150,
+      "definition": {
+        "name": "Ink Pen",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eAn ink pen is a wooden stick with a special tip on the end. The tip draws ink in when dipped in a vial and leaves an ink trail when drawn across a surface.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1740494151,
+      "definition": {
+        "name": "Parchment (one sheet)",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA sheet of parchment is a piece of goat hide or sheepskin that has been prepared for writing on.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 10
+    },
+    {
+      "id": 1740494152,
+      "definition": {
+        "name": "Little Bag of Sand",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA small bag of sand, typically found in a scholar's pack.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1740494153,
+      "definition": {
+        "name": "Small Knife",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA small knife, typically found in a scholar's pack.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    }
+  ],
+  "currencies": {
+    "cp": 5,
+    "sp": 9,
+    "ep": 0,
+    "gp": 102,
+    "pp": 0
+  },
+  "spells": {
+    "race": [],
+    "class": [],
+    "item": [],
+    "feat": [],
+    "background": null
+  },
+  "classSpells": [
+    {
+      "characterClassId": 208021097,
+      "spells": [
+        {
+          "id": 21172644,
+          "definition": {
+            "name": "Tenser's Floating Disk",
+            "level": 1,
+            "school": "Conjuration",
+            "description": "\u003cp\u003eThis spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.\u003c/p\u003e\r\n\u003cp\u003eThe disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can’t cross an elevation change of 10 feet or more. For example, the disk can’t move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.\u003c/p\u003e\r\n\u003cp\u003eIf you move more than 100 feet from the disk (typically because it can’t move around an obstacle to follow you), the spell ends.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 30
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 1
+            },
+            "ritual": true
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 10075688,
+          "definition": {
+            "name": "Silvery Barbs",
+            "level": 1,
+            "school": "Enchantment",
+            "description": "\u003cp\u003eYou magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll.\u003c/p\u003e\r\n\u003cp\u003eYou can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 60
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171773,
+          "definition": {
+            "name": "Shield",
+            "level": 1,
+            "school": "Abjuration",
+            "description": "\u003cp\u003eAn imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from Magic Missile.\u003c/p\u003e",
+            "range": {
+              "origin": "Self",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171785,
+          "definition": {
+            "name": "Magic Missile",
+            "level": 1,
+            "school": "Evocation",
+            "description": "\u003cp\u003eYou create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals 1d4 + 1 Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eUsing a Higher-Level Spell Slot.\u003c/em\u003e\u003c/strong\u003e The spell creates one more dart for each spell slot level above 1.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 120
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21172703,
+          "definition": {
+            "name": "Identify",
+            "level": 1,
+            "school": "Divination",
+            "description": "\u003cp\u003eYou touch an object throughout the spell’s casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell’s name.\u003c/p\u003e\r\n\u003cp\u003eIf you instead touch a creature throughout the casting, you learn which ongoing spells, if any, are currently affecting it.\u003c/p\u003e",
+            "range": {
+              "origin": "Touch",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": true
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171141,
+          "definition": {
+            "name": "Fog Cloud",
+            "level": 1,
+            "school": "Conjuration",
+            "description": "\u003cp\u003eYou create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is Heavily Obscured. It lasts for the duration or until a strong wind (such as one created by Gust of Wind) disperses it.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eUsing a Higher-Level Spell Slot.\u003c/em\u003e\u003c/strong\u003e The fog’s radius increases by 20 feet for each spell slot level above 1.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 120
+            },
+            "duration": {
+              "durationType": "Concentration",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21170928,
+          "definition": {
+            "name": "Feather Fall",
+            "level": 1,
+            "school": "Transmutation",
+            "description": "\u003cp\u003eChoose up to five falling creatures within range. A falling creature’s rate of descent slows to 60 feet per round until the spell ends. If a creature lands before the spell ends, the creature takes no damage from the fall, and the spell ends for that creature.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 60
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171681,
+          "definition": {
+            "name": "Mage Armor",
+            "level": 1,
+            "school": "Abjuration",
+            "description": "\u003cp\u003eYou touch a willing creature who isn’t wearing armor. Until the spell ends, the target’s base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.\u003c/p\u003e",
+            "range": {
+              "origin": "Touch",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 8
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21170947,
+          "definition": {
+            "name": "Find Familiar",
+            "level": 1,
+            "school": "Conjuration",
+            "description": "\u003cp\u003eYou gain the service of a familiar, a spirit that takes an animal form you choose: Bat, Cat, Frog, Hawk, Lizard, Octopus, Owl, Rat, Raven, Spider, Weasel, or \u003ca href=\"https://www.dndbeyond.com/monsters?filter-type=0\u0026amp;filter-type=2\u0026amp;filter-search=\u0026amp;filter-cr-min=1\u0026amp;filter-cr-max=1\"\u003eanother Beast that has a Challenge Rating of 0\u003c/a\u003e. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a Celestial, Fey, or Fiend (your choice) instead of a Beast. Your familiar acts independently of you, but it obeys your commands.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eTelepathic Connection.\u003c/em\u003e\u003c/strong\u003e While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as a Bonus Action, you can see through the familiar’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses it has.\u003c/p\u003e\r\n\u003cp\u003eFinally, when you cast a spell with a range of touch, your familiar can deliver the touch. Your familiar must be within 100 feet of you, and it must take a Reaction to deliver the touch when you cast the spell.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eCombat.\u003c/em\u003e\u003c/strong\u003e The familiar is an ally to you and your allies. It rolls its own Initiative and acts on its own turn. A familiar can’t attack, but it can take other actions as normal.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eDisappearance of the Familiar.\u003c/em\u003e\u003c/strong\u003e When the familiar drops to 0 Hit Points, it disappears. It reappears after you cast this spell again. As a Magic action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As a Magic action while it is temporarily dismissed, you can cause it to reappear in an unoccupied space within 30 feet of you. Whenever the familiar drops to 0 Hit Points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eOne Familiar Only.\u003c/em\u003e\u003c/strong\u003e You can’t have more than one familiar at a time. If you cast this spell while you have a familiar, you instead cause it to adopt a new eligible form.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 10
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": true
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171703,
+          "definition": {
+            "name": "Mage Hand",
+            "level": 0,
+            "school": "Conjuration",
+            "description": "\u003cp\u003eA spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.\u003c/p\u003e\r\n\u003cp\u003eWhen you cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial.\u003c/p\u003e\r\n\u003cp\u003eAs a Magic action on your later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30 feet.\u003c/p\u003e\r\n\u003cp\u003eThe hand can’t attack, activate magic items, or carry more than 10 pounds.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 30
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171035,
+          "definition": {
+            "name": "Prestidigitation",
+            "level": 0,
+            "school": "Transmutation",
+            "description": "\u003cp\u003eYou create a magical effect within range. Choose the effect from the options below. If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eSensory Effect.\u003c/em\u003e\u003c/strong\u003e You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eFire Play.\u003c/em\u003e\u003c/strong\u003e You instantaneously light or snuff out a candle, a torch, or a small campfire.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eClean or Soil.\u003c/em\u003e\u003c/strong\u003e You instantaneously clean or soil an object no larger than 1 cubic foot.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eMinor Sensation.\u003c/em\u003e\u003c/strong\u003e You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eMagic Mark.\u003c/em\u003e\u003c/strong\u003e You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eMinor Creation.\u003c/em\u003e\u003c/strong\u003e You create a nonmagical trinket or an illusory image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and has no monetary worth.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 10
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171018,
+          "definition": {
+            "name": "Fire Bolt",
+            "level": 0,
+            "school": "Evocation",
+            "description": "\u003cp\u003eYou hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn’t being worn or carried.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eCantrip Upgrade.\u003c/em\u003e\u003c/strong\u003e The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 120
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21172437,
+          "definition": {
+            "name": "Misty Step",
+            "level": 2,
+            "school": "Conjuration",
+            "description": "\u003cp\u003eBriefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.\u003c/p\u003e",
+            "range": {
+              "origin": "Self",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171986,
+          "definition": {
+            "name": "Mirror Image",
+            "level": 2,
+            "school": "Illusion",
+            "description": "\u003cp\u003eThree illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it’s impossible to track which image is real.\u003c/p\u003e\r\n\u003cp\u003eEach time a creature hits you with an attack roll during the spell’s duration, roll a d6 for each of your remaining duplicates. If any of the d6s rolls a 3 or higher, one of the duplicates is hit instead of you, and the duplicate is destroyed. The duplicates otherwise ignore all other damage and effects. The spell ends when all three duplicates are destroyed.\u003c/p\u003e\r\n\u003cp\u003eA creature is unaffected by this spell if it has the Blinded condition, Blindsight, or Truesight.\u003c/p\u003e",
+            "range": {
+              "origin": "Self",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        }
+      ]
+    }
+  ],
+  "campaign": {
+    "id": 6916042,
+    "name": "A stroll in the park",
+    "description": "",
+    "link": "/campaigns/6916042",
+    "publicNotes": "",
+    "dmId": 0,
+    "dmUsername": "sfdwarren",
+    "characters": [
+      {
+        "userId": 105783076,
+        "username": "Torinn_Nemonis1",
+        "characterId": 150807632,
+        "characterName": "Barzer",
+        "characterUrl": "/profile/Torinn_Nemonis1/characters/150807632",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/420/636377886265995342.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 150764883,
+        "characterName": "KALTOR REINHARDT",
+        "characterUrl": "/profile/sfdwarren/characters/150764883",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/200/636377838913420704.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 151315901,
+        "characterName": "Nysera",
+        "characterUrl": "/profile/sfdwarren/characters/151315901",
+        "avatarUrl": "",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939261,
+        "username": "Axcess1",
+        "characterId": 151314232,
+        "characterName": "Theren Vale",
+        "characterUrl": "/profile/Axcess1/characters/151314232",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51130/469/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939283,
+        "username": "rph8q2png8",
+        "characterId": 151314423,
+        "characterName": "Elaris Moonveil",
+        "characterUrl": "/profile/rph8q2png8/characters/151314423",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51398/53/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123959902,
+        "username": "YourDarling0413",
+        "characterId": 151478732,
+        "characterName": "Selena ",
+        "characterUrl": "/profile/YourDarling0413/characters/151478732",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/341/636377874854563919.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      }
+    ]
+  },
+  "notes": {
+    "allies": "Therin Vale Ranger Half-Elf\nAlaris Bard Half Elf\nNicera Druid High Elf \n",
+    "personalPossessions": "a quill\na letter from a dead colleague posing a question you have not yet been able to answer",
+    "otherHoldings": "",
+    "organizations": "",
+    "enemies": "",
+    "backstory": "",
+    "otherNotes": ""
+  },
+  "traits": {
+    "personalityTraits": "I’m convinced that people are always trying to steal my secrets.",
+    "ideals": "Knowledge. The path to power and self-improvement is through knowledge. (Neutral)",
+    "bonds": "I have an ancient text that holds terrible secrets that must not fall into the wrong hands.",
+    "flaws": "I speak without really thinking through my words, invariably insulting others.",
+    "appearance": ""
+  },
+  "preferences": {
+    "useHomebrewContent": false
+  },
+  "deathSaves": {
+    "failCount": 0,
+    "successCount": 0,
+    "isStabilized": false
+  }
+}

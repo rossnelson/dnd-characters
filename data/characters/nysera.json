@@ -1,0 +1,530 @@
+{
+  "id": 151315901,
+  "userId": 119261041,
+  "username": "sfdwarren",
+  "readonlyUrl": "",
+  "name": "Nysera",
+  "race": {
+    "fullName": "High Elf",
+    "baseRaceName": "Elf",
+    "subRaceShortName": "High",
+    "isHomebrew": false,
+    "weightSpeeds": {
+      "normal": {
+        "walk": 30
+      }
+    }
+  },
+  "classes": [
+    {
+      "id": 208778239,
+      "level": 3,
+      "definition": {
+        "name": "Druid",
+        "hitDice": 8
+      },
+      "subclassDefinition": {
+        "name": "Circle of the Land (Forest)"
+      }
+    }
+  ],
+  "background": {
+    "definition": {
+      "name": "Charlatan",
+      "description": "\u003cp class=\"compendium-hr\"\u003eYou have always had a way with people. You know what makes them tick, you can tease out their hearts’ desires after a few minutes of conversation, and with a few leading questions you can read them like they were children’s books. It’s a useful talent, and one that you’re perfectly willing to use for \u003cspan class=\"No-Break\"\u003eyour advantage.\u003c/span\u003e\u003c/p\u003e\r\n\u003cp class=\"Core-Styles_Core-Body-Last--to-apply-extra-space-\"\u003eYou know what people want and you deliver, or rather, you promise to deliver. Common sense should steer people away from things that sound too good to be true, but common sense seems to be in short supply when you’re around. The bottle of pink-colored liquid will surely cure that unseemly rash, this ointment \u0026mdash; nothing more than a bit of fat with a sprinkle of silver dust \u0026mdash; can restore youth and vigor, and there’s a bridge in the city that just happens to be for sale. These marvels sound implausible, but you make them sound like\u003cspan class=\"No-Break\"\u003e the real deal.\u003c/span\u003e\u003c/p\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003cp class=\"Core-Styles_Core-Hanging\"\u003e\u003cstrong\u003e\u003cspan class=\"Serif-Character-Style_Bold-Serif\"\u003eSkill Proficiencies:\u003c/span\u003e\u003c/strong\u003e\u0026nbsp;Deception, \u003cspan class=\"No-Break\"\u003eSleight of Hand\u003cbr /\u003e\u003c/span\u003e\u003cstrong\u003e\u003cspan class=\"Serif-Character-Style_Bold-Serif\"\u003eTool Proficiencies: \u003c/span\u003e\u003c/strong\u003eDisguise k\u003cspan class=\"No-Break\"\u003eit, Forgery kit\u003cbr /\u003e\u003c/span\u003e\u003cstrong\u003e\u003cspan class=\"Serif-Character-Style_Bold-Serif\"\u003eEquipment: \u003c/span\u003e\u003c/strong\u003eA set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a pouch c\u003cspan class=\"No-Break\"\u003eontaining 15 gp\u003c/span\u003e\u003c/p\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003ch5 class=\"compendium-hr\"\u003eFavorite Schemes\u003c/h5\u003e\r\n\u003cp class=\"Core-Styles_Core-Body\"\u003eEvery charlatan has an angle he or she uses in preference to other schemes. Choose a favorite scam or roll on t\u003cspan class=\"No-Break\"\u003ehe table below.\u003c/span\u003e\u003c/p\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth style=\"text-align: left;\"\u003eScam\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd\u003eI cheat at games of chance.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd\u003eI shave coins or forge documents.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd\u003eI insinuate myself into people’s lives to prey on their weakness and secure their fortunes.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd\u003eI put on new identities like clothes.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd\u003eI run sleight-of-hand cons on street corners.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd\u003eI convince people that worthless junk is worth their hard-earned money.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003cblockquote\u003e\r\n\u003cp class=\"compendium-hr\"\u003e\u003cstrong\u003eFEATURE: FALSE IDENTITY\u003c/strong\u003e\u003c/p\u003e\r\n\u003cp class=\"Core-Styles_Core-Body\"\u003eYou have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are \u003cspan class=\"No-Break\"\u003etrying to copy.\u003c/span\u003e\u003c/p\u003e\r\n\u003c/blockquote\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003ch5 class=\"compendium-hr\"\u003eSuggested Characteristics\u003c/h5\u003e\r\n\u003cp class=\"Core-Styles_Core-Body\"\u003eCharlatans are colorful characters who conceal their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seate\u003cspan class=\"No-Break\"\u003ed trust issues.\u003c/span\u003e\u003c/p\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed8\u003c/th\u003e\r\n\u003cth style=\"text-align: left;\"\u003ePersonality Trait\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd\u003eI fall in and out of love easily, and am always pursuing someone.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd\u003eI have a joke for every occasion, especially occasions where humor is inappropriate.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd\u003eFlattery is my preferred trick for getting what I want.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd\u003eI’m a born gambler who can’t resist taking a risk for a potential payoff.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd\u003eI lie about almost everything, even when there’s no good reason to.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd\u003eSarcasm and insults are my weapons of choice.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e7\u003c/td\u003e\r\n\u003ctd\u003eI keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e8\u003c/td\u003e\r\n\u003ctd\u003eI pocket anything I see that might have some value.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth style=\"text-align: left;\"\u003eIdeal\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd\u003e\u003cspan class=\"Sans-Serif-Character-Styles_Bold-Sans-Serif\"\u003eIndependence.\u003c/span\u003e I am a free spirit\u0026mdash;no one tells me what to do. (Chaotic)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd\u003e\u003cspan class=\"Sans-Serif-Character-Styles_Bold-Sans-Serif\"\u003eFairness.\u003c/span\u003e I never target people who can’t afford to lose a few coins. (Lawful)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd\u003e\u003cspan class=\"Sans-Serif-Character-Styles_Bold-Sans-Serif\"\u003eCharity.\u003c/span\u003e I distribute the money I acquire to the people who really need it. (Good)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd\u003e\u003cspan class=\"Sans-Serif-Character-Styles_Bold-Sans-Serif\"\u003eCreativity.\u003c/span\u003e I never run the same con twice. (Chaotic)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd\u003e\u003cspan class=\"Sans-Serif-Character-Styles_Bold-Sans-Serif\"\u003eFriendship.\u003c/span\u003e Material goods come and go. Bonds of friendship last forever. (Good)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd\u003e\u003cspan class=\"Sans-Serif-Character-Styles_Bold-Sans-Serif\"\u003eAspiration.\u003c/span\u003e I’m determined to make something of myself. (Any)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth style=\"text-align: left;\"\u003eBond\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd\u003eI fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd\u003eI owe everything to my mentor\u0026mdash;a horrible person who’s probably rotting in jail somewhere.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd\u003eSomewhere out there, I have a child who doesn’t know me. I’m making the world better for him or her.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd\u003eI come from a noble family, and one day I’ll reclaim my lands and title from those who stole them from me.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd\u003eA powerful person killed someone I love. Some day soon, I’ll have my revenge.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd\u003eI swindled and ruined a person who didn’t deserve it. I seek to atone for my misdeeds but might never be able to forgive myself.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth style=\"text-align: left;\"\u003eFlaw\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd\u003eI can’t resist a pretty face.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd\u003eI’m always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in...\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd\u003eI’m convinced that no one could ever fool me the way I fool others.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd\u003eI’m too greedy for my own good. I can’t resist taking a risk if there’s money involved.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd\u003eI can’t resist swindling people who are more powerful than me.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd\u003eI hate to admit it and will hate myself for it, but I’ll run and preserve my own hide if the going gets tough.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e"
+    }
+  },
+  "stats": [
+    {
+      "id": 1,
+      "value": 10
+    },
+    {
+      "id": 2,
+      "value": 14
+    },
+    {
+      "id": 3,
+      "value": 15
+    },
+    {
+      "id": 4,
+      "value": 10
+    },
+    {
+      "id": 5,
+      "value": 15
+    },
+    {
+      "id": 6,
+      "value": 12
+    }
+  ],
+  "baseHitPoints": 18,
+  "bonusHitPoints": 0,
+  "removedHitPoints": 5,
+  "temporaryHitPoints": 0,
+  "currentXp": 0,
+  "alignmentId": 0,
+  "age": null,
+  "hair": null,
+  "eyes": null,
+  "skin": null,
+  "height": null,
+  "weight": null,
+  "faith": null,
+  "gender": null,
+  "inventory": [
+    {
+      "id": 1746638668,
+      "definition": {
+        "name": "Studded Leather",
+        "type": "",
+        "armorClass": 12,
+        "damage": null,
+        "description": "\u003cp\u003eMade from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1746637948,
+      "definition": {
+        "name": "Shield",
+        "type": "Shield",
+        "armorClass": 2,
+        "damage": null,
+        "description": "\u003cp\u003eShields require the Utilize action to Don or Doff. You gain the Armor Class benefit of a Shield only if you have training with it.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1746635777,
+      "definition": {
+        "name": "Longsword",
+        "type": "Longsword",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d8",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eSap.\u003c/em\u003e\u003c/strong\u003e If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1764076097,
+      "definition": {
+        "name": "Shortbow",
+        "type": "Shortbow",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d6",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Shortbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eVex.\u003c/em\u003e\u003c/strong\u003e If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1764076441,
+      "definition": {
+        "name": "Scimitar",
+        "type": "Scimitar",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d6",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eNick.\u003c/em\u003e\u003c/strong\u003e When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1751765699,
+      "definition": {
+        "name": "Backpack",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold\u0026nbsp;1 cubic foot/ 30 pounds of gear.\u003c/p\u003e\r\n\u003cp\u003eYou can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1751769183,
+      "definition": {
+        "name": "Clothes, Fine",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis set of clothes is designed specifically to be expensive and to show it, including\u0026nbsp;fancy, tailored clothes in whatever fashion happens to be the current style in the courts of the nobles. Precious metals and gems could be worked into the clothing.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1751769184,
+      "definition": {
+        "name": "Disguise Kit",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1809411359,
+      "definition": {
+        "name": "Bit and Bridle",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eStandard equipment used to direct a mount.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1809411624,
+      "definition": {
+        "name": "Riding Saddle",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA standard saddle for a riding mount.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1751766235,
+      "definition": {
+        "name": "Potion of Healing",
+        "type": "Potion",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 3
+    },
+    {
+      "id": 1764100091,
+      "definition": {
+        "name": "Vial",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA vial can hold\u0026nbsp;4 ounces of liquid.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    }
+  ],
+  "currencies": {
+    "cp": 0,
+    "sp": 4,
+    "ep": 0,
+    "gp": 261,
+    "pp": 0
+  },
+  "spells": {
+    "race": [
+      {
+        "id": 192,
+        "definition": {
+          "name": "Fire Bolt",
+          "level": 0,
+          "school": "Evocation",
+          "description": "\u003cp\u003eYou hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.\u003c/p\u003e\r\n\u003cp\u003eThis spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).\u003c/p\u003e",
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 120
+          },
+          "duration": {
+            "durationType": "Instantaneous",
+            "durationInterval": 0
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": false
+      }
+    ],
+    "class": [
+      {
+        "id": 311,
+        "definition": {
+          "name": "Poison Spray",
+          "level": 0,
+          "school": "Conjuration",
+          "description": "\u003cp\u003eYou extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.\u003c/p\u003e\r\n\u003cp\u003eThis spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).\u003c/p\u003e",
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 10
+          },
+          "duration": {
+            "durationType": "Instantaneous",
+            "durationInterval": 0
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": false
+      }
+    ],
+    "item": [],
+    "feat": [],
+    "background": null
+  },
+  "classSpells": [
+    {
+      "characterClassId": 208778239,
+      "spells": [
+        {
+          "id": 137958,
+          "definition": {
+            "name": "Control Flames",
+            "level": 0,
+            "school": "Transmutation",
+            "description": "\u003cp\u003eYou choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways:\u003c/p\u003e\r\n\u003cul\u003e\r\n\u003cli\u003eYou instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.\u003c/li\u003e\r\n\u003cli\u003eYou instantaneously extinguish the flames within the cube.\u003c/li\u003e\r\n\u003cli\u003eYou double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.\u003c/li\u003e\r\n\u003cli\u003eYou cause simple shapes\u0026mdash;such as the vague form of a creature, an inanimate object, or a location\u0026mdash;to appear within the flames and animate as you like. The shapes last for 1 hour.\u003c/li\u003e\r\n\u003c/ul\u003e\r\n\u003cp\u003eIf you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 60
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 138763,
+          "definition": {
+            "name": "Speak with Animals",
+            "level": 1,
+            "school": "Divination",
+            "description": "\u003cp\u003eYou gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the GM's discretion.\u003c/p\u003e",
+            "range": {
+              "origin": "Self",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 10
+            },
+            "ritual": true
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 138566,
+          "definition": {
+            "name": "Poison Spray",
+            "level": 0,
+            "school": "Conjuration",
+            "description": "\u003cp\u003eYou extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.\u003c/p\u003e\r\n\u003cp\u003eThis spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 10
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 136194,
+          "definition": {
+            "name": "Charm Person",
+            "level": 1,
+            "school": "Enchantment",
+            "description": "\u003cp\u003eYou attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.\u003c/p\u003e\r\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eAt Higher Levels.\u003c/strong\u003e\u003c/em\u003e When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 30
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 136710,
+          "definition": {
+            "name": "Enhance Ability",
+            "level": 2,
+            "school": "Transmutation",
+            "description": "\u003cp\u003eYou touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003eBear's Endurance.\u003c/strong\u003e The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003eBull's Strength.\u003c/strong\u003e The target has advantage on Strength checks, and his or her carrying capacity doubles.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003eCat's Grace.\u003c/strong\u003e The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003eEagle's Splendor.\u003c/strong\u003e The target has advantage on Charisma checks.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003eFox's Cunning.\u003c/strong\u003e The target has advantage on Intelligence checks.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003eOwl's Wisdom.\u003c/strong\u003e The target has advantage on Wisdom checks.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003eAt Higher Levels.\u003c/strong\u003e When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.\u003c/p\u003e",
+            "range": {
+              "origin": "Touch",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Concentration",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171190,
+          "definition": {
+            "name": "Flaming Sphere",
+            "level": 2,
+            "school": "Conjuration",
+            "description": "\u003cp\u003eYou create a 5-foot-diameter sphere of fire in an unoccupied space on the ground within range. It lasts for the duration. Any creature that ends its turn within 5 feet of the sphere makes a Dexterity saving throw, taking 2d6 Fire damage on a failed save or half as much damage on a successful one.\u003c/p\u003e\r\n\u003cp\u003eAs a Bonus Action, you can move the sphere up to 30 feet, rolling it along the ground. If you move the sphere into a creature’s space, that creature makes the save against the sphere, and the sphere stops moving for the turn.\u003c/p\u003e\r\n\u003cp\u003eWhen you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. Flammable objects that aren’t being worn or carried start burning if touched by the sphere, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eUsing a Higher-Level Spell Slot.\u003c/em\u003e\u003c/strong\u003e The damage increases by 1d6 for each spell slot level above 2.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 60
+            },
+            "duration": {
+              "durationType": "Concentration",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 138513,
+          "definition": {
+            "name": "Moonbeam",
+            "level": 2,
+            "school": "Evocation",
+            "description": "\u003cp\u003eA silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder.\u003c/p\u003e\r\n\u003cp\u003eWhen a creature enters the spell’s area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half as much damage on a successful one.\u003c/p\u003e\r\n\u003cp\u003eA shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can’t assume a different form until it leaves the spell’s light.\u003c/p\u003e\r\n\u003cp\u003eOn each of your turns after you cast this spell, you can use an action to move the beam up to 60 feet in any direction.\u003c/p\u003e\r\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eAt Higher Levels.\u003c/strong\u003e\u003c/em\u003e When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 120
+            },
+            "duration": {
+              "durationType": "Concentration",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        }
+      ]
+    }
+  ],
+  "campaign": {
+    "id": 6916042,
+    "name": "A stroll in the park",
+    "description": "",
+    "link": "/campaigns/6916042",
+    "publicNotes": "",
+    "dmId": 0,
+    "dmUsername": "sfdwarren",
+    "characters": [
+      {
+        "userId": 105783076,
+        "username": "Torinn_Nemonis1",
+        "characterId": 150807632,
+        "characterName": "Barzer",
+        "characterUrl": "/profile/Torinn_Nemonis1/characters/150807632",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/420/636377886265995342.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 150764883,
+        "characterName": "KALTOR REINHARDT",
+        "characterUrl": "/profile/sfdwarren/characters/150764883",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/200/636377838913420704.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 151315901,
+        "characterName": "Nysera",
+        "characterUrl": "/profile/sfdwarren/characters/151315901",
+        "avatarUrl": "",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939261,
+        "username": "Axcess1",
+        "characterId": 151314232,
+        "characterName": "Theren Vale",
+        "characterUrl": "/profile/Axcess1/characters/151314232",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51130/469/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939283,
+        "username": "rph8q2png8",
+        "characterId": 151314423,
+        "characterName": "Elaris Moonveil",
+        "characterUrl": "/profile/rph8q2png8/characters/151314423",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51398/53/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123959902,
+        "username": "YourDarling0413",
+        "characterId": 151478732,
+        "characterName": "Selena ",
+        "characterUrl": "/profile/YourDarling0413/characters/151478732",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/341/636377874854563919.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      }
+    ]
+  },
+  "notes": {
+    "allies": "",
+    "personalPossessions": "skull\n",
+    "otherHoldings": "",
+    "organizations": "",
+    "enemies": "",
+    "backstory": "",
+    "otherNotes": ""
+  },
+  "traits": {
+    "personalityTraits": "",
+    "ideals": "",
+    "bonds": "",
+    "flaws": "",
+    "appearance": ""
+  },
+  "preferences": {
+    "useHomebrewContent": false
+  },
+  "deathSaves": {
+    "failCount": 0,
+    "successCount": 0,
+    "isStabilized": false
+  }
+}

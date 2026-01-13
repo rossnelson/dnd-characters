@@ -1,0 +1,520 @@
+{
+  "id": 150764883,
+  "userId": 119261041,
+  "username": "sfdwarren",
+  "readonlyUrl": "",
+  "name": "KALTOR REINHARDT",
+  "race": {
+    "fullName": "Half-Elf",
+    "baseRaceName": "Half-Elf",
+    "subRaceShortName": "",
+    "isHomebrew": false,
+    "weightSpeeds": {
+      "normal": {
+        "walk": 30
+      }
+    }
+  },
+  "classes": [
+    {
+      "id": 207960769,
+      "level": 3,
+      "definition": {
+        "name": "Paladin",
+        "hitDice": 10
+      },
+      "subclassDefinition": null
+    }
+  ],
+  "background": {
+    "definition": {
+      "name": "Acolyte",
+      "description": "\u003cp\u003e\u003cstrong\u003eAbility Scores:\u003c/strong\u003e\u0026nbsp;Intelligence, Wisdom, Charisma\u003cbr /\u003e\u003cstrong\u003eFeat:\u003c/strong\u003e\u0026nbsp;Magic Initiate (Cleric)\u003cbr /\u003e\u003cstrong\u003eSkill Proficiencies:\u003c/strong\u003e Insight and Religion\u003cbr /\u003e\u003cstrong\u003eTool Proficiency:\u003c/strong\u003e\u0026nbsp;Calligrapher's Supplies\u003cbr /\u003e\u003cstrong\u003eEquipment:\u003c/strong\u003e \u003cem\u003eChoose A or B:\u003c/em\u003e (A) Calligrapher's Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP\u003c/p\u003e\r\n\u003cp\u003eYou devoted yourself to service in a temple, either nestled in a town or secluded in a sacred grove. There you performed rites in honor of a god or pantheon. You served under a priest and studied religion. Thanks to your priest’s instruction and your own devotion, you also learned how to channel a modicum of divine power in service to your place of worship and the people who prayed there.\u003c/p\u003e"
+    }
+  },
+  "stats": [
+    {
+      "id": 1,
+      "value": 16
+    },
+    {
+      "id": 2,
+      "value": 12
+    },
+    {
+      "id": 3,
+      "value": 12
+    },
+    {
+      "id": 4,
+      "value": 5
+    },
+    {
+      "id": 5,
+      "value": 10
+    },
+    {
+      "id": 6,
+      "value": 12
+    }
+  ],
+  "baseHitPoints": 22,
+  "bonusHitPoints": 0,
+  "removedHitPoints": 0,
+  "temporaryHitPoints": 0,
+  "currentXp": 0,
+  "alignmentId": 4,
+  "age": null,
+  "hair": null,
+  "eyes": null,
+  "skin": null,
+  "height": null,
+  "weight": null,
+  "faith": "",
+  "gender": null,
+  "inventory": [
+    {
+      "id": 1755319540,
+      "definition": {
+        "name": "Amulet of Health",
+        "type": "Wondrous item",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eYour Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher without it.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1755420269,
+      "definition": {
+        "name": "Potion of Heroism",
+        "type": "Potion",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eWhen you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no Concentration required).\u003c/p\u003e\r\n\u003cp\u003eThis potion’s blue liquid bubbles and steams as if boiling.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1755318708,
+      "definition": {
+        "name": "Longsword, +1",
+        "type": "Longsword",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d8",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eYou have a +1 bonus to attack and damage rolls made with this magic weapon.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1739682056,
+      "definition": {
+        "name": "Potion of Healing",
+        "type": "Potion",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 3
+    },
+    {
+      "id": 1739689629,
+      "definition": {
+        "name": "Shield",
+        "type": "Shield",
+        "armorClass": 2,
+        "damage": null,
+        "description": "\u003cp\u003eShields require the Utilize action to Don or Doff. You gain the Armor Class benefit of a Shield only if you have training with it.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1739681817,
+      "definition": {
+        "name": "Chain Mail",
+        "type": "Heavy Armor",
+        "armorClass": 16,
+        "damage": null,
+        "description": "\u003cp\u003eMade of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1739661512,
+      "definition": {
+        "name": "Longsword",
+        "type": "Longsword",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d8",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eSap.\u003c/em\u003e\u003c/strong\u003e If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1764076690,
+      "definition": {
+        "name": "Shortbow",
+        "type": "Shortbow",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d6",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Shortbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eVex.\u003c/em\u003e\u003c/strong\u003e If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1739683198,
+      "definition": {
+        "name": "Parchment",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eOne sheet of Parchment can hold about 250 handwritten words.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 10
+    },
+    {
+      "id": 1739683195,
+      "definition": {
+        "name": "Calligrapher's Supplies",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003e\u003cstrong\u003eAbility:\u003c/strong\u003e Dexterity \u003cbr /\u003e\u003cstrong\u003eUtilize:\u003c/strong\u003e Write text with impressive flourishes that guard against forgery (DC 15) \u003cbr /\u003e\u003cstrong\u003eCraft:\u003c/strong\u003e Ink, Spell Scroll\u003c/p\u003e\r\n\u003chr /\u003e\r\n\u003cp\u003eIf you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1739683199,
+      "definition": {
+        "name": "Robe",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1739683196,
+      "definition": {
+        "name": "Book",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1739683197,
+      "definition": {
+        "name": "Holy Symbol",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.\u003c/p\u003e\r\n\u003cp\u003eThe table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.\u003c/p\u003e\r\n\u003ctable class=\"table-compendium table--left-first\" style=\"--sb-table-row-bg-hover: #b3d3df; --sb-table-row-bg-dark: #d7e8ee; --sb-table-row-bg-light: #f1f7f9; --dark-sb-table-row-bg-light: #5e7982; --dark-sb-table-row-bg-dark: #5c7f8c; --dark-sb-table-row-bg-hover: #78a2b0;\"\u003e\u003ccaption\u003e\r\n\u003ch5 id=\"HolySymbols\" class=\"compendium-hr quick-menu-exclude\"\u003eHoly Symbols\u003c/h5\u003e\r\n\u003c/caption\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003eSymbol\u003c/th\u003e\r\n\u003cth\u003eWeight\u003c/th\u003e\r\n\u003cth\u003eCost\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003eAmulet (worn or held)\u003c/td\u003e\r\n\u003ctd\u003e1 lb.\u003c/td\u003e\r\n\u003ctd\u003e5 GP\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003eEmblem (borne on fabric or a Shield)\u003c/td\u003e\r\n\u003ctd\u003e\u0026mdash;\u003c/td\u003e\r\n\u003ctd\u003e5 GP\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003eReliquary (held)\u003c/td\u003e\r\n\u003ctd\u003e2 lb.\u003c/td\u003e\r\n\u003ctd\u003e5 GP\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    }
+  ],
+  "currencies": {
+    "cp": 0,
+    "sp": 0,
+    "ep": 0,
+    "gp": 37,
+    "pp": 0
+  },
+  "spells": {
+    "race": [],
+    "class": [
+      {
+        "id": 5477220,
+        "definition": {
+          "name": "Divine Smite",
+          "level": 1,
+          "school": "Evocation",
+          "description": "\u003cp\u003eThe target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead.\u003c/p\u003e\r\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eUsing a Higher-Level Spell Slot.\u003c/strong\u003e\u003c/em\u003e The damage increases by 1d8 for each spell slot level above 1.\u003c/p\u003e",
+          "range": {
+            "origin": "Self",
+            "rangeValue": 0
+          },
+          "duration": {
+            "durationType": "Instantaneous",
+            "durationInterval": 0
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": true
+      },
+      {
+        "id": 5477221,
+        "definition": {
+          "name": "Divine Smite",
+          "level": 1,
+          "school": "Evocation",
+          "description": "\u003cp\u003eThe target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead.\u003c/p\u003e\r\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eUsing a Higher-Level Spell Slot.\u003c/strong\u003e\u003c/em\u003e The damage increases by 1d8 for each spell slot level above 1.\u003c/p\u003e",
+          "range": {
+            "origin": "Self",
+            "rangeValue": 0
+          },
+          "duration": {
+            "durationType": "Instantaneous",
+            "durationInterval": 0
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": true
+      },
+      {
+        "id": 5477218,
+        "definition": {
+          "name": "Sacred Flame",
+          "level": 0,
+          "school": "Evocation",
+          "description": "\u003cp\u003eFlame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eCantrip Upgrade.\u003c/em\u003e\u003c/strong\u003e The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).\u003c/p\u003e",
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 60
+          },
+          "duration": {
+            "durationType": "Instantaneous",
+            "durationInterval": 0
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": false
+      },
+      {
+        "id": 5477219,
+        "definition": {
+          "name": "Thaumaturgy",
+          "level": 0,
+          "school": "Transmutation",
+          "description": "\u003cp\u003eYou manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eAltered Eyes.\u003c/em\u003e\u003c/strong\u003e You alter the appearance of your eyes for 1 minute.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eBooming Voice.\u003c/em\u003e\u003c/strong\u003e Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on Charisma (Intimidation) checks.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eFire Play.\u003c/em\u003e\u003c/strong\u003e You cause flames to flicker, brighten, dim, or change color for 1 minute.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eInvisible Hand.\u003c/em\u003e\u003c/strong\u003e You instantaneously cause an unlocked door or window to fly open or slam shut.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003ePhantom Sound.\u003c/em\u003e\u003c/strong\u003e You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eTremors.\u003c/em\u003e\u003c/strong\u003e You cause harmless tremors in the ground for 1 minute.\u003c/p\u003e",
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 30
+          },
+          "duration": {
+            "durationType": "Time",
+            "durationInterval": 1
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": false
+      }
+    ],
+    "item": [
+      {
+        "id": 72,
+        "definition": {
+          "name": "Bless",
+          "level": 1,
+          "school": "Enchantment",
+          "description": "\u003cp\u003eYou bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003eAt Higher Levels.\u003c/strong\u003e When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.\u003c/p\u003e",
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 30
+          },
+          "duration": {
+            "durationType": "Concentration",
+            "durationInterval": 1
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": false
+      }
+    ],
+    "feat": [
+      {
+        "id": 5477260,
+        "definition": {
+          "name": "Resistance",
+          "level": 0,
+          "school": "Abjuration",
+          "description": "\u003cp\u003eYou touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn.\u003c/p\u003e",
+          "range": {
+            "origin": "Touch",
+            "rangeValue": 0
+          },
+          "duration": {
+            "durationType": "Concentration",
+            "durationInterval": 1
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": false
+      },
+      {
+        "id": 5477261,
+        "definition": {
+          "name": "Guidance",
+          "level": 0,
+          "school": "Divination",
+          "description": "\u003cp\u003eYou touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.\u003c/p\u003e",
+          "range": {
+            "origin": "Touch",
+            "rangeValue": 0
+          },
+          "duration": {
+            "durationType": "Concentration",
+            "durationInterval": 1
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": false
+      },
+      {
+        "id": 5477262,
+        "definition": {
+          "name": "Guiding Bolt",
+          "level": 1,
+          "school": "Evocation",
+          "description": "\u003cp\u003eYou hurl a bolt of light toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 4d6 Radiant damage, and the next attack roll made against it before the end of your next turn has Advantage.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eUsing a Higher-Level Spell Slot.\u003c/em\u003e\u003c/strong\u003e The damage increases by 1d6 for each spell slot level above 1.\u003c/p\u003e",
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 120
+          },
+          "duration": {
+            "durationType": "Time",
+            "durationInterval": 1
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": false
+      }
+    ],
+    "background": null
+  },
+  "classSpells": [
+    {
+      "characterClassId": 207960769,
+      "spells": []
+    }
+  ],
+  "campaign": {
+    "id": 6916042,
+    "name": "A stroll in the park",
+    "description": "",
+    "link": "/campaigns/6916042",
+    "publicNotes": "",
+    "dmId": 0,
+    "dmUsername": "sfdwarren",
+    "characters": [
+      {
+        "userId": 105783076,
+        "username": "Torinn_Nemonis1",
+        "characterId": 150807632,
+        "characterName": "Barzer",
+        "characterUrl": "/profile/Torinn_Nemonis1/characters/150807632",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/420/636377886265995342.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 150764883,
+        "characterName": "KALTOR REINHARDT",
+        "characterUrl": "/profile/sfdwarren/characters/150764883",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/200/636377838913420704.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 151315901,
+        "characterName": "Nysera",
+        "characterUrl": "/profile/sfdwarren/characters/151315901",
+        "avatarUrl": "",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939261,
+        "username": "Axcess1",
+        "characterId": 151314232,
+        "characterName": "Theren Vale",
+        "characterUrl": "/profile/Axcess1/characters/151314232",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51130/469/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939283,
+        "username": "rph8q2png8",
+        "characterId": 151314423,
+        "characterName": "Elaris Moonveil",
+        "characterUrl": "/profile/rph8q2png8/characters/151314423",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51398/53/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123959902,
+        "username": "YourDarling0413",
+        "characterId": 151478732,
+        "characterName": "Selena ",
+        "characterUrl": "/profile/YourDarling0413/characters/151478732",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/341/636377874854563919.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      }
+    ]
+  },
+  "notes": {
+    "allies": "",
+    "personalPossessions": "",
+    "otherHoldings": "",
+    "organizations": "",
+    "enemies": "",
+    "backstory": "",
+    "otherNotes": ""
+  },
+  "traits": {
+    "personalityTraits": "",
+    "ideals": "",
+    "bonds": "",
+    "flaws": "",
+    "appearance": ""
+  },
+  "preferences": {
+    "useHomebrewContent": false
+  },
+  "deathSaves": {
+    "failCount": 0,
+    "successCount": 0,
+    "isStabilized": false
+  }
+}

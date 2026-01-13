@@ -1,0 +1,512 @@
+{
+  "id": 151478732,
+  "userId": 123959902,
+  "username": "YourDarling0413",
+  "readonlyUrl": "https://dndbeyond.com/characters/151478732",
+  "name": "Selena ",
+  "race": {
+    "fullName": "Half-Elf",
+    "baseRaceName": "Half-Elf",
+    "subRaceShortName": "",
+    "isHomebrew": false,
+    "weightSpeeds": {
+      "normal": {
+        "walk": 30
+      }
+    }
+  },
+  "classes": [
+    {
+      "id": 209022669,
+      "level": 3,
+      "definition": {
+        "name": "Cleric",
+        "hitDice": 8
+      },
+      "subclassDefinition": {
+        "name": "Life Domain"
+      }
+    }
+  ],
+  "background": {
+    "definition": null
+  },
+  "stats": [
+    {
+      "id": 1,
+      "value": 5
+    },
+    {
+      "id": 2,
+      "value": 13
+    },
+    {
+      "id": 3,
+      "value": 12
+    },
+    {
+      "id": 4,
+      "value": 13
+    },
+    {
+      "id": 5,
+      "value": 16
+    },
+    {
+      "id": 6,
+      "value": 14
+    }
+  ],
+  "baseHitPoints": 12,
+  "bonusHitPoints": 0,
+  "removedHitPoints": 2,
+  "temporaryHitPoints": 0,
+  "currentXp": 0,
+  "alignmentId": 2,
+  "age": null,
+  "hair": null,
+  "eyes": null,
+  "skin": null,
+  "height": null,
+  "weight": null,
+  "faith": "",
+  "gender": null,
+  "inventory": [
+    {
+      "id": 1764116355,
+      "definition": {
+        "name": "Boots of Elvenkind",
+        "type": "Wondrous item",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eWhile you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have Advantage on Dexterity (Stealth) checks.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1748553998,
+      "definition": {
+        "name": "Shield",
+        "type": "",
+        "armorClass": 2,
+        "damage": null,
+        "description": "\u003cp\u003eShields require the Utilize action to Don or Doff. You gain the Armor Class benefit of a Shield only if you have training with it.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1748553997,
+      "definition": {
+        "name": "Chain Shirt",
+        "type": "Medium Armor",
+        "armorClass": 13,
+        "damage": null,
+        "description": "\u003cp\u003eMade of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1748553999,
+      "definition": {
+        "name": "Mace",
+        "type": "Mace",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d6",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Mace allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eSap.\u003c/em\u003e\u003c/strong\u003e If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1748553996,
+      "definition": {
+        "name": "Backpack",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1748554000,
+      "definition": {
+        "name": "Holy Symbol",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.\u003c/p\u003e\r\n\u003cp\u003eThe table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.\u003c/p\u003e\r\n\u003ctable class=\"table-compendium table--left-first\" style=\"--sb-table-row-bg-hover: #b3d3df; --sb-table-row-bg-dark: #d7e8ee; --sb-table-row-bg-light: #f1f7f9; --dark-sb-table-row-bg-light: #5e7982; --dark-sb-table-row-bg-dark: #5c7f8c; --dark-sb-table-row-bg-hover: #78a2b0;\"\u003e\u003ccaption\u003e\r\n\u003ch5 id=\"HolySymbols\" class=\"compendium-hr quick-menu-exclude\"\u003eHoly Symbols\u003c/h5\u003e\r\n\u003c/caption\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003eSymbol\u003c/th\u003e\r\n\u003cth\u003eWeight\u003c/th\u003e\r\n\u003cth\u003eCost\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003eAmulet (worn or held)\u003c/td\u003e\r\n\u003ctd\u003e1 lb.\u003c/td\u003e\r\n\u003ctd\u003e5 GP\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003eEmblem (borne on fabric or a Shield)\u003c/td\u003e\r\n\u003ctd\u003e\u0026mdash;\u003c/td\u003e\r\n\u003ctd\u003e5 GP\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003eReliquary (held)\u003c/td\u003e\r\n\u003ctd\u003e2 lb.\u003c/td\u003e\r\n\u003ctd\u003e5 GP\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1764115707,
+      "definition": {
+        "name": "Healer's Kit",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1748554004,
+      "definition": {
+        "name": "Rations",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eRations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See \u0026ldquo;Malnutrition\u0026rdquo; for the risks of not eating.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 7
+    },
+    {
+      "id": 1748554005,
+      "definition": {
+        "name": "Robe",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1748554001,
+      "definition": {
+        "name": "Blanket",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eWhile wrapped in a blanket, you have Advantage on saving throws against extreme cold (see the \u003cem\u003eDungeon Master’s Guide\u003c/em\u003e).\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1748554006,
+      "definition": {
+        "name": "Tinderbox",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch\u0026mdash;or anything else with exposed fuel\u0026mdash;takes a Bonus Action. Lighting any other fire takes 1 minute.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1748554003,
+      "definition": {
+        "name": "Lamp",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA Lamp burns Oil as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1748554002,
+      "definition": {
+        "name": "Holy Water",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eWhen you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    }
+  ],
+  "currencies": {
+    "cp": 0,
+    "sp": 0,
+    "ep": 0,
+    "gp": 71,
+    "pp": 0
+  },
+  "spells": {
+    "race": [],
+    "class": [
+      {
+        "id": 5477212,
+        "definition": {
+          "name": "Mending",
+          "level": 0,
+          "school": "Transmutation",
+          "description": "\u003cp\u003eThis spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.\u003c/p\u003e\r\n\u003cp\u003eThis spell can physically repair a magic item, but it can’t restore magic to such an object.\u003c/p\u003e",
+          "range": {
+            "origin": "Touch",
+            "rangeValue": 0
+          },
+          "duration": {
+            "durationType": "Instantaneous",
+            "durationInterval": 0
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": false
+      }
+    ],
+    "item": [],
+    "feat": [],
+    "background": null
+  },
+  "classSpells": [
+    {
+      "characterClassId": 209022669,
+      "spells": [
+        {
+          "id": 21171275,
+          "definition": {
+            "name": "Bless",
+            "level": 1,
+            "school": "Enchantment",
+            "description": "\u003cp\u003eYou bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eUsing a Higher-Level Spell Slot.\u003c/em\u003e\u003c/strong\u003e You can target one additional creature for each spell slot level above 1.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 30
+            },
+            "duration": {
+              "durationType": "Concentration",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21172488,
+          "definition": {
+            "name": "Healing Word",
+            "level": 1,
+            "school": "Abjuration",
+            "description": "\u003cp\u003eA creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eUsing a Higher-Level Spell Slot.\u003c/em\u003e\u003c/strong\u003e The healing increases by 2d4 for each spell slot level above 1.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 60
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171659,
+          "definition": {
+            "name": "Sanctuary",
+            "level": 1,
+            "school": "Abjuration",
+            "description": "\u003cp\u003eYou ward a creature within range. Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a Wisdom saving throw or either choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from areas of effect.\u003c/p\u003e\r\n\u003cp\u003eThe spell ends if the warded creature makes an attack roll, casts a spell, or deals damage.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 30
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21172448,
+          "definition": {
+            "name": "Guiding Bolt",
+            "level": 1,
+            "school": "Evocation",
+            "description": "\u003cp\u003eYou hurl a bolt of light toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 4d6 Radiant damage, and the next attack roll made against it before the end of your next turn has Advantage.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eUsing a Higher-Level Spell Slot.\u003c/em\u003e\u003c/strong\u003e The damage increases by 1d6 for each spell slot level above 1.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 120
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": true,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171477,
+          "definition": {
+            "name": "Sacred Flame",
+            "level": 0,
+            "school": "Evocation",
+            "description": "\u003cp\u003eFlame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eCantrip Upgrade.\u003c/em\u003e\u003c/strong\u003e The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 60
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171496,
+          "definition": {
+            "name": "Guidance",
+            "level": 0,
+            "school": "Divination",
+            "description": "\u003cp\u003eYou touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.\u003c/p\u003e",
+            "range": {
+              "origin": "Touch",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Concentration",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21172668,
+          "definition": {
+            "name": "Thaumaturgy",
+            "level": 0,
+            "school": "Transmutation",
+            "description": "\u003cp\u003eYou manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eAltered Eyes.\u003c/em\u003e\u003c/strong\u003e You alter the appearance of your eyes for 1 minute.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eBooming Voice.\u003c/em\u003e\u003c/strong\u003e Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on Charisma (Intimidation) checks.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eFire Play.\u003c/em\u003e\u003c/strong\u003e You cause flames to flicker, brighten, dim, or change color for 1 minute.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eInvisible Hand.\u003c/em\u003e\u003c/strong\u003e You instantaneously cause an unlocked door or window to fly open or slam shut.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003ePhantom Sound.\u003c/em\u003e\u003c/strong\u003e You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eTremors.\u003c/em\u003e\u003c/strong\u003e You cause harmless tremors in the ground for 1 minute.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 30
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        }
+      ]
+    }
+  ],
+  "campaign": {
+    "id": 6916042,
+    "name": "A stroll in the park",
+    "description": "",
+    "link": "/campaigns/6916042",
+    "publicNotes": "",
+    "dmId": 0,
+    "dmUsername": "sfdwarren",
+    "characters": [
+      {
+        "userId": 105783076,
+        "username": "Torinn_Nemonis1",
+        "characterId": 150807632,
+        "characterName": "Barzer",
+        "characterUrl": "/profile/Torinn_Nemonis1/characters/150807632",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/420/636377886265995342.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 150764883,
+        "characterName": "KALTOR REINHARDT",
+        "characterUrl": "/profile/sfdwarren/characters/150764883",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/200/636377838913420704.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 151315901,
+        "characterName": "Nysera",
+        "characterUrl": "/profile/sfdwarren/characters/151315901",
+        "avatarUrl": "",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939261,
+        "username": "Axcess1",
+        "characterId": 151314232,
+        "characterName": "Theren Vale",
+        "characterUrl": "/profile/Axcess1/characters/151314232",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51130/469/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939283,
+        "username": "rph8q2png8",
+        "characterId": 151314423,
+        "characterName": "Elaris Moonveil",
+        "characterUrl": "/profile/rph8q2png8/characters/151314423",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51398/53/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123959902,
+        "username": "YourDarling0413",
+        "characterId": 151478732,
+        "characterName": "Selena ",
+        "characterUrl": "/profile/YourDarling0413/characters/151478732",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/341/636377874854563919.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      }
+    ]
+  },
+  "notes": {
+    "allies": "",
+    "personalPossessions": "3 incense \n1 silver thingy \nBroken hourglass \nSaffron \nStinky cheese\n",
+    "otherHoldings": "",
+    "organizations": "",
+    "enemies": "",
+    "backstory": "",
+    "otherNotes": ""
+  },
+  "traits": {
+    "personalityTraits": "",
+    "ideals": "",
+    "bonds": "",
+    "flaws": "",
+    "appearance": ""
+  },
+  "preferences": {
+    "useHomebrewContent": true
+  },
+  "deathSaves": {
+    "failCount": 0,
+    "successCount": 0,
+    "isStabilized": false
+  }
+}

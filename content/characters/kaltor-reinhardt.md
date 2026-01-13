@@ -1,6 +1,6 @@
 ---
 title: "KALTOR REINHARDT - Half-Elf Paladin"
-date: 2026-01-12
+date: 2026-01-13
 description: "Half-Elf Paladin - Level 3"
 character_name: "KALTOR REINHARDT"
 character_race: "Half-Elf"

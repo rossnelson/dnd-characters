@@ -1,6 +1,6 @@
 ---
 title: "Nysera - High Elf Circle of the Land (Forest) Druid"
-date: 2026-01-12
+date: 2026-01-13
 description: "High Elf Circle of the Land (Forest) Druid - Level 3"
 character_name: "Nysera"
 character_race: "High Elf"

@@ -1,0 +1,600 @@
+{
+  "id": 151314232,
+  "userId": 123939261,
+  "username": "Axcess1",
+  "readonlyUrl": "",
+  "name": "Theren Vale",
+  "race": {
+    "fullName": "Wood Elf",
+    "baseRaceName": "Elf",
+    "subRaceShortName": "Wood",
+    "isHomebrew": false,
+    "weightSpeeds": {
+      "normal": {
+        "walk": 30
+      }
+    }
+  },
+  "classes": [
+    {
+      "id": 208776862,
+      "level": 3,
+      "definition": {
+        "name": "Ranger",
+        "hitDice": 10
+      },
+      "subclassDefinition": {
+        "name": "Hunter"
+      }
+    }
+  ],
+  "background": {
+    "definition": {
+      "name": "Folk Hero",
+      "description": "\u003cp\u003eYou come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.\u003c/p\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003cdl\u003e\r\n\u003cdt\u003e\u003cstrong\u003eSkill Proficiencies:\u003c/strong\u003e\u0026nbsp;Animal Handling, Survival\u003c/dt\u003e\r\n\u003cdt\u003e\u003cstrong\u003eTool Proficiencies:\u003c/strong\u003e One type of artisan’s tools, vehicles (land)\u003c/dt\u003e\r\n\u003cdt\u003e\u003cstrong\u003eEquipment:\u003c/strong\u003e A set of artisan’s tools (one of your choice), a shovel, an iron pot, a set of common clothes, and a pouch containing 10 gp\u003c/dt\u003e\r\n\u003c/dl\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003ch5 id=\"defining-event\"\u003eDefining Event\u003c/h5\u003e\r\n\u003cp\u003eYou previously pursued a simple profession among the peasantry, perhaps as a farmer, miner, servant, shepherd, woodcutter, or gravedigger. But something happened that set you on a different path and marked you for greater things. Choose or randomly determine a defining event that marked you as a hero of the people.\u003c/p\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed10\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eDefining Event\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI stood up to a tyrant’s agents.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI saved people during a natural disaster.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI stood alone against a terrible monster.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI stole from a corrupt merchant to help the poor.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI led a militia to fight off an invading army.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI broke into a tyrant’s castle and stole weapons to arm the people.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e7\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI trained the peasantry to use farm implements as weapons against a tyrant’s soldiers.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e8\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eA lord rescinded an unpopular decree after I led a symbolic act of protest against it.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e9\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eA celestial, fey, or similar creature gave me a blessing or revealed my secret origin.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e10\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eRecruited into a lord’s army, I rose to leadership and was commended for my heroism.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003cblockquote\u003e\r\n\u003cp id=\"rustic-hospitality\"\u003e\u003cstrong\u003eFEATURE: RUSTIC HOSPITALITY\u003c/strong\u003e\u003c/p\u003e\r\n\u003cp\u003eSince you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.\u003c/p\u003e\r\n\u003c/blockquote\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003ch5\u003eSuggested Characteristics\u003c/h5\u003e\r\n\u003cp\u003eA folk hero is one of the common people, for better or for worse. Most folk heroes look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them.\u003c/p\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed8\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003ePersonality Trait\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI judge people by their actions, not their words.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eIf someone is in trouble, I’m always ready to lend help.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eWhen I set my mind to something, I follow through no matter what gets in my way.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI have a strong sense of fair play and always try to find the most equitable solution to arguments.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’m confident in my own abilities and do what I can to instill confidence in others.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eThinking is for other people. I prefer action.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e7\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI misuse long words in an attempt to sound smarter.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e8\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI get bored easily. When am I going to get on with my destiny?\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eIdeal\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eRespect.\u003c/b\u003e People deserve to be treated with dignity and respect. (Good)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eFairness.\u003c/b\u003e No one should get preferential treatment before the law, and no one is above the law. (Lawful)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eFreedom.\u003c/b\u003e Tyrants must not be allowed to oppress the people. (Chaotic)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eMight.\u003c/b\u003e If I become strong, I can take what I want\u0026mdash;what I deserve. (Evil)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eSincerity.\u003c/b\u003e There’s no good in pretending to be something I’m not. (Neutral)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eDestiny.\u003c/b\u003e Nothing and no one can steer me away from my higher calling. (Any)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eBond\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI have a family, but I have no idea where they are. One day, I hope to see them again.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI worked the land, I love the land, and I will protect the land.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eA proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eMy tools are symbols of my past life, and I carry them so that I will never forget my roots.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI protect those who cannot protect themselves.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI wish my childhood sweetheart had come with me to pursue my destiny.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eFlaw\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eThe tyrant who rules my land will stop at nothing to see me killed.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’m convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eThe people who knew me when I was young know my shameful secret, so I can never go home again.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI have a weakness for the vices of the city, especially hard drink.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eSecretly, I believe that things would be better if I were a tyrant lording over the land.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI have trouble trusting in my allies.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e"
+    }
+  },
+  "stats": [
+    {
+      "id": 1,
+      "value": 13
+    },
+    {
+      "id": 2,
+      "value": 16
+    },
+    {
+      "id": 3,
+      "value": 15
+    },
+    {
+      "id": 4,
+      "value": 13
+    },
+    {
+      "id": 5,
+      "value": 16
+    },
+    {
+      "id": 6,
+      "value": 12
+    }
+  ],
+  "baseHitPoints": 16,
+  "bonusHitPoints": 0,
+  "removedHitPoints": 0,
+  "temporaryHitPoints": 0,
+  "currentXp": 0,
+  "alignmentId": 2,
+  "age": 145,
+  "hair": "Brown",
+  "eyes": "Green / HAzel",
+  "skin": "Olive",
+  "height": "6'",
+  "weight": 185,
+  "faith": "",
+  "gender": "M",
+  "inventory": [
+    {
+      "id": 1755411285,
+      "definition": {
+        "name": "Crossbow Bolts, +1",
+        "type": "Ammunition",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eYou have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 10
+    },
+    {
+      "id": 1746603642,
+      "definition": {
+        "name": "Scale Mail",
+        "type": "",
+        "armorClass": 14,
+        "damage": null,
+        "description": "\u003cp\u003eThis armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1755409339,
+      "definition": {
+        "name": "Crossbow, Hand",
+        "type": "Crossbow, Hand",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d6",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Hand Crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eVex.\u003c/em\u003e\u003c/strong\u003e If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1746599109,
+      "definition": {
+        "name": "Shortsword",
+        "type": "Shortsword",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d6",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eVex.\u003c/em\u003e\u003c/strong\u003e If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1746603644,
+      "definition": {
+        "name": "Shortsword",
+        "type": "Shortsword",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d6",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eVex.\u003c/em\u003e\u003c/strong\u003e If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1746603652,
+      "definition": {
+        "name": "Longbow",
+        "type": "Longbow",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d8",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Longbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eSlow.\u003c/strong\u003e\u003c/em\u003e If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1746603653,
+      "definition": {
+        "name": "Arrows",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eArrows are\u0026nbsp;used with\u0026nbsp;a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 20
+    },
+    {
+      "id": 1746599106,
+      "definition": {
+        "name": "Backpack",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold\u0026nbsp;1 cubic foot/ 30 pounds of gear.\u003c/p\u003e\r\n\u003cp\u003eYou can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1746603657,
+      "definition": {
+        "name": "Clothes, Common",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis set of clothes could consist of a loose shirt and baggy breeches, or a loose shirt and skirt or overdress. Cloth wrappings are used for shoes.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1746603656,
+      "definition": {
+        "name": "Pot, Iron",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eAn iron pot can hold 1 gallon of liquid.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1746603655,
+      "definition": {
+        "name": "Shovel",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA standard shovel used for digging.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1755300249,
+      "definition": {
+        "name": "Vial",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA vial can hold\u0026nbsp;4 ounces of liquid.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1755300277,
+      "definition": {
+        "name": "Vial",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA vial can hold\u0026nbsp;4 ounces of liquid.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1809410162,
+      "definition": {
+        "name": "Bit and Bridle",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eStandard equipment used to direct a mount.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1746599119,
+      "definition": {
+        "name": "Smith's Tools",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003e\u003cstrong\u003eAbility:\u003c/strong\u003e Strength \u003cbr /\u003e\u003cstrong\u003eUtilize:\u003c/strong\u003e Pry open a door or container (DC 20) \u003cbr /\u003e\u003cstrong\u003eCraft:\u003c/strong\u003e Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets\u003c/p\u003e\r\n\u003chr /\u003e\r\n\u003cp\u003eIf you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1809410012,
+      "definition": {
+        "name": "Riding Saddle",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA standard saddle for a riding mount.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1764098118,
+      "definition": {
+        "name": "Thieves' Tools",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003e\u003cstrong\u003eAbility:\u003c/strong\u003e Dexterity \u003cbr /\u003e\u003cstrong\u003eUtilize:\u003c/strong\u003e Pick a lock (DC 15), or disarm a trap (DC 15)\u003c/p\u003e\r\n\u003chr /\u003e\r\n\u003cp\u003eIf you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1751767390,
+      "definition": {
+        "name": "Potion of Healing",
+        "type": "Potion",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 3
+    },
+    {
+      "id": 1764007141,
+      "definition": {
+        "name": "Chain Mail",
+        "type": "",
+        "armorClass": 16,
+        "damage": null,
+        "description": "\u003cp\u003eMade of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1746599110,
+      "definition": {
+        "name": "Bedroll",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eYou never know where you’re going to sleep, and a bedroll helps you get better sleep in a hayloft or on the cold ground. A bedroll consists of bedding and a blanket thin enough to be rolled up and tied. In an emergency, it can double as a stretcher.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1746599111,
+      "definition": {
+        "name": "Mess Kit",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1746599114,
+      "definition": {
+        "name": "Rations (1 day)",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eRations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 10
+    },
+    {
+      "id": 1746599116,
+      "definition": {
+        "name": "Rope, Hempen (50 feet)",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eRope,\u0026nbsp;has 2 hit points and can be burst with a DC 17 Strength check.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1746599112,
+      "definition": {
+        "name": "Tinderbox",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch -- or anything else with abundant, exposed fuel -- takes an action. Lighting any other fire takes 1 minute.\u003c/p\u003e\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1746599113,
+      "definition": {
+        "name": "Torch",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 10
+    },
+    {
+      "id": 1746599115,
+      "definition": {
+        "name": "Waterskin",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA waterskin can hold\u0026nbsp;4 pints of liquid.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    }
+  ],
+  "currencies": {
+    "cp": 37,
+    "sp": 23,
+    "ep": 0,
+    "gp": 126,
+    "pp": 0
+  },
+  "spells": {
+    "race": [],
+    "class": [
+      {
+        "id": 1336916,
+        "definition": {
+          "name": "Speak with Animals",
+          "level": 1,
+          "school": "Divination",
+          "description": "\u003cp\u003eYou gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the GM's discretion.\u003c/p\u003e",
+          "range": {
+            "origin": "Self",
+            "rangeValue": 0
+          },
+          "duration": {
+            "durationType": "Time",
+            "durationInterval": 10
+          },
+          "ritual": true
+        },
+        "prepared": false,
+        "alwaysPrepared": true
+      }
+    ],
+    "item": [],
+    "feat": [],
+    "background": null
+  },
+  "classSpells": [
+    {
+      "characterClassId": 208776862,
+      "spells": [
+        {
+          "id": 21172104,
+          "definition": {
+            "name": "Cure Wounds",
+            "level": 1,
+            "school": "Abjuration",
+            "description": "\u003cp\u003eA creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eUsing a Higher-Level Spell Slot.\u003c/em\u003e\u003c/strong\u003e The healing increases by 2d8 for each spell slot level above 1.\u003c/p\u003e",
+            "range": {
+              "origin": "Touch",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21172624,
+          "definition": {
+            "name": "Hunter's Mark",
+            "level": 1,
+            "school": "Divination",
+            "description": "\u003cp\u003eYou magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any Wisdom (Perception or Survival) check you make to find it.\u003c/p\u003e\r\n\u003cp\u003eIf the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eUsing a Higher-Level Spell Slot.\u003c/em\u003e\u003c/strong\u003e Your Concentration can last longer with a spell slot of level 3\u0026ndash;4 (up to 8 hours) or 5+ (up to 24 hours).\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 90
+            },
+            "duration": {
+              "durationType": "Concentration",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21172212,
+          "definition": {
+            "name": "Detect Magic",
+            "level": 1,
+            "school": "Divination",
+            "description": "\u003cp\u003eFor the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell’s school of magic.\u003c/p\u003e\r\n\u003cp\u003eThe spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.\u003c/p\u003e",
+            "range": {
+              "origin": "Self",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Concentration",
+              "durationInterval": 10
+            },
+            "ritual": true
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        }
+      ]
+    }
+  ],
+  "campaign": {
+    "id": 6916042,
+    "name": "A stroll in the park",
+    "description": "",
+    "link": "/campaigns/6916042",
+    "publicNotes": "",
+    "dmId": 0,
+    "dmUsername": "sfdwarren",
+    "characters": [
+      {
+        "userId": 105783076,
+        "username": "Torinn_Nemonis1",
+        "characterId": 150807632,
+        "characterName": "Barzer",
+        "characterUrl": "/profile/Torinn_Nemonis1/characters/150807632",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/420/636377886265995342.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 150764883,
+        "characterName": "KALTOR REINHARDT",
+        "characterUrl": "/profile/sfdwarren/characters/150764883",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/200/636377838913420704.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 151315901,
+        "characterName": "Nysera",
+        "characterUrl": "/profile/sfdwarren/characters/151315901",
+        "avatarUrl": "",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939261,
+        "username": "Axcess1",
+        "characterId": 151314232,
+        "characterName": "Theren Vale",
+        "characterUrl": "/profile/Axcess1/characters/151314232",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51130/469/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939283,
+        "username": "rph8q2png8",
+        "characterId": 151314423,
+        "characterName": "Elaris Moonveil",
+        "characterUrl": "/profile/rph8q2png8/characters/151314423",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51398/53/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123959902,
+        "username": "YourDarling0413",
+        "characterId": 151478732,
+        "characterName": "Selena ",
+        "characterUrl": "/profile/YourDarling0413/characters/151478732",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/341/636377874854563919.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      }
+    ]
+  },
+  "notes": {
+    "allies": "",
+    "personalPossessions": "",
+    "otherHoldings": "",
+    "organizations": "",
+    "enemies": "",
+    "backstory": "",
+    "otherNotes": ""
+  },
+  "traits": {
+    "personalityTraits": "If someone is in trouble, I’m always ready to lend help.\nThinking is for other people. I prefer action.",
+    "ideals": "Respect. People deserve to be treated with dignity and respect. (Good)",
+    "bonds": "My tools are symbols of my past life, and I carry them so that I will never forget my roots.",
+    "flaws": "I have trouble trusting in my allies.",
+    "appearance": ""
+  },
+  "preferences": {
+    "useHomebrewContent": false
+  },
+  "deathSaves": {
+    "failCount": 0,
+    "successCount": 0,
+    "isStabilized": false
+  }
+}

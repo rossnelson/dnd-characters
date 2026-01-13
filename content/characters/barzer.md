@@ -1,6 +1,6 @@
 ---
 title: "Barzer - Variant Tiefling War Magic Wizard"
-date: 2026-01-12
+date: 2026-01-13
 description: "Variant Tiefling War Magic Wizard - Level 3"
 character_name: "Barzer"
 character_race: "Variant Tiefling"

@@ -1,6 +1,6 @@
 ---
 title: "Theren Vale - Wood Elf Hunter Ranger"
-date: 2026-01-12
+date: 2026-01-13
 description: "Wood Elf Hunter Ranger - Level 3"
 character_name: "Theren Vale"
 character_race: "Wood Elf"

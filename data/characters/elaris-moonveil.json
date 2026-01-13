@@ -1,0 +1,518 @@
+{
+  "id": 151314423,
+  "userId": 123939283,
+  "username": "rph8q2png8",
+  "readonlyUrl": "",
+  "name": "Elaris Moonveil",
+  "race": {
+    "fullName": "Half-Elf",
+    "baseRaceName": "Half-Elf",
+    "subRaceShortName": "",
+    "isHomebrew": false,
+    "weightSpeeds": {
+      "normal": {
+        "walk": 30
+      }
+    }
+  },
+  "classes": [
+    {
+      "id": 208778282,
+      "level": 3,
+      "definition": {
+        "name": "Bard",
+        "hitDice": 8
+      },
+      "subclassDefinition": {
+        "name": "College of Lore"
+      }
+    }
+  ],
+  "background": {
+    "definition": {
+      "name": "Sage",
+      "description": "\u003cp\u003eYou spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study.\u003c/p\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003cdl\u003e\r\n\u003cdt\u003e\u003cstrong\u003eSkill Proficiencies:\u003c/strong\u003e\u0026nbsp;Arcana, History\u003c/dt\u003e\r\n\u003cdt\u003e\u003cstrong\u003eLanguages:\u003c/strong\u003e Two of your choice\u003c/dt\u003e\r\n\u003cdt\u003e\u003cstrong\u003eEquipment:\u003c/strong\u003e A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of common clothes, and a pouch containing 10 gp\u003c/dt\u003e\r\n\u003c/dl\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003ch5\u003eSpecialty\u003c/h5\u003e\r\n\u003cp\u003eTo determine the nature of your scholarly training, roll a d8 or choose from the options in the table below.\u003c/p\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed8\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eSpecialty\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eAlchemist\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eAstronomer\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eDiscredited academic\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eLibrarian\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eProfessor\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eResearcher\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e7\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eWizard’s apprentice\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e8\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eScribe\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003cblockquote\u003e\r\n\u003cp id=\"researcher\"\u003e\u003cstrong\u003eFEATURE: RESEARCHER\u003c/strong\u003e\u003c/p\u003e\r\n\u003cp\u003eWhen you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign.\u003c/p\u003e\r\n\u003c/blockquote\u003e\r\n\u003cdiv class=\"line character height1 marginTop20 marginBottom20\"\u003e\u0026nbsp;\u003c/div\u003e\r\n\u003ch5\u003eSuggested Characteristics\u003c/h5\u003e\r\n\u003cp\u003eSages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly\u0026mdash;sometimes in its own right, sometimes as a means toward other ideals.\u003c/p\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed8\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003ePersonality Trait\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI use polysyllabic words that convey the impression of great erudition.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’ve read every book in the world’s greatest libraries\u0026mdash;or I like to boast that I have.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’m used to helping out those who aren’t as smart as I am, and I patiently explain anything and everything to others.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eThere’s nothing I like more than a good mystery.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’m willing to listen to every side of an argument before I make my own judgment.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI \u0026hellip; speak \u0026hellip; slowly \u0026hellip; when talking \u0026hellip; to idiots, \u0026hellip; which \u0026hellip; almost \u0026hellip; everyone \u0026hellip; is \u0026hellip; compared \u0026hellip; to me.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e7\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI am horribly, horribly awkward in social situations.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e8\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’m convinced that people are always trying to steal my secrets.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eIdeal\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eKnowledge.\u003c/b\u003e The path to power and self-improvement is through knowledge. (Neutral)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eBeauty.\u003c/b\u003e What is beautiful points us beyond itself toward what is true. (Good)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eLogic.\u003c/b\u003e Emotions must not cloud our logical thinking. (Lawful)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eNo Limits.\u003c/b\u003e Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003ePower.\u003c/b\u003e Knowledge is the path to power and domination. (Evil)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003e\u003cb\u003eSelf-Improvement.\u003c/b\u003e The goal of a life of study is the betterment of oneself. (Any)\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eBond\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eIt is my duty to protect my students.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI have an ancient text that holds terrible secrets that must not fall into the wrong hands.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI work to preserve a library, university, scriptorium, or monastery.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eMy life’s work is a series of tomes related to a specific field of lore.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI’ve been searching my whole life for the answer to a certain question.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI sold my soul for knowledge. I hope to do great deeds and win it back.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\u003ctable class=\"compendium-left-aligned-table\"\u003e\r\n\u003cthead\u003e\r\n\u003ctr\u003e\r\n\u003cth\u003ed6\u003c/th\u003e\r\n\u003cth class=\"left wrap\" style=\"text-align: left;\"\u003eFlaw\u003c/th\u003e\r\n\u003c/tr\u003e\r\n\u003c/thead\u003e\r\n\u003ctbody\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e1\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI am easily distracted by the promise of information.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e2\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eMost people scream and run when they see a demon. I stop and take notes on its anatomy.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e3\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eUnlocking an ancient mystery is worth the price of a civilization.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e4\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI overlook obvious solutions in favor of complicated ones.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e5\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI speak without really thinking through my words, invariably insulting others.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003ctr\u003e\r\n\u003ctd\u003e6\u003c/td\u003e\r\n\u003ctd class=\"left wrap\"\u003eI can’t keep a secret to save my life, or anyone else’s.\u003c/td\u003e\r\n\u003c/tr\u003e\r\n\u003c/tbody\u003e\r\n\u003c/table\u003e"
+    }
+  },
+  "stats": [
+    {
+      "id": 1,
+      "value": 15
+    },
+    {
+      "id": 2,
+      "value": 17
+    },
+    {
+      "id": 3,
+      "value": 15
+    },
+    {
+      "id": 4,
+      "value": 12
+    },
+    {
+      "id": 5,
+      "value": 12
+    },
+    {
+      "id": 6,
+      "value": 18
+    }
+  ],
+  "baseHitPoints": 18,
+  "bonusHitPoints": 0,
+  "removedHitPoints": 0,
+  "temporaryHitPoints": 0,
+  "currentXp": 0,
+  "alignmentId": 0,
+  "age": null,
+  "hair": null,
+  "eyes": null,
+  "skin": null,
+  "height": null,
+  "weight": null,
+  "faith": null,
+  "gender": null,
+  "inventory": [
+    {
+      "id": 1764009846,
+      "definition": {
+        "name": "Potion of Heroism",
+        "type": "Potion",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eWhen you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no Concentration required).\u003c/p\u003e\r\n\u003cp\u003eThis potion’s blue liquid bubbles and steams as if boiling.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1746612009,
+      "definition": {
+        "name": "Studded Leather",
+        "type": "",
+        "armorClass": 12,
+        "damage": null,
+        "description": "\u003cp\u003eMade from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1746642611,
+      "definition": {
+        "name": "Longsword",
+        "type": "Longsword",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d8",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eSap.\u003c/em\u003e\u003c/strong\u003e If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1746634620,
+      "definition": {
+        "name": "Crossbow, Light",
+        "type": "Crossbow, Light",
+        "armorClass": 0,
+        "damage": {
+          "diceString": "1d8",
+          "damageType": ""
+        },
+        "description": "\u003cp\u003eProficiency with a Light Crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.\u003c/p\u003e\r\n\u003cdiv class=\"mastery-container\"\u003e\u003chr /\u003e\r\n\u003cp\u003eThis weapon has the following mastery property. To use this property, you must have a feature that lets you use it.\u003c/p\u003e\r\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eSlow.\u003c/strong\u003e\u003c/em\u003e If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.\u003c/p\u003e\r\n\u003c/div\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1751770210,
+      "definition": {
+        "name": "Ink (1 ounce bottle)",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eInk is\u0026nbsp;typically used with an ink pen to write.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1751770212,
+      "definition": {
+        "name": "Clothes, Common",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis set of clothes could consist of a loose shirt and baggy breeches, or a loose shirt and skirt or overdress. Cloth wrappings are used for shoes.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1809410979,
+      "definition": {
+        "name": "Bit and Bridle",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eStandard equipment used to direct a mount.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1751770211,
+      "definition": {
+        "name": "Small Knife",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA small knife, typically found in a scholar's pack.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1751766537,
+      "definition": {
+        "name": "Backpack",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.\u003c/p\u003e"
+      },
+      "equipped": true,
+      "quantity": 1
+    },
+    {
+      "id": 1809410477,
+      "definition": {
+        "name": "Riding Saddle",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA standard saddle for a riding mount.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1809491002,
+      "definition": {
+        "name": "Pan Flute",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003e\u003cstrong\u003eAbility:\u003c/strong\u003e Charisma \u003cbr /\u003e\u003cstrong\u003eUtilize:\u003c/strong\u003e Play a known tune (DC 10), or improvise a song (DC 15)\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1751766773,
+      "definition": {
+        "name": "Potion of Healing",
+        "type": "Potion",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 3
+    },
+    {
+      "id": 1764098855,
+      "definition": {
+        "name": "Herbalism Kit",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eThis kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and any potion of healing.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    }
+  ],
+  "currencies": {
+    "cp": 1,
+    "sp": 4,
+    "ep": 0,
+    "gp": 107,
+    "pp": 0
+  },
+  "spells": {
+    "race": [],
+    "class": [],
+    "item": [
+      {
+        "id": 72,
+        "definition": {
+          "name": "Bless",
+          "level": 1,
+          "school": "Enchantment",
+          "description": "\u003cp\u003eYou bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003eAt Higher Levels.\u003c/strong\u003e When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.\u003c/p\u003e",
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 30
+          },
+          "duration": {
+            "durationType": "Concentration",
+            "durationInterval": 1
+          },
+          "ritual": false
+        },
+        "prepared": false,
+        "alwaysPrepared": false
+      }
+    ],
+    "feat": [],
+    "background": null
+  },
+  "classSpells": [
+    {
+      "characterClassId": 208778282,
+      "spells": [
+        {
+          "id": 21170740,
+          "definition": {
+            "name": "Starry Wisp",
+            "level": 0,
+            "school": "Evocation",
+            "description": "\u003cp\u003eYou launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Radiant damage, and until the end of your next turn, it emits Dim Light in a 10-foot radius and can’t benefit from the Invisible condition.\u003c/p\u003e\r\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eCantrip Upgrade.\u003c/strong\u003e\u003c/em\u003e The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 60
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171460,
+          "definition": {
+            "name": "Charm Person",
+            "level": 1,
+            "school": "Enchantment",
+            "description": "\u003cp\u003eOne Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.\u003c/p\u003e\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eUsing a Higher-Level Spell Slot.\u003c/em\u003e\u003c/strong\u003e You can target one additional creature for each spell slot level above 1.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 30
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171840,
+          "definition": {
+            "name": "Mending",
+            "level": 0,
+            "school": "Transmutation",
+            "description": "\u003cp\u003eThis spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.\u003c/p\u003e\r\n\u003cp\u003eThis spell can physically repair a magic item, but it can’t restore magic to such an object.\u003c/p\u003e",
+            "range": {
+              "origin": "Touch",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 1730,
+          "definition": {
+            "name": "Hideous Laughter",
+            "level": 1,
+            "school": "Enchantment",
+            "description": "\u003cp\u003eA creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn't affected.\u003c/p\u003e\r\n\u003cp\u003eAt the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it's triggered by damage. On a success, the spell ends.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 30
+            },
+            "duration": {
+              "durationType": "Concentration",
+              "durationInterval": 1
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21171972,
+          "definition": {
+            "name": "Speak with Animals",
+            "level": 1,
+            "school": "Divination",
+            "description": "\u003cp\u003eFor the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action’s skill options with them.\u003c/p\u003e\r\n\u003cp\u003eMost Beasts have little to say about topics that don’t pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day.\u003c/p\u003e",
+            "range": {
+              "origin": "Self",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Time",
+              "durationInterval": 10
+            },
+            "ritual": true
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 21172702,
+          "definition": {
+            "name": "Identify",
+            "level": 1,
+            "school": "Divination",
+            "description": "\u003cp\u003eYou touch an object throughout the spell’s casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell’s name.\u003c/p\u003e\r\n\u003cp\u003eIf you instead touch a creature throughout the casting, you learn which ongoing spells, if any, are currently affecting it.\u003c/p\u003e",
+            "range": {
+              "origin": "Touch",
+              "rangeValue": 0
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": true
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        },
+        {
+          "id": 138061,
+          "definition": {
+            "name": "Healing Word",
+            "level": 1,
+            "school": "Evocation",
+            "description": "\u003cp\u003eA creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.\u003c/p\u003e\r\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eAt Higher Levels.\u003c/strong\u003e\u003c/em\u003e When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.\u003c/p\u003e",
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 60
+            },
+            "duration": {
+              "durationType": "Instantaneous",
+              "durationInterval": 0
+            },
+            "ritual": false
+          },
+          "prepared": false,
+          "alwaysPrepared": false
+        }
+      ]
+    }
+  ],
+  "campaign": {
+    "id": 6916042,
+    "name": "A stroll in the park",
+    "description": "",
+    "link": "/campaigns/6916042",
+    "publicNotes": "",
+    "dmId": 0,
+    "dmUsername": "sfdwarren",
+    "characters": [
+      {
+        "userId": 105783076,
+        "username": "Torinn_Nemonis1",
+        "characterId": 150807632,
+        "characterName": "Barzer",
+        "characterUrl": "/profile/Torinn_Nemonis1/characters/150807632",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/420/636377886265995342.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 150764883,
+        "characterName": "KALTOR REINHARDT",
+        "characterUrl": "/profile/sfdwarren/characters/150764883",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/200/636377838913420704.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 119261041,
+        "username": "sfdwarren",
+        "characterId": 151315901,
+        "characterName": "Nysera",
+        "characterUrl": "/profile/sfdwarren/characters/151315901",
+        "avatarUrl": "",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939261,
+        "username": "Axcess1",
+        "characterId": 151314232,
+        "characterName": "Theren Vale",
+        "characterUrl": "/profile/Axcess1/characters/151314232",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51130/469/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123939283,
+        "username": "rph8q2png8",
+        "characterId": 151314423,
+        "characterName": "Elaris Moonveil",
+        "characterUrl": "/profile/rph8q2png8/characters/151314423",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/51398/53/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 2,
+        "isAssigned": true
+      },
+      {
+        "userId": 123959902,
+        "username": "YourDarling0413",
+        "characterId": 151478732,
+        "characterName": "Selena ",
+        "characterUrl": "/profile/YourDarling0413/characters/151478732",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/17/341/636377874854563919.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
+        "isAssigned": true
+      }
+    ]
+  },
+  "notes": {
+    "allies": "",
+    "personalPossessions": "a quill\na letter from a dead colleague posing a question you have not yet been able to answer",
+    "otherHoldings": "",
+    "organizations": "",
+    "enemies": "",
+    "backstory": "",
+    "otherNotes": ""
+  },
+  "traits": {
+    "personalityTraits": "",
+    "ideals": "",
+    "bonds": "",
+    "flaws": "",
+    "appearance": ""
+  },
+  "preferences": {
+    "useHomebrewContent": false
+  },
+  "deathSaves": {
+    "failCount": 0,
+    "successCount": 0,
+    "isStabilized": false
+  }
+}
