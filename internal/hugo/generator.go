@@ -1,6 +1,7 @@
 package hugo
 
 import (
+	"encoding/json"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -33,6 +34,28 @@ func (g *Generator) GenerateCharacter(char *dndbeyond.Character) error {
 	}
 
 	fmt.Printf("Generated: %s\n", filename)
+	return nil
+}
+
+func (g *Generator) SaveRawJSON(char *dndbeyond.Character) error {
+	slug := slugify(char.Name)
+	dataDir := filepath.Join(filepath.Dir(g.contentDir), "data", "characters")
+	filename := filepath.Join(dataDir, slug+".json")
+
+	if err := os.MkdirAll(dataDir, 0755); err != nil {
+		return fmt.Errorf("creating data directory: %w", err)
+	}
+
+	data, err := json.MarshalIndent(char, "", "  ")
+	if err != nil {
+		return fmt.Errorf("marshaling JSON: %w", err)
+	}
+
+	if err := os.WriteFile(filename, data, 0644); err != nil {
+		return fmt.Errorf("writing JSON file: %w", err)
+	}
+
+	fmt.Printf("Saved JSON: %s\n", filename)
 	return nil
 }
 

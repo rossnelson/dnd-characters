@@ -1,11 +1,54 @@
 ---
 name: dnd-strategy
-description: Create tactical strategy guides for D&D encounters with consistent formatting. Use when the user wants to plan combat strategies, create tactical options, or document encounter approaches.
+description: Create tactical strategy guides for D&D encounters with consistent formatting. Use when the user wants to plan combat strategies, create tactical options, or document encounter approaches. Reviews party composition to build options that leverage each character's strengths.
 ---
 
 # D&D Strategy Guide Creation
 
-Create tactical strategy guides that help players think through combat and encounter options.
+Create tactical strategy guides that help players think through combat and encounter options based on party composition.
+
+## Before Creating a Strategy
+
+**You MUST read the party data first.** Do not rely on memory or assumptions.
+
+### Step 1: Read All Character Files
+
+```bash
+ls content/characters/
+```
+
+Then read each character file (excluding _index.md):
+```bash
+cat content/characters/{character-name}.md
+```
+
+### Step 2: Read Raw JSON for Full Details
+
+Character markdown files contain summaries. For complete information (spell descriptions, feature details, equipment):
+
+```bash
+cat data/characters/{character-name}.json
+```
+
+If JSON files don't exist, note what information is missing.
+
+### Step 3: Analyze Party Composition
+
+After reading all character data, identify:
+- **Frontline**: Who can take hits?
+- **Ranged**: Who attacks from distance?
+- **Magic**: What spells are available? (read the actual spell list)
+- **Utility**: Healing, buffs, crowd control?
+- **Mobility**: Who can move quickly or pursue?
+- **Gaps**: What does the party lack?
+
+## Building Party-Aware Strategies
+
+Each strategy option MUST:
+1. **Reference actual abilities** - Use real spell/feature names from character files
+2. **Assign specific roles** - Name characters in tactics ("Theren takes elevated position")
+3. **Leverage party strengths** - Build around what the party actually has
+4. **Account for weaknesses** - Address gaps in party composition
 
 ## Strategy Structure
 
@@ -67,9 +110,9 @@ weight: {1|2|3}
 
 ## Tactics
 
-1. **{Phase 1}**: {Description}
-   - {Sub-detail if needed}
-   - {Sub-detail}
+1. **{Phase 1}**: {Description with character names}
+   - {Character}: {Specific action using their abilities}
+   - {Character}: {Specific action}
 2. **{Phase 2}**: {Description}
 3. **{Phase 3}**: {Description}
 
@@ -103,23 +146,9 @@ Control display order with `weight` in frontmatter:
 - `weight: 2` - Alternative option
 - `weight: 3` - Riskier/situational option
 
-## Description Guidelines
+## Character-Specific Sections
 
-The `description` field appears as a tagline on option cards:
-- Keep it 3-6 words
-- Use imperative or evocative phrasing
-- Examples: "Make them come to us", "Take the fight to them", "Surrender or die"
-
-## Tags
-
-Common tags:
-- Approach: `combat`, `stealth`, `diplomacy`, `defensive`, `offensive`
-- Type: `tactics`, `ambush`, `siege`, `negotiation`
-- Context: `bandits`, `giants`, `undead`, `{enemy-type}`
-
-## Character-Specific Tips
-
-If relevant, add a section for character-specific advice:
+Add tips for characters with key roles in the strategy:
 
 ```markdown
 ## Ranger Tips for {Name}
@@ -130,4 +159,4 @@ If relevant, add a section for character-specific advice:
 
 ## Example
 
-See `content/strategy/confronting-the-bandits/` for a complete example with three options.
+See `content/strategy/confronting-the-bandits/` for a complete example.

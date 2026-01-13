@@ -145,6 +145,9 @@ func runSync(characterID string) {
 			fmt.Fprintf(os.Stderr, "Error generating %s: %v\n", char.Name, err)
 			continue
 		}
+		if err := gen.SaveRawJSON(char); err != nil {
+			fmt.Fprintf(os.Stderr, "Error saving JSON for %s: %v\n", char.Name, err)
+		}
 	}
 
 	var campaign *dndbeyond.Campaign
