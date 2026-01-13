@@ -3,7 +3,7 @@ public/
 .hugo_build.lock
 
 # Compiled binary
-dnd
+/dnd
 
 # Jekyll backup
 jekyll-backup/

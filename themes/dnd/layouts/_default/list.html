@@ -1,0 +1,42 @@
+{{ define "main" }}
+<!-- Hero Header -->
+<div class="hero">
+  <h1>{{ .Title }}</h1>
+  {{ if .Description }}
+  <p class="subtitle">{{ .Description }}</p>
+  {{ end }}
+</div>
+
+<!-- Content Section -->
+<div class="main-content">
+  {{ if .Content }}
+  <div class="prose" style="margin-bottom: 2rem;">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <!-- Pages Grid -->
+  {{ if .Pages }}
+  <div class="character-grid">
+    {{ range .Pages }}
+    <article class="card">
+      <h3>
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      </h3>
+      <p style="color: var(--color-ink-muted); margin-bottom: 1rem;">
+        {{ .Summary | truncate 150 }}
+      </p>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 1rem; border-top: 1px solid var(--color-border);">
+        <time style="font-size: 0.85rem; color: var(--color-ink-muted);">
+          {{ .Date.Format "Jan 2, 2006" }}
+        </time>
+        <a href="{{ .RelPermalink }}" class="btn" style="padding: 0.5rem 1rem; font-size: 0.75rem;">
+          Read More
+        </a>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

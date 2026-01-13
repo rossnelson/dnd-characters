@@ -1,0 +1,25 @@
+{{ define "main" }}
+<!-- Hero Header -->
+<div class="hero">
+  <h1>{{ .Title }}</h1>
+  {{ if not .Date.IsZero }}
+  <p class="subtitle">{{ .Date | time.Format "January 2, 2006" }}</p>
+  {{ end }}
+</div>
+
+<!-- Content Section -->
+<div class="main-content">
+  <article class="prose">
+    {{ .Content }}
+  </article>
+
+  {{ if .Params.tags }}
+  <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--color-border);">
+    <span style="font-family: 'Fondamento', serif; font-size: 0.9rem; color: var(--color-ink-muted);">Tags:</span>
+    {{ range .Params.tags }}
+    <a href="{{ "tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
