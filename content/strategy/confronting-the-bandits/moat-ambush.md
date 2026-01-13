@@ -15,25 +15,33 @@ Hold position at the keep. Use taunts, bluffs, or bait to lure the bandits into 
    - **The Bluff**: Claim reinforcements are coming - attack now or lose your chance
    - **The Prize**: Let them see valuables being moved into the keep
 2. **Position for ambush**:
-   - Theren takes elevated position with clear sightlines to the moat
-   - Barzer and guards wait inside, ready to strike
+   - Kaltor holds the moat crossing with guards as the frontline
+   - Theren takes elevated position with clear sightlines
+   - Barzer and Nysera position for AoE coverage of the crossing
+   - Selena and Elaris stay back for healing and support
 3. **Execute the ambush**:
-   - Theren harasses as they approach
-   - When bandits commit to crossing, they're slowed and exposed in the water
-   - Barzer and guards hit them mid-crossing
+   - Theren harasses with Hunter's Mark as they approach
+   - Nysera drops Flaming Sphere or Moonbeam on the crossing
+   - When bandits commit to crossing, Kaltor and guards engage
+   - Barzer provides Fire Bolt support from safe distance
+   - Selena casts Bless on frontliners, Elaris has Healing Word ready
    - Horses ready to pursue any who flee
 
 ## Battle Positioning
 ```
-        [KEEP]
-          |
-    [GUARDS + BARZER ready]
-          |
-    === MOAT === (kill zone)
-          |
+           [KEEP]
+              |
+    [SELENA + ELARIS - healing/support]
+              |
+    [BARZER + NYSERA - ranged/AoE]
+              |
+    [KALTOR + GUARDS - frontline]
+              |
+    ======= MOAT ======= (kill zone)
+              |
     [THEREN - elevated, ranged]
-          |
-      [BANDITS approach]
+              |
+         [BANDITS approach]
 ```
 
 ## Pros

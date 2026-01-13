@@ -11,12 +11,15 @@ March the full force (party + guards) to the moat's edge in full view. Make a sh
 ## Tactics
 
 1. **Display strength**: Line up party and guards at the moat, weapons visible
-2. **Deliver terms**:
+   - Kaltor in full armor at the front with guards
+   - Barzer and Nysera visible with spell components ready
+2. **Deliver terms** (Elaris as speaker - CHA +4):
    - Kella is dead - whatever deal they had is over
    - Surrender and leave peacefully
    - Refusal means no quarter
 3. **Set a deadline**: Give them one hour to decide
 4. **Be ready**: If they refuse, execute the Moat Ambush
+   - During negotiation, party is already in ambush positions
 
 ## Pros
 - Might end without bloodshed

@@ -11,9 +11,18 @@ Cross the moat and assault the bandits in the city. Use stealth to close the dis
 ## Tactics
 
 1. **Reconnaissance**: Theren scouts bandit positions and numbers
-2. **Stealthy approach**: Cross the moat quietly, possibly at night or using distractions
-3. **Rapid assault**: Hit their position fast, don't let them regroup
-4. **Secure the area**: Clear building by building if needed
+2. **Preparation**:
+   - Selena casts Bless on Kaltor, Theren, and one other
+   - Barzer prepares Fog Cloud to cover the crossing if needed
+3. **Stealthy approach**: Cross the moat quietly, possibly at night
+   - Kaltor leads with guards
+   - Theren provides overwatch
+4. **Rapid assault**:
+   - Kaltor engages frontline, Divine Smite on priority targets
+   - Nysera controls the battlefield with Flaming Sphere
+   - Barzer and Theren focus fire from range
+   - Elaris uses Hideous Laughter on dangerous targets
+5. **Support**: Selena and Elaris stay mobile for Healing Word as needed
 
 ## Pros
 - Element of surprise - they expect you to stay at the keep
