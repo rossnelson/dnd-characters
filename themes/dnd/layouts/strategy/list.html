@@ -7,26 +7,61 @@
 </div>
 
 <div class="main-content">
-  {{/* Content first */}}
-  {{ if .Content }}
-  <div class="prose" style="margin-bottom: 2rem;">
-    {{ .Content }}
-  </div>
-  {{ end }}
+  {{/* Check if this is a strategy subsection (has _index.md with <!--more--> marker) */}}
+  {{ $isSubsection := .Truncated }}
 
-  {{/* Strategy list */}}
-  {{ if .Pages }}
-  <div class="strategy-list">
-    {{ range .Pages }}
-    <a href="{{ .RelPermalink }}" class="strategy-item">
-      <h3>{{ .LinkTitle }}</h3>
-      {{ with .Params.description }}
-      <p>{{ . }}</p>
-      {{ end }}
-      <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
-    </a>
+  {{ if $isSubsection }}
+    {{/* Strategy subsection with option cards */}}
+    {{/* Content before <!--more--> (What You Know, Party Assets) */}}
+    {{ if .Summary }}
+    <div class="prose" style="max-width: none;">
+      {{ .Summary }}
+    </div>
     {{ end }}
-  </div>
+
+    {{/* Strategy option cards */}}
+    {{ if .Pages }}
+    <h2 style="text-align: center; border: none; margin: 2rem 0 1.5rem;">Choose Your Strategy</h2>
+    <div class="strategy-cards">
+      {{ range .Pages.ByWeight }}
+      <a href="{{ .RelPermalink }}" class="strategy-card">
+        <h3>{{ .Title }}</h3>
+        {{ with .Params.description }}
+        <p class="tagline">{{ . }}</p>
+        {{ end }}
+        <span class="read-more">View Details</span>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Content after <!--more--> (Questions to Discuss) */}}
+    <div class="prose" style="max-width: none; margin-top: 2rem;">
+      {{ $raw := .RawContent }}
+      {{ $afterMore := index (split $raw "<!--more-->") 1 }}
+      {{ $afterMore | markdownify }}
+    </div>
+  {{ else }}
+    {{/* Top-level strategy list */}}
+    {{ if .Content }}
+    <div class="prose" style="margin-bottom: 2rem;">
+      {{ .Content }}
+    </div>
+    {{ end }}
+
+    {{ if .Pages }}
+    <div class="strategy-list">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="strategy-item">
+        <h3>{{ .LinkTitle }}</h3>
+        {{ with .Params.description }}
+        <p>{{ . }}</p>
+        {{ end }}
+        <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
   {{ end }}
 </div>
 {{ end }}
