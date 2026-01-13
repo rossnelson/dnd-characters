@@ -501,6 +501,53 @@ tbody tr:last-child td {
   margin: 0;
 }
 
+/* Strategy List */
+.strategy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.strategy-item {
+  display: block;
+  padding: 1rem 1.25rem;
+  background: var(--color-parchment-light);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-rust);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.strategy-item:hover {
+  border-color: var(--color-rust);
+  box-shadow: var(--shadow-soft);
+  text-decoration: none;
+}
+
+.strategy-item h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.1rem;
+  color: var(--color-ink);
+}
+
+.strategy-item:hover h3 {
+  color: var(--color-rust);
+}
+
+.strategy-item p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-ink-muted);
+  line-height: 1.4;
+}
+
+.strategy-item .date {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   h1 {

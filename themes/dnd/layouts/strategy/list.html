@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="hero">
+  <h1>{{ .Title }}</h1>
+  {{ if .Description }}
+  <p class="subtitle">{{ .Description }}</p>
+  {{ end }}
+</div>
+
+<div class="main-content">
+  {{ if .Content }}
+  <div class="prose" style="margin-bottom: 2rem;">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  {{ if .Pages }}
+  <div class="strategy-list">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="strategy-item">
+      <h3>{{ .LinkTitle }}</h3>
+      {{ with .Params.description }}
+      <p>{{ . }}</p>
+      {{ end }}
+      <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
