@@ -1,0 +1,15 @@
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- $alt := .Get "alt" | default "Image" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $width := .Get "width" | default "" -}}
+{{- $height := .Get "height" | default "" -}}
+
+{{- $imgSrc := $src -}}
+{{- if hasPrefix $src "/" -}}
+  {{- $imgSrc = (printf "%s%s" (strings.TrimSuffix "/" $.Site.BaseURL) $src) -}}
+{{- end -}}
+
+<img src="{{ $imgSrc }}" alt="{{ $alt }}" 
+  {{- with $class }} class="{{ . }}"{{ end -}}
+  {{- with $width }} width="{{ . }}"{{ end -}}
+  {{- with $height }} height="{{ . }}"{{ end -}}>

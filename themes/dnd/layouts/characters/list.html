@@ -1,0 +1,45 @@
+{{ define "main" }}
+<!-- Hero Header -->
+<div class="hero">
+  <h1>{{ .Title }}</h1>
+  {{ if .Description }}
+  <p class="subtitle">{{ .Description }}</p>
+  {{ end }}
+</div>
+
+<!-- Content Section -->
+<div class="main-content">
+  {{ if .Content }}
+  <div class="prose" style="margin-bottom: 2rem;">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <!-- Character Grid -->
+  {{ if .Pages }}
+  <div class="character-grid">
+    {{ range .Pages }}
+    <article class="card">
+      <h3 style="margin-top: 0.5rem; margin-bottom: 0.25rem;">
+        <a href="{{ .RelPermalink }}">{{ .Params.character_name | default .Title }}</a>
+      </h3>
+      <p style="color: var(--color-rust); font-size: 0.9rem; margin-bottom: 0.75rem;">
+        {{ .Params.character_race }} {{ .Params.character_class }}
+      </p>
+
+      <div style="display: flex; gap: 1rem; margin-bottom: 0.75rem; font-size: 0.85rem;">
+        <span><strong>Level:</strong> {{ .Params.character_level }}</span>
+        <span><strong>Player:</strong> {{ .Params.player }}</span>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; padding-top: 0.75rem; border-top: 1px solid var(--color-border);">
+        <a href="{{ .RelPermalink }}" class="btn" style="padding: 0.4rem 0.8rem; font-size: 0.7rem;">
+          View Character
+        </a>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

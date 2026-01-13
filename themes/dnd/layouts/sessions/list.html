@@ -1,0 +1,53 @@
+{{ define "main" }}
+<!-- Hero Header -->
+<div class="hero">
+  <h1>{{ .Title }}</h1>
+  {{ if .Description }}
+  <p class="subtitle">{{ .Description }}</p>
+  {{ end }}
+</div>
+
+<!-- Content Section -->
+<div class="main-content">
+  {{ if .Content }}
+  <div class="prose" style="margin-bottom: 2rem;">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <!-- Sessions List -->
+  {{ if .Pages }}
+  <div class="session-list">
+    {{ range .Pages }}
+    <article class="session-card">
+      <div class="session-date">
+        <span class="month">{{ .Date.Format "Jan" }}</span>
+        <span class="day">{{ .Date.Format "2" }}</span>
+        <span class="year">{{ .Date.Format "2006" }}</span>
+      </div>
+      <div class="session-content">
+        <h3 style="margin: 0 0 0.5rem 0;">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+        {{ if .Description }}
+        <p style="color: var(--color-ink-muted); margin: 0 0 0.5rem 0; font-size: 0.95rem;">
+          {{ .Description }}
+        </p>
+        {{ end }}
+        {{ if .Params.tags }}
+        <div class="session-tags">
+          {{ range .Params.tags }}
+          <span class="tag">{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      <a href="{{ .RelPermalink }}" class="btn" style="padding: 0.4rem 0.8rem; font-size: 0.75rem; flex-shrink: 0;">
+        Read Notes
+      </a>
+    </article>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

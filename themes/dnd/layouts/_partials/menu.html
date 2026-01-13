@@ -1,0 +1,53 @@
+{{- /*
+Renders a menu for the given menu ID.
+
+@context {page} page The current page.
+@context {string} menuID The menu ID.
+
+@example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+*/}}
+
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+{{- $mobile := .mobile }}
+
+{{- with index site.Menus $menuID }}
+  <nav>
+    {{- if $mobile }}
+      <ul class="flex flex-col space-y-2">
+        {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "mobile" true) }}
+      </ul>
+    {{- else }}
+      <ul class="flex space-x-8">
+        {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "mobile" false) }}
+      </ul>
+    {{- end }}
+  </nav>
+{{- end }}
+
+{{- define "_partials/inline/menu/walk.html" }}
+  {{- $page := .page }}
+  {{- $mobile := .mobile }}
+  {{- range .menuEntries }}
+    {{- $isActive := $page.IsMenuCurrent .Menu . }}
+    {{- $isAncestor := $page.HasMenuCurrent .Menu . }}
+    {{- $name := .Name }}
+    {{- with .Identifier }}
+      {{- with T . }}
+        {{- $name = . }}
+      {{- end }}
+    {{- end }}
+    <li>
+      <a href="{{ .URL }}"
+         class="{{ if $isActive }}text-gold border-b-2 border-gold{{ else if $isAncestor }}text-amber-300{{ else }}text-amber-100 hover:text-gold{{ end }} transition-colors duration-200 font-medium{{ if $mobile }} block py-2{{ end }}"
+         {{ if $isActive }}aria-current="page"{{ else if $isAncestor }}aria-current="true"{{ end }}>
+        {{ $name }}
+      </a>
+      {{- with .Children }}
+        <ul{{ if not $mobile }} class="absolute mt-2 bg-amber-900 rounded shadow-lg"{{ end }}>
+          {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "mobile" $mobile) }}
+        </ul>
+      {{- end }}
+    </li>
+  {{- end }}
+{{- end }}

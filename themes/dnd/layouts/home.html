@@ -1,0 +1,87 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="hero" style="padding: 4rem 1.5rem;">
+  <h1 style="font-size: 3rem; margin-bottom: 1rem;">D&D Campaign Tracker</h1>
+  <p class="subtitle" style="font-size: 1.25rem; max-width: 600px; margin: 0 auto 2rem;">
+    Track your legendary adventures, develop memorable characters, and chronicle epic campaigns
+  </p>
+  <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+    <a href="{{ "characters/" | relURL }}" class="btn">Browse Characters</a>
+    <a href="{{ "party/" | relURL }}" class="btn btn-outline" style="background: transparent; color: var(--color-parchment-light); border-color: var(--color-parchment-light);">View Party</a>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="main-content">
+  <div class="divider"><span>&#9876;</span></div>
+
+  <h2 style="text-align: center; border: none; margin-bottom: 2rem;">Adventure Tools</h2>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+    <!-- Character Tracking -->
+    <div class="feature-box">
+      <div class="icon">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12M12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z"/>
+        </svg>
+      </div>
+      <h3>Character Development</h3>
+      <p>Track character growth, relationships, and memorable moments throughout your campaigns.</p>
+    </div>
+
+    <!-- Session Notes -->
+    <div class="feature-box">
+      <div class="icon">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+        </svg>
+      </div>
+      <h3>Campaign Chronicles</h3>
+      <p>Document epic moments, plot developments, and party dynamics session by session.</p>
+    </div>
+
+    <!-- Party Management -->
+    <div class="feature-box">
+      <div class="icon">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M16 17V19H2V17S2 13 9 13 16 17 16 17M12.5 7.5A3.5 3.5 0 1 0 9 4A3.5 3.5 0 0 0 12.5 7.5M15.94 13A5.32 5.32 0 0 1 18 17V19H22V17S22 13.37 15.94 13M15 4A3.39 3.39 0 0 0 13.07 4.59A5 5 0 0 1 13.07 10.41A3.39 3.39 0 0 0 15 11A3.5 3.5 0 0 0 15 4Z"/>
+        </svg>
+      </div>
+      <h3>Party Dynamics</h3>
+      <p>Monitor relationships, track shared experiences, and celebrate collective achievements.</p>
+    </div>
+  </div>
+
+  <!-- Recent Sessions -->
+  {{ $sessions := where site.RegularPages "Section" "sessions" }}
+  {{ if $sessions }}
+  <div class="divider"><span>&#9881;</span></div>
+
+  <h2 style="text-align: center; border: none; margin-bottom: 2rem;">Recent Sessions</h2>
+
+  <div class="session-list" style="max-width: 800px; margin: 0 auto;">
+    {{ range first 3 $sessions }}
+    <article class="session-card">
+      <div class="session-date">
+        <span class="month">{{ .Date.Format "Jan" }}</span>
+        <span class="day">{{ .Date.Format "2" }}</span>
+      </div>
+      <div class="session-content">
+        <h3 style="margin: 0 0 0.25rem 0; font-size: 1.1rem;">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+        {{ if .Description }}
+        <p style="color: var(--color-ink-muted); margin: 0; font-size: 0.9rem;">
+          {{ .Description }}
+        </p>
+        {{ end }}
+      </div>
+      <a href="{{ .RelPermalink }}" class="btn" style="padding: 0.4rem 0.8rem; font-size: 0.7rem; flex-shrink: 0;">
+        Read
+      </a>
+    </article>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+{{ end }}

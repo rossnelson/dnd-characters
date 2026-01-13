@@ -1,0 +1,13 @@
+<nav class="nav-container">
+  <a href="{{ site.BaseURL }}" class="nav-logo">
+    {{ site.Title }}
+  </a>
+
+  <ul class="nav-menu">
+    {{ range site.Menus.main }}
+    <li>
+      <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>

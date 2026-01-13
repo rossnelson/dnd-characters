@@ -1,0 +1,26 @@
+baseURL = 'https://rossnelson.github.io/dnd-characters/'
+languageCode = 'en-us'
+title = 'D&D Characters & Campaign Tracking'
+theme = 'dnd'
+
+[params]
+  description = 'Track your D&D characters, campaigns, and memorable adventures'
+  author = 'Ross Nelson'
+
+[menu]
+  [[menu.main]]
+    name = 'Characters'
+    url = '/characters/'
+    weight = 10
+  [[menu.main]]
+    name = 'Sessions'  
+    url = '/sessions/'
+    weight = 20
+  [[menu.main]]
+    name = 'Party'
+    url = '/party/'
+    weight = 30
+  [[menu.main]]
+    name = 'Strategy'
+    url = '/strategy/'
+    weight = 40
