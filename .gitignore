@@ -1,0 +1,15 @@
+# Hugo build output
+public/
+.hugo_build.lock
+
+# Compiled binary
+dnd
+
+# Jekyll backup
+jekyll-backup/
+
+# Local tool config
+.tool-versions
+
+# Serena config
+.serena/
