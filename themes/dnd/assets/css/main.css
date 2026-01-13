@@ -548,6 +548,72 @@ tbody tr:last-child td {
   color: var(--color-ink-muted);
 }
 
+/* Strategy Cards */
+.strategy-cards {
+  display: flex;
+  gap: 1rem;
+}
+
+.strategy-cards > * {
+  flex: 1;
+}
+
+.strategy-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background: var(--color-parchment-light);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.strategy-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--color-rust);
+  border-radius: 4px 4px 0 0;
+}
+
+.strategy-card:hover {
+  border-color: var(--color-rust);
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.strategy-card h3 {
+  margin: 0.5rem 0 0.5rem 0;
+  font-size: 1.25rem;
+  color: var(--color-ink);
+}
+
+.strategy-card:hover h3 {
+  color: var(--color-rust);
+}
+
+.strategy-card .tagline {
+  margin: 0 0 1rem 0;
+  font-style: italic;
+  color: var(--color-ink-muted);
+  flex-grow: 1;
+}
+
+.strategy-card .read-more {
+  font-family: 'Fondamento', serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-rust);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   h1 {
@@ -573,5 +639,9 @@ tbody tr:last-child td {
 
   .character-grid {
     grid-template-columns: 1fr;
+  }
+
+  .strategy-cards {
+    flex-direction: column;
   }
 }
