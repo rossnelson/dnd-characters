@@ -20,13 +20,13 @@ The party continued moving through the city, systematically clearing buildings o
 ## The Keep
 
 ### Discovery
-We made our way to the keep and discovered guards standing watch over a dead body - an ominous sign of recent trouble.
-
-### Stealth Operations
-The party successfully raided several rooms without alerting the guards, gathering intelligence and resources.
+After clearing through the ruined streets of Nightstone - past overturned carts, shattered windows, and the occasional boulder embedded in what used to be someone's home - we made our way to the keep. The drawbridge was down, and armored guards stood rigid at the entrance, their attention fixed on a body sprawled at their feet. The tension was thick; these weren't men idly standing watch. They were deciding what to do next. Whatever happened here, we'd walked into the aftermath.
 
 ### Alliance with the Guards
-Through careful diplomacy, we convinced the guards to join forces with us against Kella Darkhope's associates - a group of bandits operating in the area.
+Through careful diplomacy, Elaris convinced the guards to join forces with us against Kella Darkhope's associates - a group of bandits operating in the area.
+
+### Stealth Operations
+The party successfully raided several rooms while Selena occupied the guards. Kaltor and Theren gathered intelligence while Nysera and Elaris got rich off looted valuables.
 
 ## Theren's Encounter with the Bandits
 
@@ -34,9 +34,13 @@ Through careful diplomacy, we convinced the guards to join forces with us agains
 Theren was spotted by the bandits while scouting. Already knowing they were up to no good, he saw no need to waste time extracting information from them.
 
 ### Tactical Retreat
-Making a calculated decision, Theren brazenly told the bandits to "go about their business" - a deliberate choice to postpone the confrontation until the party could engage together. He then reported back to the group to coordinate their next move.
+Making what might be considered a strange decision, Theren brazenly told the bandits to "go about
+their business" - a choice for sure, but with the goal to postpone the confrontation until the
+party could engage together. He then reported back to the group to coordinate
+their next move.
 
-**Key Takeaway**: The bandits are confirmed hostile, and Theren wisely chose to delay the fight rather than engage alone.
+**Key Takeaway**: The bandits are confirmed hostile, and Theren chose to
+delay the fight rather than engage alone.
 
 ## Next Session
 

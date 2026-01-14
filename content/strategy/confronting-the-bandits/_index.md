@@ -37,3 +37,15 @@ tags: ["combat", "tactics", "bandits"]
 3. Should Elaris attempt negotiation first given her high Charisma?
 4. Who leads the assault - Kaltor is our only real frontliner?
 5. Do we need to eliminate all the bandits, or just scatter them?
+
+## If We Take Prisoners
+
+Kella had a flying snake messenger - she was communicating with someone. Priority intel:
+
+1. **Who was Kella working for?** She wasn't acting alone.
+2. **What was the message?** What intel was she sending out?
+3. **Are reinforcements coming?** Is someone expecting to hear back?
+4. **Why Nightstone?** What made this ruined town worth infiltrating?
+5. **How many more of them are there?** Just these bandits, or part of something bigger?
+
+Elaris should lead interrogation (CHA +4). Kaltor's Paladin presence might intimidate, or Theren's quiet intensity could unnerve them.
