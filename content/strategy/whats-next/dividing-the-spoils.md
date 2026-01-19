@@ -109,13 +109,15 @@ Let Elaris use the ring for now. If she finds she doesn't need it, pass it to Ka
 
 ## Common Weapons
 
+Nightstone is empty - no one to sell to here.
+
 Options:
-1. **Sell everything** - Probably 50-100 gp total in a decent market
+1. **Haul them out** - Sell in the next town for maybe 50-100 gp total (heavy and slow)
 2. **Keep some** - Party members might want backup weapons
-3. **Leave them** - The guards are dead, no one to give them to
+3. **Leave them** - Not worth the weight
 
 ## Questions for the Party
 
 1. Does anyone have a strong preference for the Ring of Jumping?
-2. Do we sell the common weapons here, or carry them to a larger town?
+2. Do we haul the weapons to a larger town, or leave them?
 3. Should Kaltor get a larger gold share given his low funds?
