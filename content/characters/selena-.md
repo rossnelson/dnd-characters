@@ -1,6 +1,6 @@
 ---
 title: "Selena  - Half-Elf Life Domain Cleric"
-date: 2026-01-13
+date: 2026-01-18
 description: "Half-Elf Life Domain Cleric - Level 3"
 character_name: "Selena "
 character_race: "Half-Elf"
@@ -9,8 +9,8 @@ character_level: 3
 player: "YourDarling0413"
 dndbeyond_id: 151478732
 tags: ["half-elf", "life-domain-cleric", "active"]
-hp_current: 10
-hp_max: 12
+hp_current: 1
+hp_max: 17
 gp: 71
 sp: 0
 cp: 0

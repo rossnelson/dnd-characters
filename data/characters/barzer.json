@@ -62,7 +62,7 @@
   ],
   "baseHitPoints": 10,
   "bonusHitPoints": 0,
-  "removedHitPoints": 7,
+  "removedHitPoints": 17,
   "temporaryHitPoints": 0,
   "currentXp": 900,
   "alignmentId": 0,
@@ -339,7 +339,7 @@
             },
             "ritual": true
           },
-          "prepared": true,
+          "prepared": false,
           "alwaysPrepared": false
         },
         {
@@ -579,7 +579,7 @@
             },
             "ritual": false
           },
-          "prepared": false,
+          "prepared": true,
           "alwaysPrepared": false
         },
         {
@@ -599,7 +599,7 @@
             },
             "ritual": false
           },
-          "prepared": false,
+          "prepared": true,
           "alwaysPrepared": false
         }
       ]

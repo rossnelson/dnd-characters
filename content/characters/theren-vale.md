@@ -1,6 +1,6 @@
 ---
 title: "Theren Vale - Wood Elf Hunter Ranger"
-date: 2026-01-13
+date: 2026-01-18
 description: "Wood Elf Hunter Ranger - Level 3"
 character_name: "Theren Vale"
 character_race: "Wood Elf"
@@ -9,7 +9,7 @@ character_level: 3
 player: "Axcess1"
 dndbeyond_id: 151314232
 tags: ["wood-elf", "hunter-ranger", "active"]
-hp_current: 16
+hp_current: 0
 hp_max: 16
 gp: 126
 sp: 23

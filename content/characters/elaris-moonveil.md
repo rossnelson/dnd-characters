@@ -1,6 +1,6 @@
 ---
 title: "Elaris Moonveil - Half-Elf College of Lore Bard"
-date: 2026-01-13
+date: 2026-01-18
 description: "Half-Elf College of Lore Bard - Level 3"
 character_name: "Elaris Moonveil"
 character_race: "Half-Elf"
@@ -9,7 +9,7 @@ character_level: 3
 player: "rph8q2png8"
 dndbeyond_id: 151314423
 tags: ["half-elf", "college-of-lore-bard", "active"]
-hp_current: 18
+hp_current: 12
 hp_max: 18
 gp: 107
 sp: 4

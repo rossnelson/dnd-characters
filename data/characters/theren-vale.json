@@ -62,7 +62,7 @@
   ],
   "baseHitPoints": 16,
   "bonusHitPoints": 0,
-  "removedHitPoints": 0,
+  "removedHitPoints": 16,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 2,
@@ -244,18 +244,6 @@
       "quantity": 1
     },
     {
-      "id": 1809410162,
-      "definition": {
-        "name": "Bit and Bridle",
-        "type": "Gear",
-        "armorClass": 0,
-        "damage": null,
-        "description": "\u003cp\u003eStandard equipment used to direct a mount.\u003c/p\u003e"
-      },
-      "equipped": false,
-      "quantity": 1
-    },
-    {
       "id": 1746599119,
       "definition": {
         "name": "Smith's Tools",
@@ -263,6 +251,18 @@
         "armorClass": 0,
         "damage": null,
         "description": "\u003cp\u003e\u003cstrong\u003eAbility:\u003c/strong\u003e Strength \u003cbr /\u003e\u003cstrong\u003eUtilize:\u003c/strong\u003e Pry open a door or container (DC 20) \u003cbr /\u003e\u003cstrong\u003eCraft:\u003c/strong\u003e Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets\u003c/p\u003e\r\n\u003chr /\u003e\r\n\u003cp\u003eIf you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 1764098118,
+      "definition": {
+        "name": "Thieves' Tools",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003e\u003cstrong\u003eAbility:\u003c/strong\u003e Dexterity \u003cbr /\u003e\u003cstrong\u003eUtilize:\u003c/strong\u003e Pick a lock (DC 15), or disarm a trap (DC 15)\u003c/p\u003e\r\n\u003chr /\u003e\r\n\u003cp\u003eIf you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.\u003c/p\u003e"
       },
       "equipped": false,
       "quantity": 1
@@ -280,13 +280,13 @@
       "quantity": 1
     },
     {
-      "id": 1764098118,
+      "id": 1809410162,
       "definition": {
-        "name": "Thieves' Tools",
+        "name": "Bit and Bridle",
         "type": "Gear",
         "armorClass": 0,
         "damage": null,
-        "description": "\u003cp\u003e\u003cstrong\u003eAbility:\u003c/strong\u003e Dexterity \u003cbr /\u003e\u003cstrong\u003eUtilize:\u003c/strong\u003e Pick a lock (DC 15), or disarm a trap (DC 15)\u003c/p\u003e\r\n\u003chr /\u003e\r\n\u003cp\u003eIf you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.\u003c/p\u003e"
+        "description": "\u003cp\u003eStandard equipment used to direct a mount.\u003c/p\u003e"
       },
       "equipped": false,
       "quantity": 1
@@ -307,7 +307,7 @@
       "id": 1764007141,
       "definition": {
         "name": "Chain Mail",
-        "type": "",
+        "type": "Heavy Armor",
         "armorClass": 16,
         "damage": null,
         "description": "\u003cp\u003eMade of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.\u003c/p\u003e"

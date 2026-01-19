@@ -58,8 +58,8 @@
     }
   ],
   "baseHitPoints": 12,
-  "bonusHitPoints": 0,
-  "removedHitPoints": 2,
+  "bonusHitPoints": 5,
+  "removedHitPoints": 16,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 2,
@@ -88,7 +88,7 @@
       "id": 1748553998,
       "definition": {
         "name": "Shield",
-        "type": "",
+        "type": "Shield",
         "armorClass": 2,
         "damage": null,
         "description": "\u003cp\u003eShields require the Utilize action to Don or Doff. You gain the Armor Class benefit of a Shield only if you have training with it.\u003c/p\u003e"
@@ -100,7 +100,7 @@
       "id": 1748553997,
       "definition": {
         "name": "Chain Shirt",
-        "type": "Medium Armor",
+        "type": "",
         "armorClass": 13,
         "damage": null,
         "description": "\u003cp\u003eMade of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.\u003c/p\u003e"

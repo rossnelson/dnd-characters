@@ -12,7 +12,7 @@ The battle is over. Orcs and bandits lie dead in the streets of Nightstone. We'r
 **Immediate concerns:**
 - **The flying snake escaped** - Kella's messenger got away. Someone will know what happened here.
 - Our horses ran off during the fight - we need to find a way to call them back (a whistle?)
-- Loot needs to be divided
+- [Loot needs to be divided]({{< ref "dividing-the-spoils" >}}) - Ring of Jumping, 1,056 gp in currency
 - We should rest and heal
 
 **Open questions:**

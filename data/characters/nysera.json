@@ -62,7 +62,7 @@
   ],
   "baseHitPoints": 18,
   "bonusHitPoints": 0,
-  "removedHitPoints": 5,
+  "removedHitPoints": 20,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 0,
@@ -91,7 +91,7 @@
       "id": 1746637948,
       "definition": {
         "name": "Shield",
-        "type": "Shield",
+        "type": "",
         "armorClass": 2,
         "damage": null,
         "description": "\u003cp\u003eShields require the Utilize action to Don or Doff. You gain the Armor Class benefit of a Shield only if you have training with it.\u003c/p\u003e"

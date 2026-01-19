@@ -62,7 +62,7 @@
   ],
   "baseHitPoints": 18,
   "bonusHitPoints": 0,
-  "removedHitPoints": 0,
+  "removedHitPoints": 6,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 0,
@@ -91,7 +91,7 @@
       "id": 1746612009,
       "definition": {
         "name": "Studded Leather",
-        "type": "",
+        "type": "Light Armor",
         "armorClass": 12,
         "damage": null,
         "description": "\u003cp\u003eMade from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.\u003c/p\u003e"
