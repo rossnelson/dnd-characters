@@ -17,9 +17,9 @@ Stay in Nightstone. Secure the area, search the bodies, and investigate what's r
    - Loot the bodies systematically
    - Look for any documents, maps, or orders on the bandits/orcs
    - Check for a whistle or horn to recall the horses
-3. **Interrogate survivors** (if any)
-   - Elaris leads questioning (CHA +4)
-   - Focus on Kella's network and the orc timing
+3. **Search the bodies**
+   - No survivors to interrogate - everyone's dead
+   - Look for letters, orders, or anything that explains what's going on
 4. **Explore Nightstone further**
    - What else is in this town?
    - Any buildings we haven't checked?

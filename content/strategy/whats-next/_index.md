@@ -41,7 +41,7 @@ The battle is over. Orcs and bandits lie dead in the streets of Nightstone. We'r
 
 ## Questions to Discuss
 
-1. Do we have any prisoners to interrogate?
+1. ~~Do we have any prisoners to interrogate?~~ No - all dead.
 2. Where do we find a whistle for the horses?
 3. Do we rest first or investigate immediately?
 4. Is anyone left alive in Nightstone?
