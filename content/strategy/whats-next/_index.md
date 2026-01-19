@@ -33,7 +33,7 @@ The battle is over. Orcs and bandits lie dead in the streets of Nightstone. We'r
 - **Selena (Life Cleric)**: Primary healer, Healing Word, Sanctuary
 
 ### Resources
-- **Allied Guards**: Still at the keep - they helped hold the line
+- **No Allies**: The guards died in the battle - we're on our own
 - **Loot**: Ring of Jumping, gold, gems, weapons to sell or use
 - **Intel**: Whatever we can piece together from the battlefield
 
@@ -44,5 +44,5 @@ The battle is over. Orcs and bandits lie dead in the streets of Nightstone. We'r
 1. Do we have any prisoners to interrogate?
 2. Where do we find a whistle for the horses?
 3. Do we rest first or investigate immediately?
-4. Should we report back to the guards at the keep?
+4. Is anyone left alive in Nightstone?
 5. Is Nightstone worth staying in, or do we move on?

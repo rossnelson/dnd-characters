@@ -11,7 +11,7 @@ Priority one: get healthy and mobile again. We nearly lost two people today.
 ## Tactics
 
 1. **Find shelter**
-   - Return to the keep with the guards
+   - Return to the keep (the guards are dead, but the structure is secure)
    - Or secure a building in town
 2. **Short or long rest**
    - Short rest: 1 hour, spend hit dice to heal

@@ -14,9 +14,9 @@ Nightstone is a ruin. The people who lived here are gone. Maybe it's time we wer
    - Grab any obvious loot
    - Look for the horse whistle
    - Don't linger
-2. **Say goodbye to the guards**
-   - They might have info on where to go next
-   - They might want to come with us
+2. **Search the keep**
+   - The guards are dead, but they might have left notes or maps
+   - Check for supplies before leaving
 3. **Pick a direction**
    - Where did the Nightstone villagers flee to?
    - Is there a larger town nearby?

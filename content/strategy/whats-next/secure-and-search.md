@@ -12,7 +12,7 @@ Stay in Nightstone. Secure the area, search the bodies, and investigate what's r
 
 1. **Secure the perimeter**
    - Theren scouts for any remaining threats
-   - Post guards at key entry points
+   - We're alone now - no guards to post, just us
 2. **Search the battlefield**
    - Loot the bodies systematically
    - Look for any documents, maps, or orders on the bandits/orcs

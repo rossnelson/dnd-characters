@@ -112,7 +112,7 @@ Let Elaris use the ring for now. If she finds she doesn't need it, pass it to Ka
 Options:
 1. **Sell everything** - Probably 50-100 gp total in a decent market
 2. **Keep some** - Party members might want backup weapons
-3. **Give to the guards** - Build goodwill with Nightstone's remaining defenders
+3. **Leave them** - The guards are dead, no one to give them to
 
 ## Questions for the Party
 
