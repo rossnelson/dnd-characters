@@ -42,8 +42,6 @@ their next move.
 **Key Takeaway**: The bandits are confirmed hostile, and Theren chose to
 delay the fight rather than engage alone.
 
-## Next Session
+## What Came Next
 
-- Confront Kella Darkhope's bandit allies
-- Coordinate attack with the keep guards
-- Investigate the dead body and its connection to recent events
+*See [Session: January 17, 2026](/sessions/session-2026-01-17/) for the battle that followed.*
