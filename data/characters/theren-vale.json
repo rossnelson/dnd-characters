@@ -2,7 +2,7 @@
   "id": 151314232,
   "userId": 123939261,
   "username": "Axcess1",
-  "readonlyUrl": "",
+  "readonlyUrl": "https://dndbeyond.com/characters/151314232",
   "name": "Theren Vale",
   "race": {
     "fullName": "Wood Elf",
@@ -62,7 +62,7 @@
   ],
   "baseHitPoints": 16,
   "bonusHitPoints": 0,
-  "removedHitPoints": 16,
+  "removedHitPoints": 4,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 2,
@@ -76,7 +76,7 @@
   "gender": "M",
   "inventory": [
     {
-      "id": 1755411285,
+      "id": 877271336,
       "definition": {
         "name": "Crossbow Bolts, +1",
         "type": "Ammunition",
@@ -88,7 +88,7 @@
       "quantity": 10
     },
     {
-      "id": 1746603642,
+      "id": 871289994,
       "definition": {
         "name": "Scale Mail",
         "type": "",
@@ -100,7 +100,7 @@
       "quantity": 1
     },
     {
-      "id": 1755409339,
+      "id": 877269995,
       "definition": {
         "name": "Crossbow, Hand",
         "type": "Crossbow, Hand",
@@ -115,7 +115,7 @@
       "quantity": 1
     },
     {
-      "id": 1746599109,
+      "id": 871286697,
       "definition": {
         "name": "Shortsword",
         "type": "Shortsword",
@@ -130,7 +130,7 @@
       "quantity": 1
     },
     {
-      "id": 1746603644,
+      "id": 871289995,
       "definition": {
         "name": "Shortsword",
         "type": "Shortsword",
@@ -145,7 +145,7 @@
       "quantity": 1
     },
     {
-      "id": 1746603652,
+      "id": 871289996,
       "definition": {
         "name": "Longbow",
         "type": "Longbow",
@@ -160,7 +160,7 @@
       "quantity": 1
     },
     {
-      "id": 1746603653,
+      "id": 871289997,
       "definition": {
         "name": "Arrows",
         "type": "Gear",
@@ -172,7 +172,7 @@
       "quantity": 20
     },
     {
-      "id": 1746599106,
+      "id": 871286696,
       "definition": {
         "name": "Backpack",
         "type": "Gear",
@@ -184,7 +184,7 @@
       "quantity": 1
     },
     {
-      "id": 1746603657,
+      "id": 871290000,
       "definition": {
         "name": "Clothes, Common",
         "type": "Gear",
@@ -196,7 +196,7 @@
       "quantity": 1
     },
     {
-      "id": 1746603656,
+      "id": 871289999,
       "definition": {
         "name": "Pot, Iron",
         "type": "Gear",
@@ -208,7 +208,7 @@
       "quantity": 1
     },
     {
-      "id": 1746603655,
+      "id": 871289998,
       "definition": {
         "name": "Shovel",
         "type": "Gear",
@@ -220,7 +220,7 @@
       "quantity": 1
     },
     {
-      "id": 1755300249,
+      "id": 877191255,
       "definition": {
         "name": "Vial",
         "type": "Gear",
@@ -232,7 +232,7 @@
       "quantity": 1
     },
     {
-      "id": 1755300277,
+      "id": 877191283,
       "definition": {
         "name": "Vial",
         "type": "Gear",
@@ -244,43 +244,7 @@
       "quantity": 1
     },
     {
-      "id": 1746599119,
-      "definition": {
-        "name": "Smith's Tools",
-        "type": "Gear",
-        "armorClass": 0,
-        "damage": null,
-        "description": "\u003cp\u003e\u003cstrong\u003eAbility:\u003c/strong\u003e Strength \u003cbr /\u003e\u003cstrong\u003eUtilize:\u003c/strong\u003e Pry open a door or container (DC 20) \u003cbr /\u003e\u003cstrong\u003eCraft:\u003c/strong\u003e Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets\u003c/p\u003e\r\n\u003chr /\u003e\r\n\u003cp\u003eIf you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.\u003c/p\u003e"
-      },
-      "equipped": false,
-      "quantity": 1
-    },
-    {
-      "id": 1764098118,
-      "definition": {
-        "name": "Thieves' Tools",
-        "type": "Gear",
-        "armorClass": 0,
-        "damage": null,
-        "description": "\u003cp\u003e\u003cstrong\u003eAbility:\u003c/strong\u003e Dexterity \u003cbr /\u003e\u003cstrong\u003eUtilize:\u003c/strong\u003e Pick a lock (DC 15), or disarm a trap (DC 15)\u003c/p\u003e\r\n\u003chr /\u003e\r\n\u003cp\u003eIf you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.\u003c/p\u003e"
-      },
-      "equipped": false,
-      "quantity": 1
-    },
-    {
-      "id": 1809410012,
-      "definition": {
-        "name": "Riding Saddle",
-        "type": "Gear",
-        "armorClass": 0,
-        "damage": null,
-        "description": "\u003cp\u003eA standard saddle for a riding mount.\u003c/p\u003e"
-      },
-      "equipped": false,
-      "quantity": 1
-    },
-    {
-      "id": 1809410162,
+      "id": 915086586,
       "definition": {
         "name": "Bit and Bridle",
         "type": "Gear",
@@ -292,7 +256,43 @@
       "quantity": 1
     },
     {
-      "id": 1751767390,
+      "id": 871286705,
+      "definition": {
+        "name": "Smith's Tools",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003e\u003cstrong\u003eAbility:\u003c/strong\u003e Strength \u003cbr /\u003e\u003cstrong\u003eUtilize:\u003c/strong\u003e Pry open a door or container (DC 20) \u003cbr /\u003e\u003cstrong\u003eCraft:\u003c/strong\u003e Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets\u003c/p\u003e\r\n\u003chr /\u003e\r\n\u003cp\u003eIf you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 915086466,
+      "definition": {
+        "name": "Riding Saddle",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003eA standard saddle for a riding mount.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 883212947,
+      "definition": {
+        "name": "Thieves' Tools",
+        "type": "Gear",
+        "armorClass": 0,
+        "damage": null,
+        "description": "\u003cp\u003e\u003cstrong\u003eAbility:\u003c/strong\u003e Dexterity \u003cbr /\u003e\u003cstrong\u003eUtilize:\u003c/strong\u003e Pick a lock (DC 15), or disarm a trap (DC 15)\u003c/p\u003e\r\n\u003chr /\u003e\r\n\u003cp\u003eIf you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.\u003c/p\u003e"
+      },
+      "equipped": false,
+      "quantity": 1
+    },
+    {
+      "id": 874797623,
       "definition": {
         "name": "Potion of Healing",
         "type": "Potion",
@@ -304,10 +304,10 @@
       "quantity": 3
     },
     {
-      "id": 1764007141,
+      "id": 883148503,
       "definition": {
         "name": "Chain Mail",
-        "type": "Heavy Armor",
+        "type": "",
         "armorClass": 16,
         "damage": null,
         "description": "\u003cp\u003eMade of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.\u003c/p\u003e"
@@ -316,7 +316,7 @@
       "quantity": 1
     },
     {
-      "id": 1746599110,
+      "id": 871286698,
       "definition": {
         "name": "Bedroll",
         "type": "Gear",
@@ -328,7 +328,7 @@
       "quantity": 1
     },
     {
-      "id": 1746599111,
+      "id": 871286699,
       "definition": {
         "name": "Mess Kit",
         "type": "Gear",
@@ -340,7 +340,7 @@
       "quantity": 1
     },
     {
-      "id": 1746599114,
+      "id": 871286702,
       "definition": {
         "name": "Rations (1 day)",
         "type": "Gear",
@@ -352,7 +352,7 @@
       "quantity": 10
     },
     {
-      "id": 1746599116,
+      "id": 871286704,
       "definition": {
         "name": "Rope, Hempen (50 feet)",
         "type": "Gear",
@@ -364,7 +364,7 @@
       "quantity": 1
     },
     {
-      "id": 1746599112,
+      "id": 871286700,
       "definition": {
         "name": "Tinderbox",
         "type": "Gear",
@@ -376,7 +376,7 @@
       "quantity": 1
     },
     {
-      "id": 1746599113,
+      "id": 871286701,
       "definition": {
         "name": "Torch",
         "type": "Gear",
@@ -388,7 +388,7 @@
       "quantity": 10
     },
     {
-      "id": 1746599115,
+      "id": 871286703,
       "definition": {
         "name": "Waterskin",
         "type": "Gear",
@@ -404,7 +404,7 @@
     "cp": 37,
     "sp": 23,
     "ep": 0,
-    "gp": 126,
+    "gp": 302,
     "pp": 0
   },
   "spells": {
@@ -547,8 +547,8 @@
         "characterId": 151314232,
         "characterName": "Theren Vale",
         "characterUrl": "/profile/Axcess1/characters/151314232",
-        "avatarUrl": "https://www.dndbeyond.com/avatars/51130/469/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
-        "privacyType": 2,
+        "avatarUrl": "https://www.dndbeyond.com/avatars/54519/333/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
         "isAssigned": true
       },
       {
@@ -557,7 +557,7 @@
         "characterId": 151314423,
         "characterName": "Elaris Moonveil",
         "characterUrl": "/profile/rph8q2png8/characters/151314423",
-        "avatarUrl": "https://www.dndbeyond.com/avatars/51398/53/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/54519/81/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
         "privacyType": 2,
         "isAssigned": true
       },
@@ -593,8 +593,242 @@
     "useHomebrewContent": false
   },
   "deathSaves": {
-    "failCount": 0,
+    "failCount": 1,
     "successCount": 0,
     "isStabilized": false
+  },
+  "modifiers": {
+    "race": [
+      {
+        "type": "set-base",
+        "subType": "darkvision",
+        "value": 60,
+        "fixedValue": 60
+      },
+      {
+        "type": "proficiency",
+        "subType": "perception",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "advantage",
+        "subType": "saving-throws",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "immunity",
+        "subType": "magical-sleep",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "bonus",
+        "subType": "dexterity-score",
+        "value": 2,
+        "fixedValue": 2
+      },
+      {
+        "type": "language",
+        "subType": "common",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "elvish",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "longsword",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "longbow",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "shortbow",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "shortsword",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "set",
+        "subType": "innate-speed-walking",
+        "value": 35,
+        "fixedValue": 35
+      },
+      {
+        "type": "bonus",
+        "subType": "wisdom-score",
+        "value": 1,
+        "fixedValue": 1
+      }
+    ],
+    "class": [
+      {
+        "type": "set",
+        "subType": "subclass",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "light-armor",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "medium-armor",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "shields",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "simple-weapons",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "martial-weapons",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "strength-saving-throws",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "dexterity-saving-throws",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "survival",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "nature",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "stealth",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "expertise",
+        "subType": "choose-a-skill",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "choose-a-language",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "choose-a-language",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "bonus",
+        "subType": "ranged-weapon-attacks",
+        "value": 2,
+        "fixedValue": 2
+      },
+      {
+        "type": "favored-enemy",
+        "subType": "orcs",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "favored-enemy",
+        "subType": "halflings",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "orc",
+        "value": null,
+        "fixedValue": null
+      }
+    ],
+    "background": [
+      {
+        "type": "proficiency",
+        "subType": "animal-handling",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "investigation",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "smiths-tools",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "vehicles-land",
+        "value": null,
+        "fixedValue": null
+      }
+    ],
+    "item": [
+      {
+        "type": "bonus",
+        "subType": "magic",
+        "value": 1,
+        "fixedValue": 1
+      },
+      {
+        "type": "bonus",
+        "subType": "hit-points",
+        "value": null,
+        "fixedValue": 2
+      }
+    ],
+    "feat": [],
+    "condition": []
   }
 }

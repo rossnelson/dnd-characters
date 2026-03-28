@@ -74,7 +74,7 @@
   "gender": null,
   "inventory": [
     {
-      "id": 1755319540,
+      "id": 877205184,
       "definition": {
         "name": "Amulet of Health",
         "type": "Wondrous item",
@@ -86,7 +86,7 @@
       "quantity": 1
     },
     {
-      "id": 1755420269,
+      "id": 877277659,
       "definition": {
         "name": "Potion of Heroism",
         "type": "Potion",
@@ -98,7 +98,7 @@
       "quantity": 1
     },
     {
-      "id": 1755318708,
+      "id": 877204493,
       "definition": {
         "name": "Longsword, +1",
         "type": "Longsword",
@@ -113,7 +113,7 @@
       "quantity": 1
     },
     {
-      "id": 1739682056,
+      "id": 866742853,
       "definition": {
         "name": "Potion of Healing",
         "type": "Potion",
@@ -125,7 +125,7 @@
       "quantity": 3
     },
     {
-      "id": 1739689629,
+      "id": 866748200,
       "definition": {
         "name": "Shield",
         "type": "Shield",
@@ -137,7 +137,7 @@
       "quantity": 1
     },
     {
-      "id": 1739681817,
+      "id": 866742703,
       "definition": {
         "name": "Chain Mail",
         "type": "Heavy Armor",
@@ -149,7 +149,7 @@
       "quantity": 1
     },
     {
-      "id": 1739661512,
+      "id": 866728726,
       "definition": {
         "name": "Longsword",
         "type": "Longsword",
@@ -164,7 +164,7 @@
       "quantity": 1
     },
     {
-      "id": 1764076690,
+      "id": 883197513,
       "definition": {
         "name": "Shortbow",
         "type": "Shortbow",
@@ -179,7 +179,7 @@
       "quantity": 1
     },
     {
-      "id": 1739683198,
+      "id": 866743668,
       "definition": {
         "name": "Parchment",
         "type": "Gear",
@@ -191,7 +191,7 @@
       "quantity": 10
     },
     {
-      "id": 1739683195,
+      "id": 866743665,
       "definition": {
         "name": "Calligrapher's Supplies",
         "type": "Gear",
@@ -203,7 +203,7 @@
       "quantity": 1
     },
     {
-      "id": 1739683199,
+      "id": 866743669,
       "definition": {
         "name": "Robe",
         "type": "Gear",
@@ -215,7 +215,7 @@
       "quantity": 1
     },
     {
-      "id": 1739683196,
+      "id": 866743666,
       "definition": {
         "name": "Book",
         "type": "Gear",
@@ -227,7 +227,7 @@
       "quantity": 1
     },
     {
-      "id": 1739683197,
+      "id": 866743667,
       "definition": {
         "name": "Holy Symbol",
         "type": "Gear",
@@ -467,8 +467,8 @@
         "characterId": 151314232,
         "characterName": "Theren Vale",
         "characterUrl": "/profile/Axcess1/characters/151314232",
-        "avatarUrl": "https://www.dndbeyond.com/avatars/51130/469/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
-        "privacyType": 2,
+        "avatarUrl": "https://www.dndbeyond.com/avatars/54519/333/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
         "isAssigned": true
       },
       {
@@ -477,7 +477,7 @@
         "characterId": 151314423,
         "characterName": "Elaris Moonveil",
         "characterUrl": "/profile/rph8q2png8/characters/151314423",
-        "avatarUrl": "https://www.dndbeyond.com/avatars/51398/53/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/54519/81/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
         "privacyType": 2,
         "isAssigned": true
       },
@@ -516,5 +516,216 @@
     "failCount": 0,
     "successCount": 0,
     "isStabilized": false
+  },
+  "modifiers": {
+    "race": [
+      {
+        "type": "set-base",
+        "subType": "darkvision",
+        "value": 60,
+        "fixedValue": 60
+      },
+      {
+        "type": "advantage",
+        "subType": "saving-throws",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "immunity",
+        "subType": "magical-sleep",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "religion",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "insight",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "bonus",
+        "subType": "charisma-score",
+        "value": 2,
+        "fixedValue": 2
+      },
+      {
+        "type": "bonus",
+        "subType": "choose-an-ability-score",
+        "value": 1,
+        "fixedValue": 1
+      },
+      {
+        "type": "bonus",
+        "subType": "choose-an-ability-score",
+        "value": 1,
+        "fixedValue": 1
+      },
+      {
+        "type": "language",
+        "subType": "common",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "elvish",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "giant",
+        "value": null,
+        "fixedValue": null
+      }
+    ],
+    "class": [
+      {
+        "type": "proficiency",
+        "subType": "charisma-saving-throws",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "wisdom-saving-throws",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "persuasion",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "athletics",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "simple-weapons",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "martial-weapons",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "light-armor",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "medium-armor",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "shields",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "heavy-armor",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "set",
+        "subType": "subclass",
+        "value": null,
+        "fixedValue": null
+      }
+    ],
+    "background": [
+      {
+        "type": "proficiency",
+        "subType": "intimidation",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "survival",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "calligraphers-supplies",
+        "value": null,
+        "fixedValue": null
+      }
+    ],
+    "item": [
+      {
+        "type": "set",
+        "subType": "constitution-score",
+        "value": 19,
+        "fixedValue": 19
+      },
+      {
+        "type": "bonus",
+        "subType": "temporary-hit-points",
+        "value": 10,
+        "fixedValue": 10
+      },
+      {
+        "type": "bonus",
+        "subType": "magic",
+        "value": 1,
+        "fixedValue": 1
+      },
+      {
+        "type": "bonus",
+        "subType": "hit-points",
+        "value": null,
+        "fixedValue": 2
+      }
+    ],
+    "feat": [
+      {
+        "type": "bonus",
+        "subType": "charisma-score",
+        "value": 2,
+        "fixedValue": 2
+      },
+      {
+        "type": "bonus",
+        "subType": "intelligence-score",
+        "value": 1,
+        "fixedValue": 1
+      },
+      {
+        "type": "weapon-mastery",
+        "subType": "sap-longsword",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "weapon-mastery",
+        "subType": "graze-greatsword",
+        "value": null,
+        "fixedValue": null
+      }
+    ],
+    "condition": []
   }
 }

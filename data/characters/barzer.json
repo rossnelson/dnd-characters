@@ -60,9 +60,9 @@
       "value": 10
     }
   ],
-  "baseHitPoints": 10,
+  "baseHitPoints": 14,
   "bonusHitPoints": 0,
-  "removedHitPoints": 17,
+  "removedHitPoints": 2,
   "temporaryHitPoints": 0,
   "currentXp": 900,
   "alignmentId": 0,
@@ -76,7 +76,7 @@
   "gender": null,
   "inventory": [
     {
-      "id": 1755318819,
+      "id": 877204586,
       "definition": {
         "name": "Cloak of Protection",
         "type": "Wondrous item",
@@ -88,7 +88,7 @@
       "quantity": 1
     },
     {
-      "id": 1740494489,
+      "id": 867289148,
       "definition": {
         "name": "Enduring Spellbook",
         "type": "Wondrous item",
@@ -100,7 +100,7 @@
       "quantity": 1
     },
     {
-      "id": 1751764165,
+      "id": 874795266,
       "definition": {
         "name": "Potion of Healing",
         "type": "Potion",
@@ -112,7 +112,7 @@
       "quantity": 3
     },
     {
-      "id": 1740494155,
+      "id": 867288966,
       "definition": {
         "name": "Ink (1 ounce bottle)",
         "type": "Gear",
@@ -124,7 +124,7 @@
       "quantity": 1
     },
     {
-      "id": 1740494145,
+      "id": 867288958,
       "definition": {
         "name": "Backpack",
         "type": "Gear",
@@ -136,7 +136,7 @@
       "quantity": 1
     },
     {
-      "id": 1809411557,
+      "id": 915087672,
       "definition": {
         "name": "Chalk (1 piece)",
         "type": "Gear",
@@ -148,7 +148,7 @@
       "quantity": 1
     },
     {
-      "id": 1740494157,
+      "id": 867288968,
       "definition": {
         "name": "Clothes, Common",
         "type": "Gear",
@@ -160,7 +160,7 @@
       "quantity": 1
     },
     {
-      "id": 1764116407,
+      "id": 883226389,
       "definition": {
         "name": "Potion of Healing",
         "type": "Gear",
@@ -172,7 +172,7 @@
       "quantity": 1
     },
     {
-      "id": 1809409984,
+      "id": 915086441,
       "definition": {
         "name": "Bit and Bridle",
         "type": "Gear",
@@ -184,7 +184,7 @@
       "quantity": 1
     },
     {
-      "id": 1740494156,
+      "id": 867288967,
       "definition": {
         "name": "Small Knife",
         "type": "Gear",
@@ -196,7 +196,7 @@
       "quantity": 1
     },
     {
-      "id": 1809485068,
+      "id": 915143642,
       "definition": {
         "name": "Tinderbox",
         "type": "Gear",
@@ -208,7 +208,7 @@
       "quantity": 1
     },
     {
-      "id": 1809409698,
+      "id": 915086230,
       "definition": {
         "name": "Riding Saddle",
         "type": "Gear",
@@ -220,7 +220,7 @@
       "quantity": 1
     },
     {
-      "id": 1740494147,
+      "id": 867288959,
       "definition": {
         "name": "Staff",
         "type": "Gear",
@@ -232,7 +232,7 @@
       "quantity": 1
     },
     {
-      "id": 1740494148,
+      "id": 867288960,
       "definition": {
         "name": "Book",
         "type": "Gear",
@@ -244,7 +244,7 @@
       "quantity": 1
     },
     {
-      "id": 1740494149,
+      "id": 867288961,
       "definition": {
         "name": "Ink (1 ounce bottle)",
         "type": "Gear",
@@ -256,7 +256,7 @@
       "quantity": 1
     },
     {
-      "id": 1740494150,
+      "id": 867288962,
       "definition": {
         "name": "Ink Pen",
         "type": "Gear",
@@ -268,7 +268,7 @@
       "quantity": 1
     },
     {
-      "id": 1740494151,
+      "id": 867288963,
       "definition": {
         "name": "Parchment (one sheet)",
         "type": "Gear",
@@ -280,7 +280,7 @@
       "quantity": 10
     },
     {
-      "id": 1740494152,
+      "id": 867288964,
       "definition": {
         "name": "Little Bag of Sand",
         "type": "Gear",
@@ -292,7 +292,7 @@
       "quantity": 1
     },
     {
-      "id": 1740494153,
+      "id": 867288965,
       "definition": {
         "name": "Small Knife",
         "type": "Gear",
@@ -308,7 +308,7 @@
     "cp": 5,
     "sp": 9,
     "ep": 0,
-    "gp": 102,
+    "gp": 278,
     "pp": 0
   },
   "spells": {
@@ -650,8 +650,8 @@
         "characterId": 151314232,
         "characterName": "Theren Vale",
         "characterUrl": "/profile/Axcess1/characters/151314232",
-        "avatarUrl": "https://www.dndbeyond.com/avatars/51130/469/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
-        "privacyType": 2,
+        "avatarUrl": "https://www.dndbeyond.com/avatars/54519/333/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
         "isAssigned": true
       },
       {
@@ -660,7 +660,7 @@
         "characterId": 151314423,
         "characterName": "Elaris Moonveil",
         "characterUrl": "/profile/rph8q2png8/characters/151314423",
-        "avatarUrl": "https://www.dndbeyond.com/avatars/51398/53/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/54519/81/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
         "privacyType": 2,
         "isAssigned": true
       },
@@ -699,5 +699,167 @@
     "failCount": 0,
     "successCount": 0,
     "isStabilized": false
+  },
+  "modifiers": {
+    "race": [
+      {
+        "type": "set-base",
+        "subType": "darkvision",
+        "value": 60,
+        "fixedValue": 60
+      },
+      {
+        "type": "resistance",
+        "subType": "fire",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "common",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "infernal",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "bonus",
+        "subType": "dexterity-score",
+        "value": 1,
+        "fixedValue": 1
+      },
+      {
+        "type": "bonus",
+        "subType": "intelligence-score",
+        "value": 2,
+        "fixedValue": 2
+      },
+      {
+        "type": "set",
+        "subType": "innate-speed-flying",
+        "value": 30,
+        "fixedValue": 30
+      }
+    ],
+    "class": [
+      {
+        "type": "set",
+        "subType": "subclass",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "dagger",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "dart",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "sling",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "quarterstaff",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "crossbow-light",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "intelligence-saving-throws",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "wisdom-saving-throws",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "investigation",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "arcana",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "bonus",
+        "subType": "initiative",
+        "value": null,
+        "fixedValue": null
+      }
+    ],
+    "background": [
+      {
+        "type": "proficiency",
+        "subType": "perception",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "history",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "draconic",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "elvish",
+        "value": null,
+        "fixedValue": null
+      }
+    ],
+    "item": [
+      {
+        "type": "bonus",
+        "subType": "armor-class",
+        "value": 1,
+        "fixedValue": 1
+      },
+      {
+        "type": "bonus",
+        "subType": "saving-throws",
+        "value": 1,
+        "fixedValue": 1
+      },
+      {
+        "type": "bonus",
+        "subType": "hit-points",
+        "value": null,
+        "fixedValue": 2
+      }
+    ],
+    "feat": [],
+    "condition": []
   }
 }

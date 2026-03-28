@@ -28,12 +28,12 @@ func (c *Client) SetToken(token string) {
 	c.token = token
 }
 
-func (c *Client) FetchCharacter(characterID string) (*Character, error) {
+func (c *Client) FetchCharacter(characterID string) (*Character, []byte, error) {
 	url := fmt.Sprintf("%s/%s", characterServiceURL, characterID)
 
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
-		return nil, fmt.Errorf("creating request: %w", err)
+		return nil, nil, fmt.Errorf("creating request: %w", err)
 	}
 
 	if c.token != "" {
@@ -43,29 +43,33 @@ func (c *Client) FetchCharacter(characterID string) (*Character, error) {
 
 	resp, err := c.httpClient.Do(req)
 	if err != nil {
-		return nil, fmt.Errorf("fetching character: %w", err)
+		return nil, nil, fmt.Errorf("fetching character: %w", err)
 	}
 	defer func() { _ = resp.Body.Close() }()
 
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, nil, fmt.Errorf("reading response body: %w", err)
+	}
+
 	if resp.StatusCode != http.StatusOK {
-		body, _ := io.ReadAll(resp.Body)
-		return nil, fmt.Errorf("unexpected status %d: %s", resp.StatusCode, string(body))
+		return nil, nil, fmt.Errorf("unexpected status %d: %s", resp.StatusCode, string(body))
 	}
 
 	var response CharacterResponse
-	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
-		return nil, fmt.Errorf("decoding response: %w", err)
+	if err := json.Unmarshal(body, &response); err != nil {
+		return nil, nil, fmt.Errorf("decoding response: %w", err)
 	}
 
 	if !response.Success {
-		return nil, fmt.Errorf("API returned success=false: %s", response.Message)
+		return nil, nil, fmt.Errorf("API returned success=false: %s", response.Message)
 	}
 
-	return &response.Data, nil
+	return &response.Data, body, nil
 }
 
 func (c *Client) FetchParty(characterID string) ([]PartyMember, error) {
-	char, err := c.FetchCharacter(characterID)
+	char, _, err := c.FetchCharacter(characterID)
 	if err != nil {
 		return nil, err
 	}
@@ -85,7 +89,7 @@ func (c *Client) FetchAllPartyCharacters(characterID string) ([]*Character, erro
 
 	var characters []*Character
 	for _, member := range party {
-		char, err := c.FetchCharacter(fmt.Sprintf("%d", member.CharacterID))
+		char, _, err := c.FetchCharacter(fmt.Sprintf("%d", member.CharacterID))
 		if err != nil {
 			fmt.Printf("Warning: could not fetch %s (ID: %d): %v\n", member.CharacterName, member.CharacterID, err)
 			continue

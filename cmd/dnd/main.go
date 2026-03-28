@@ -79,7 +79,7 @@ func runFetch(characterID string) {
 		os.Exit(1)
 	}
 
-	char, err := client.FetchCharacter(characterID)
+	char, _, err := client.FetchCharacter(characterID)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 		os.Exit(1)

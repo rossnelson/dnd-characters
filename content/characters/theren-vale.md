@@ -1,6 +1,6 @@
 ---
 title: "Theren Vale - Wood Elf Hunter Ranger"
-date: 2026-01-18
+date: 2026-03-27
 description: "Wood Elf Hunter Ranger - Level 3"
 character_name: "Theren Vale"
 character_race: "Wood Elf"
@@ -9,9 +9,9 @@ character_level: 3
 player: "Axcess1"
 dndbeyond_id: 151314232
 tags: ["wood-elf", "hunter-ranger", "active"]
-hp_current: 0
-hp_max: 16
-gp: 126
+hp_current: 24
+hp_max: 28
+gp: 302
 sp: 23
 cp: 37
 ---
@@ -20,7 +20,7 @@ cp: 37
 
 | STR | DEX | CON | INT | WIS | CHA |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 13 (+1) | 16 (+3) | 15 (+2) | 13 (+1) | 16 (+3) | 12 (+1) |
+| 13 (+1) | 18 (+4) | 15 (+2) | 13 (+1) | 17 (+3) | 12 (+1) |
 
 ## Spells
 

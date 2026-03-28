@@ -1,6 +1,6 @@
 ---
 title: "Barzer - Variant Tiefling War Magic Wizard"
-date: 2026-01-18
+date: 2026-03-27
 description: "Variant Tiefling War Magic Wizard - Level 3"
 character_name: "Barzer"
 character_race: "Variant Tiefling"
@@ -9,9 +9,9 @@ character_level: 3
 player: "Torinn_Nemonis1"
 dndbeyond_id: 150807632
 tags: ["variant-tiefling", "war-magic-wizard", "active"]
-hp_current: -7
-hp_max: 10
-gp: 102
+hp_current: 27
+hp_max: 29
+gp: 278
 sp: 9
 cp: 5
 ---
@@ -20,7 +20,7 @@ cp: 5
 
 | STR | DEX | CON | INT | WIS | CHA |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 9 (+0) | 16 (+3) | 16 (+3) | 18 (+4) | 14 (+2) | 10 (+0) |
+| 9 (+0) | 17 (+3) | 16 (+3) | 20 (+5) | 14 (+2) | 10 (+0) |
 
 ## Spells
 

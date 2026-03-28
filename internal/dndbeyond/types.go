@@ -39,6 +39,23 @@ type Character struct {
 	Traits            *Traits          `json:"traits"`
 	Preferences       *Preferences     `json:"preferences"`
 	DeathSaves        *DeathSaves      `json:"deathSaves"`
+	Modifiers         *Modifiers       `json:"modifiers"`
+}
+
+type Modifiers struct {
+	Race       []Modifier `json:"race"`
+	Class      []Modifier `json:"class"`
+	Background []Modifier `json:"background"`
+	Item       []Modifier `json:"item"`
+	Feat       []Modifier `json:"feat"`
+	Condition  []Modifier `json:"condition"`
+}
+
+type Modifier struct {
+	Type       string `json:"type"`
+	SubType    string `json:"subType"`
+	Value      *int   `json:"value"`
+	FixedValue *int   `json:"fixedValue"`
 }
 
 type Race struct {
@@ -229,7 +246,42 @@ func (c *Character) PrimaryClass() string {
 }
 
 func (c *Character) MaxHP() int {
-	return c.BaseHitPoints + c.BonusHitPoints
+	conMod := c.StatModifier(StatConstitution)
+	level := c.TotalLevel()
+	hp := c.BaseHitPoints + c.BonusHitPoints + (conMod * level)
+	hp += c.bonusHPPerLevel() * level
+	return hp
+}
+
+func (c *Character) bonusHPPerLevel() int {
+	if c.Modifiers == nil {
+		return 0
+	}
+	bonus := 0
+	for _, mod := range c.allModifiers() {
+		if mod.SubType == "hit-points-per-level" || (mod.SubType == "hit-points" && mod.Type == "bonus") {
+			if mod.Value != nil {
+				bonus += *mod.Value
+			} else if mod.FixedValue != nil {
+				bonus += *mod.FixedValue
+			}
+		}
+	}
+	return bonus
+}
+
+func (c *Character) allModifiers() []Modifier {
+	if c.Modifiers == nil {
+		return nil
+	}
+	var all []Modifier
+	all = append(all, c.Modifiers.Race...)
+	all = append(all, c.Modifiers.Class...)
+	all = append(all, c.Modifiers.Background...)
+	all = append(all, c.Modifiers.Item...)
+	all = append(all, c.Modifiers.Feat...)
+	all = append(all, c.Modifiers.Condition...)
+	return all
 }
 
 func (c *Character) CurrentHP() int {
@@ -237,12 +289,33 @@ func (c *Character) CurrentHP() int {
 }
 
 func (c *Character) GetStat(statID int) int {
+	base := 10
 	for _, stat := range c.Stats {
 		if stat.ID == statID {
-			return stat.Value
+			base = stat.Value
+			break
 		}
 	}
-	return 10
+	// Apply modifier bonuses (racial, feat, etc.)
+	statSubTypes := map[int]string{
+		StatStrength: "strength-score", StatDexterity: "dexterity-score",
+		StatConstitution: "constitution-score", StatIntelligence: "intelligence-score",
+		StatWisdom: "wisdom-score", StatCharisma: "charisma-score",
+	}
+	subType, ok := statSubTypes[statID]
+	if !ok {
+		return base
+	}
+	for _, mod := range c.allModifiers() {
+		if mod.SubType == subType && mod.Type == "bonus" {
+			if mod.FixedValue != nil {
+				base += *mod.FixedValue
+			} else if mod.Value != nil {
+				base += *mod.Value
+			}
+		}
+	}
+	return base
 }
 
 func (c *Character) StatModifier(statID int) int {

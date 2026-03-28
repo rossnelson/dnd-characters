@@ -1,6 +1,6 @@
 ---
 title: "A stroll in the park"
-date: 2026-01-18
+date: 2026-03-27
 description: "Party roster for A stroll in the park"
 ---
 

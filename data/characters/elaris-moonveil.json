@@ -62,7 +62,7 @@
   ],
   "baseHitPoints": 18,
   "bonusHitPoints": 0,
-  "removedHitPoints": 6,
+  "removedHitPoints": 0,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 0,
@@ -76,7 +76,7 @@
   "gender": null,
   "inventory": [
     {
-      "id": 1764009846,
+      "id": 883150420,
       "definition": {
         "name": "Potion of Heroism",
         "type": "Potion",
@@ -88,7 +88,7 @@
       "quantity": 1
     },
     {
-      "id": 1746612009,
+      "id": 871295925,
       "definition": {
         "name": "Studded Leather",
         "type": "Light Armor",
@@ -100,7 +100,7 @@
       "quantity": 1
     },
     {
-      "id": 1746642611,
+      "id": 871317429,
       "definition": {
         "name": "Longsword",
         "type": "Longsword",
@@ -115,7 +115,7 @@
       "quantity": 1
     },
     {
-      "id": 1746634620,
+      "id": 871311976,
       "definition": {
         "name": "Crossbow, Light",
         "type": "Crossbow, Light",
@@ -130,7 +130,7 @@
       "quantity": 1
     },
     {
-      "id": 1751770210,
+      "id": 874799695,
       "definition": {
         "name": "Ink (1 ounce bottle)",
         "type": "Gear",
@@ -142,7 +142,7 @@
       "quantity": 1
     },
     {
-      "id": 1751770212,
+      "id": 874799697,
       "definition": {
         "name": "Clothes, Common",
         "type": "Gear",
@@ -154,7 +154,7 @@
       "quantity": 1
     },
     {
-      "id": 1809410979,
+      "id": 915087210,
       "definition": {
         "name": "Bit and Bridle",
         "type": "Gear",
@@ -166,7 +166,7 @@
       "quantity": 1
     },
     {
-      "id": 1751770211,
+      "id": 874799696,
       "definition": {
         "name": "Small Knife",
         "type": "Gear",
@@ -178,7 +178,7 @@
       "quantity": 1
     },
     {
-      "id": 1751766537,
+      "id": 874796980,
       "definition": {
         "name": "Backpack",
         "type": "Gear",
@@ -190,7 +190,7 @@
       "quantity": 1
     },
     {
-      "id": 1809410477,
+      "id": 915086799,
       "definition": {
         "name": "Riding Saddle",
         "type": "Gear",
@@ -202,7 +202,7 @@
       "quantity": 1
     },
     {
-      "id": 1809491002,
+      "id": 915147923,
       "definition": {
         "name": "Pan Flute",
         "type": "Gear",
@@ -214,7 +214,7 @@
       "quantity": 1
     },
     {
-      "id": 1751766773,
+      "id": 874797191,
       "definition": {
         "name": "Potion of Healing",
         "type": "Potion",
@@ -226,7 +226,7 @@
       "quantity": 3
     },
     {
-      "id": 1764098855,
+      "id": 883213550,
       "definition": {
         "name": "Herbalism Kit",
         "type": "Gear",
@@ -242,7 +242,7 @@
     "cp": 1,
     "sp": 4,
     "ep": 0,
-    "gp": 107,
+    "gp": 283,
     "pp": 0
   },
   "spells": {
@@ -465,8 +465,8 @@
         "characterId": 151314232,
         "characterName": "Theren Vale",
         "characterUrl": "/profile/Axcess1/characters/151314232",
-        "avatarUrl": "https://www.dndbeyond.com/avatars/51130/469/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
-        "privacyType": 2,
+        "avatarUrl": "https://www.dndbeyond.com/avatars/54519/333/1581111423-151314232.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "privacyType": 3,
         "isAssigned": true
       },
       {
@@ -475,7 +475,7 @@
         "characterId": 151314423,
         "characterName": "Elaris Moonveil",
         "characterUrl": "/profile/rph8q2png8/characters/151314423",
-        "avatarUrl": "https://www.dndbeyond.com/avatars/51398/53/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/54519/81/1581111423-151314423.jpeg?width=150\u0026height=150\u0026fit=crop\u0026quality=95\u0026auto=webp",
         "privacyType": 2,
         "isAssigned": true
       },
@@ -514,5 +514,251 @@
     "failCount": 0,
     "successCount": 0,
     "isStabilized": false
+  },
+  "modifiers": {
+    "race": [
+      {
+        "type": "set-base",
+        "subType": "darkvision",
+        "value": 60,
+        "fixedValue": 60
+      },
+      {
+        "type": "advantage",
+        "subType": "saving-throws",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "immunity",
+        "subType": "magical-sleep",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "perception",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "survival",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "bonus",
+        "subType": "charisma-score",
+        "value": 2,
+        "fixedValue": 2
+      },
+      {
+        "type": "bonus",
+        "subType": "constitution-score",
+        "value": 1,
+        "fixedValue": 1
+      },
+      {
+        "type": "bonus",
+        "subType": "dexterity-score",
+        "value": 1,
+        "fixedValue": 1
+      },
+      {
+        "type": "language",
+        "subType": "common",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "elvish",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "common-sign-language",
+        "value": null,
+        "fixedValue": null
+      }
+    ],
+    "class": [
+      {
+        "type": "half-proficiency",
+        "subType": "ability-checks",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "half-proficiency",
+        "subType": "initiative",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "set",
+        "subType": "subclass",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "expertise",
+        "subType": "perception",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "expertise",
+        "subType": "performance",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "persuasion",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "investigation",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "deception",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "light-armor",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "simple-weapons",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "crossbow-hand",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "longsword",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "rapier",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "shortsword",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "bagpipes",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "pan-flute",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "hand-drum",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "dexterity-saving-throws",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "charisma-saving-throws",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "medicine",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "insight",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "performance",
+        "value": null,
+        "fixedValue": null
+      }
+    ],
+    "background": [
+      {
+        "type": "proficiency",
+        "subType": "arcana",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "history",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "goblin",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "language",
+        "subType": "celestial",
+        "value": null,
+        "fixedValue": null
+      }
+    ],
+    "item": [
+      {
+        "type": "bonus",
+        "subType": "temporary-hit-points",
+        "value": 10,
+        "fixedValue": 10
+      },
+      {
+        "type": "bonus",
+        "subType": "hit-points",
+        "value": null,
+        "fixedValue": 2
+      }
+    ],
+    "feat": [],
+    "condition": []
   }
 }
