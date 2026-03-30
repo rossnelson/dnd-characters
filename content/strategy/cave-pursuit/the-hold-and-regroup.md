@@ -1,150 +1,141 @@
 ---
-title: "Advance Into the Unknown"
+title: "The Chase"
 date: 2026-03-27
-description: "Careful forward movement through unmapped cave with 60ft visibility - Barzer healed first, then we move"
-tags: ["offensive", "tactics", "cave", "advance"]
+description: "Pursuit tactics - closing the gap on a fleeing ogre before it reaches reinforcements"
+tags: ["offensive", "tactics", "cave", "pursuit", "chase"]
 weight: 1
 ---
 
-The hold-and-regroup is done. The party is together. Now the question is how to advance through unknown open cave terrain with a missing ogre somewhere ahead, 60ft visibility, and a party that's taken damage.
+The ogre is running. You are chasing it. The question is not whether to pursue - it's how to do it without arriving at the ogre's destination strung out, separated, and unprepared for what's waiting there.
 
-**Before any of this matters: Selena heals Barzer. Now. Before the party moves one foot.**
+**Before anyone moves: Selena casts Healing Word on Barzer. Bonus action. Now. He cannot be part of a combat sprint at 4 HP.**
 
-## Step 0: Emergency Healing (Pre-Advance, No Exceptions)
+## Speed Problem
 
-Barzer is at 4 HP. One lucky goblin arrow ends him.
+The ogre moves 40ft per round. This party's speeds:
 
-**Selena**: Cast Healing Word on Barzer (bonus action, 1st-level slot). With Life Domain bonus, this restores ~10-12 HP minimum. Brings him out of one-hit-kill territory.
+| Character | Speed | Notes |
+|-----------|-------|-------|
+| Ogre | 40ft | Fleeing, motivated |
+| Theren | 35ft | Wood Elf - fastest in the party |
+| Kaltor | 30ft | |
+| Nysera | 30ft | |
+| Elaris | 30ft | |
+| Barzer | 30ft | At 4 HP - cannot sprint into danger |
+| Selena | 30ft | |
 
-**Theren and Nysera** at 16 HP each are hurt but functional. Selena should evaluate a second Healing Word (bonus action next round or pre-advance) if spell slots allow.
+Without Dash, the ogre gains ground every round. At 60ft darkvision, it can disappear completely within 2-3 rounds if no one closes the gap.
 
-**Do not skip this. The party's arcane damage-dealer and Shield reaction backup cannot contribute at 4 HP.**
+## Move-Attack-Move: Chasing Without Wasting Your Action
 
-## Marching Order: Open Cavern Formation
+You do not have to choose between moving and attacking. On your turn:
 
-This is not a bottleneck. The column formation changes to account for threats that can come from multiple directions.
+1. **Move** up to your speed (or half before attacking)
+2. **Attack** (attack action, or cast a spell with a ranged attack)
+3. **Move** remaining movement after the attack
 
-```
-              [UNKNOWN CAVE AHEAD - up to 60ft visibility]
+This is standard 5e movement rules - you can split your movement around your action. Theren can advance 15ft, fire Longbow, advance another 20ft.
 
-                    [THEREN] ← 15-20ft ahead, scout
-                         |
-              [KALTOR] ← ← ← [NYSERA]    ← front line, wide
-                         |
-              [ELARIS] ← ← ← [BARZER]    ← mid, spread
-                         |
-                    [SELENA]              ← rear center
+**The Dash action doubles your movement but replaces your attack action.** Use Dash when you need to close the gap urgently - but that's a round without damage. Tactical choice.
 
-              [OPEN CAVERN - threats possible 360 degrees]
-```
+## Who Does What During the Chase
 
-**Why spread out**: In open terrain, clustering gives area-of-effect spells a free kill. A Fireball or a Flaming Sphere adjacency hits everyone if the party is in a tight column.
+### Theren (35ft, Longbow)
+The best chaser in the party. Highest speed, ranged weapon, Hunter's Mark for bonus damage.
 
-| Position | Character | Role |
-|----------|-----------|------|
-| Scout (15-20ft ahead) | Theren | Darkvision + Perception +5, spots threats first |
-| Front-left | Kaltor | AC 18+, absorbs hits, Longsword +1 |
-| Front-right | Nysera | Moonbeam ready, can Wild Shape reactively |
-| Mid-left | Elaris | Healing Word range on full party, Bless pre-combat |
-| Mid-right | Barzer | Magic Missile ready, Shield reaction, stay behind Kaltor |
-| Rear-center | Selena | Healing Word, Sanctuary, Sacred Flame |
+- Move 15ft, **fire Longbow** at the fleeing ogre, move 20ft
+- If Hunter's Mark is active on this ogre: keep it. Colossus Slayer triggers since it's already been hit
+- **Ensnaring Strike** (bonus action, replaces normal Hunter's Mark bonus action): cast it on your next Longbow attack. On a hit, the ogre must make Strength save or be restrained. A restrained ogre cannot run. This ends the chase.
+- At 35ft speed with move-attack-move, Theren is the party's best chance at landing a speed-reducing hit before the ogre vanishes
 
-**Barzer's positioning**: He is still fragile even after healing. He belongs behind Kaltor, never at the front or flanks. His job is Magic Missile (which needs no line-of-sight through melee) and Shield reaction. Both work from a protected position.
+### Kaltor (30ft, Full HP)
+Fastest melee fighter but still 10ft behind the ogre per round. Dash if needed to stay visible.
 
-## Scouting Protocol: Moving Through the Unknown
+- If Theren slows the ogre (Ensnaring Strike, Ray of Frost), Kaltor closes and ends it
+- If the ogre has already reached a defended position: Kaltor is the first through the door. His full HP and AC 18+ makes him the right front man when the party doesn't know what's waiting
 
-You cannot see beyond 60ft. Every time the party advances, Theren is seeing new terrain for the first time.
+### Nysera (30ft)
+Can't outrun the ogre. Contributes via spells.
 
-### Theren's Advance Protocol
+- **Ray of Frost** (cantrip, 60ft range): on a hit, reduces the ogre's speed by 10ft until the start of your next turn. A 40ft ogre reduced to 30ft can't outpace the party. Cast this every round if possible
+- **Thunderwave** if it's cornered and close - but don't close to melee range on a fleeing ogre unless it's stopped
+- Do not Dash. Nysera staying in range for cantrips is more valuable than sprinting
 
-1. Move 15-20ft ahead of the main group - within shouting distance, within Healing Word range (60ft)
-2. **Perception check every time you enter new terrain** - listen for movement, smell for threats, watch the floor for tracks or tripwires
-3. If you see something at the edge of your darkvision (60ft out), **stop and signal** - do not approach until the party closes up
-4. If the cave narrows back into a chokepoint: that's a defensive opportunity. Signal the party before entering it
-5. **Watch for the missing ogre's tracks**. Ogres leave obvious prints. If you find them heading sideways or looping behind, the party may be about to be flanked
+### Elaris (30ft)
+Ranged options from distance.
 
-### Signals (Agree on These Now)
+- **Command ("Halt")** - 60ft range, the ogre must make a Wisdom save or spend its next turn doing nothing. One failed save stops the chase immediately. This is Elaris's best contribution right now
+- **Vicious Mockery** deals psychic damage and gives disadvantage on the ogre's next attack roll - less useful for a chase, but available
+- Do not Dash. Stay with the main group
 
-| Signal | Meaning |
-|--------|---------|
-| Fist raised | Stop - threat spotted or suspected |
-| Two fingers pointed | Direction of threat |
-| Flat hand waving toward party | Come up - path clear |
-| Audible "Fall back!" | Retreat signal - immediate |
+### Barzer (30ft, 4 HP)
+**Barzer does not sprint ahead.** He is the most vulnerable party member and is now even deeper in a hostile cave. His job:
 
-## When You Encounter the Next Threat
+- Move at normal speed, stay behind Kaltor
+- **Shield reaction** ready if something hits him
+- **Magic Missile** at range if the ogre stops or is cornered - auto-hit is valuable when you need guaranteed damage
+- If the group strings out and Barzer falls behind with Selena, that is acceptable. Do not risk him to close a gap
 
-### Scenario A: The Missing Ogre, Alone
+### Selena (30ft, Full HP)
+Heals Barzer (bonus action, Healing Word) before moving, then keeps pace.
 
-You know this one is bloodied (or was - it may have rested). At distance, it's a ranged fight.
+- Stay with Barzer. He cannot be left behind without a healer
+- **Sacred Flame** if the ogre slows down or stops - it's a Dex save, not an attack roll, useful against a cornered creature
+- Do not Dash ahead
 
-- **Theren**: Hunter's Mark on the ogre if not already on it. Longbow from range, Colossus Slayer triggers if below max HP
-- **Kaltor**: Advance to intercept - let the ogre come to you, don't chase it into unknown terrain
-- **Elaris**: Bless on Kaltor, Theren, and Nysera (concentration - pick this over offense)
-- **Nysera**: Moonbeam on the ogre's position. Concentration spell, but Elaris has Bless so Nysera takes Moonbeam
-- **Barzer**: Magic Missile if the ogre closes to within range and someone needs finishing. Do NOT expose Barzer to melee
-- **Selena**: Sacred Flame at range, Healing Word as bonus action if anyone takes damage
+## Slowing the Ogre: Priority Options
 
-**Expected outcome**: Ogre drops in 2-3 rounds without the party taking serious damage if ranged engagement is maintained.
+The party's best tools for stopping or slowing the ogre before it reaches reinforcements:
 
-### Scenario B: Ogre Plus Additional Threats
+| Ability | Character | Effect | Range |
+|---------|-----------|--------|-------|
+| **Ensnaring Strike** | Theren | Restrained (speed 0) on failed Str save | Longbow range, bonus action on next attack |
+| **Command ("Halt")** | Elaris | Full turn wasted on failed Wis save | 60ft |
+| **Ray of Frost** | Nysera | -10ft speed until your next turn | 60ft cantrip |
+| **Ray of Frost** | Barzer | -10ft speed until your next turn | 60ft cantrip |
+| **Longbow** | Theren | Damage - may not stop it but chips HP | 150ft normal |
 
-This is the danger scenario - the missing ogre rallied with something.
+**Priority**: Ensnaring Strike (permanent until escaped) > Command (full turn lost) > Ray of Frost (repeatable speed reduction).
 
-- **Do not advance into the unknown group**. Make them come to you
-- **Kaltor anchors** at whatever defensible terrain Theren identified
-- **Nysera drops Flaming Sphere** between the party and the approaching threats - 2d6 fire damage per round forces enemies to route around it or take the damage
-- **Elaris uses Bless**, not offense - the to-hit bonus on Kaltor and Theren outweighs any single spell
-- **Barzer holds Magic Missile** for a kill-shot on the most dangerous enemy when it drops below 15 HP
-- **Theren fires Longbow** past Kaltor continuously with Hunter's Mark active
+If Ensnaring Strike hits and the ogre fails the save, the chase is over. Focus fire.
 
-If this is 3+ enemies in open terrain: consider whether to fight or withdraw. See the withdrawal document.
+## The Strung-Out Problem
 
-### Scenario C: Something That Isn't an Ogre
+The party will not stay together during a chase. Faster characters will be ahead; slower or hurt characters will fall behind. This is the primary tactical risk.
 
-The infernal whisper came from deeper in. You may encounter something that isn't the ogres.
+**Likely spread after 2-3 rounds of chasing:**
+- **Ahead**: Theren (possibly Kaltor if Dashing)
+- **Middle**: Kaltor, Nysera, Elaris
+- **Behind**: Barzer, Selena
 
-**Barzer's Arcana check** and **Theren's Nature check** are your first tools. Before engaging anything unidentified:
-- Can you identify it?
-- Does it appear hostile, or is it waiting?
-- Is it blocking the path, or off to the side?
+This means if the ogre reaches its destination and allies are waiting there, the party's fastest members hit that position first - without the healers, without Barzer's arcane damage, and possibly without Kaltor's anchor if he was middle-packing.
 
-If you cannot identify it and it's approaching: this is a withdrawal trigger. Do not fight what you don't understand in an open cave when the party is hurt.
+**Rule**: Theren fires but does not enter a new area alone. Kaltor does not Dash into darkness beyond Theren's sight. The party chases as a unit or not at all.
 
-## Managing Concentration Spells in Open Terrain
+## Call Off the Chase
 
-Concentration conflicts matter more now - you can't stack everything.
+Stop pursuing and consolidate if:
 
-| Caster | Available Concentration Spells | Priority |
-|--------|-------------------------------|----------|
-| Theren | Hunter's Mark | Keep it on the primary target |
-| Elaris | Bless | Cast this first - it benefits 3 fighters |
-| Nysera | Moonbeam or Flaming Sphere | Moonbeam for single targets, Sphere for area control |
-| Barzer | None (Magic Missile is instant) | No concentration needed |
+- The ogre disappears into a tunnel or branching passage and you lose visual contact
+- Theren hears sounds ahead that suggest multiple enemies (movement, grunts, weapon sounds)
+- The cave floor suddenly shows multiple fresh tracks - the ogre has reached company
+- Anyone except Theren falls more than 60ft behind the front runners
+- Barzer or Selena are separated and not in sight
 
-Elaris maintains Bless. Nysera maintains Moonbeam or Sphere. Theren maintains Hunter's Mark. These three concentration spells running simultaneously cover offense, control, and caster protection without conflicting.
+When the chase is called: everyone stops, consolidates on Kaltor's position, and reads the situation before going further.
 
 ## Pros
-- Party is together - full action economy
-- Darkvision is universal - no light management needed
-- Kaltor at full HP is the tank the party needs
-- Selena at full HP means robust healing for several rounds
+- Theren has the highest chance of slowing the ogre via Ensnaring Strike or Longbow damage
+- Ray of Frost is a free speed reduction each round - no spell slot cost
+- Command is a potential instant stop if the Wisdom save fails
+- Ogre is already bloodied - it doesn't take many more hits
 
 ## Cons
-- Barzer is fragile even after healing - must be protected
-- Theren and Nysera are hurt - a bad round could drop one of them
-- Open terrain removes the bottleneck advantage
-- The missing ogre's location is unknown - ambush is possible at any time
+- The ogre is faster than everyone in the party
+- Chasing risks the party stringing out
+- Barzer cannot contribute offensively while sprinting and must be protected
+- Every round the ogre runs is a round it gets closer to help
+- You don't know what's at the end of the chase
 
 ## Best If
-The party heals Barzer first, advances slowly with Theren scouting, and doesn't rush toward the infernal source until the ogre threat is neutralized.
-
----
-
-## Ranger Tips for Theren
-
-- **Scout but don't die**: 15-20ft ahead is far enough to spot threats, close enough that Healing Word (60ft range) still reaches you
-- **Hunter's Mark**: If it's still on the first ogre, great - keep it. If not, recast it on whatever the primary threat turns out to be. Don't waste a bonus action recasting it on a nearly-dead target
-- **Colossus Slayer**: Triggers any time the target is below max HP. Every enemy you've already hit qualifies. That 1d8 bonus damage adds up over a fight
-- **Two shortswords as fallback**: If something closes to melee in the open cave, switch to shortsword offhand attacks. Two attacks at melee range in a round where Longbow is awkward
-- **Perception is your contribution during the approach**: +5 is the party's best. Call out every track, every sound, every draft of air from a new direction
+Theren fires Ensnaring Strike on the first round of pursuit and the ogre fails the Strength save. If that doesn't land, Ray of Frost from Nysera or Elaris's Command gives the best chance of slowing it before it reaches whatever it's running toward.

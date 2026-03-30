@@ -1,18 +1,31 @@
 ---
 title: "The Fighting Withdrawal"
 date: 2026-03-27
-description: "Retreating from deep in the cave - longer path, possible cut-off, Barzer exits first"
+description: "Retreating from deep in the cave - longer path, strung out from the chase, Barzer exits first"
 tags: ["retreat", "tactics", "cave", "emergency"]
 weight: 3
 ---
 
-Retreat from deeper in the cave is harder than retreat from the entrance. You now have to cross the open cavern area AND the bottleneck before you're outside. The path back is longer, and the missing ogre could be between you and the exit right now.
+The party is deeper in the cave than it was before. The chase has pushed everyone further from the exit. Retreat now means: reverse the chase direction, cross the open cavern, pass the dead ogre at the bottleneck, and get outside. That is a longer path with a hurt party that may be strung out from sprinting.
 
 This plan exists so everyone knows their role before the retreat starts - not during it.
 
+## When to Call Off the Chase (Before It Becomes a Retreat)
+
+Stop pursuing and consolidate - do not advance further - if:
+
+- [ ] The ogre disappears beyond darkvision range into a branching passage
+- [ ] Theren hears sounds ahead suggesting multiple enemies
+- [ ] The cave floor shows fresh tracks from multiple creatures (the ogre has reached company)
+- [ ] The party strings out more than 60ft between front and rear
+- [ ] Barzer and Selena are separated and out of Kaltor's protection
+- [ ] Anyone ahead spots what looks like a prepared position or ambush
+
+**Call off the chase = consolidate, not retreat.** Stop moving forward, rebuild formation, assess. You don't have to leave yet.
+
 ## Retreat Trigger Conditions
 
-Call the retreat **immediately** if any of these occur:
+Call the full retreat **immediately** if any of these occur:
 
 - [ ] Two or more party members drop to 0 HP in the same encounter
 - [ ] An unknown threat appears that cannot be identified
@@ -20,7 +33,7 @@ Call the retreat **immediately** if any of these occur:
 - [ ] A fiend appears that isn't an imp or minor creature
 - [ ] The party is flanked - enemies approaching from both deeper in AND from behind
 - [ ] Spell slots are critically low across multiple casters
-- [ ] **The missing ogre appears behind the party** - this is a cut-off scenario and needs immediate response
+- [ ] **The ogre reached reinforcements and the party is now outnumbered in an open area**
 
 **Who Calls It**: Anyone. If Theren calls it, it happens - no debate. The player most aware of the party's position calls it.
 
@@ -28,8 +41,14 @@ Call the retreat **immediately** if any of these occur:
 
 ## The Cut-Off Scenario
 
-The missing ogre could be behind you. It may have circled around during the advance. If the party is attacked from the rear while already engaged at the front, this is the most dangerous situation:
+The chase pushed the party deep into the cave. If the ogre circled back, or if there were enemies already between the party and the exit, you're cut off.
 
+Signs of a cut-off:
+- Noise or movement from the direction of the bottleneck
+- Theren's Perception catches sounds from behind
+- The dead ogre at the bottleneck is no longer where it was left
+
+If cut off while already engaged at the front:
 - Do NOT split to fight both groups simultaneously
 - **Barzer uses Fog Cloud** immediately on the rear threat - blind them, buy time
 - The party consolidates on Kaltor's position and decides: break through the rear threat toward the exit, or push through the front threat toward the unknown
@@ -37,18 +56,24 @@ The missing ogre could be behind you. It may have circled around during the adva
 
 ## Retreat Path
 
-You are deeper than before. The retreat is in two stages.
+The chase has pushed everyone deeper. The retreat is now three stages, not two.
 
-**Stage 1: Cross the Open Cavern**
-- This is the exposed part. Enemies in an open space can chase you from any angle
+**Stage 1: Reverse the Chase**
+- Everyone who was sprinting forward is now sprinting back. The problem: the party strung out during the chase. Front runners (Theren, Kaltor) are furthest from the exit; rear (Barzer, Selena) are closest
+- Rear characters (Barzer, Selena) move immediately - they have the shortest path and need to go now
+- Front characters cover, then follow - they do not stand and fight; they Disengage or eat opportunity attacks and run
+
+**Stage 2: Cross the Open Cavern**
+- Enemies from the ogre's position can chase you across this open stretch
 - Move fast, stay together, do not let anyone fall behind
+- Barzer's Fog Cloud buys a round of concealment if pursuit is close
 
-**Stage 2: Through the Bottleneck**
+**Stage 3: Through the Bottleneck**
 - The dead ogre is at the bottleneck - it's not blocking you, but the body is there
-- The bottleneck now works in your favor on retreat: pursuing enemies are funneled the same way they funneled you
-- Kaltor holds the bottleneck from the other side while the rest of the party exits
+- The bottleneck now works in your favor: pursuing enemies are funneled exactly as the party was funneled coming in
+- Kaltor holds the bottleneck from the outside while the rest of the party clears
 
-**Stage 3: Outside**
+**Stage 4: Outside**
 - Rally point is outside the cave entrance, 30ft minimum from the mouth
 - Enough distance that a pursuing enemy can't instantly exit and reach you
 
@@ -72,7 +97,7 @@ You are deeper than before. The retreat is in two stages.
               [OPEN CAVERN → BOTTLENECK → OUTSIDE]
 ```
 
-**Key change from the original plan**: Barzer exits first now, not after the squishies. At his HP level (even after healing), he dies if caught. Get him out. Kaltor's AC and HP makes him the right choice for rear guard.
+**Critical note**: During the chase, Barzer and Selena were likely at the back of the column. That's now an advantage - they are closest to the exit. Barzer exits first, Selena right behind him. Do not wait for the front runners before moving the rear.
 
 ## Role-by-Role Retreat Instructions
 
@@ -151,11 +176,12 @@ Once outside:
 - Healing Word works while moving - no action economy lost
 
 ## Cons
-- Retreat path is longer now - open cavern to bottleneck to outside
-- If the missing ogre is behind you, the path may not be clear
+- Retreat path is longer now - the chase pushed everyone deeper
+- Front runners (Theren, Kaltor) are furthest from the exit and have to reverse the most distance
+- If enemies pursued from behind during the chase, the path back may not be clear
 - Captives (if any) are left behind during withdrawal
 - The infernal presence will know you were there and fled
 - Barzer is critically fragile - any delay in his exit could be fatal
 
 ## Best If
-The party agreed on the retreat signal before advancing, Barzer is positioned near the back of the formation so his exit path is short, and Kaltor is in position to hold the bottleneck from the outside for 1-2 rounds of cover.
+The party agreed on the retreat signal before the chase started, Barzer never sprinted far ahead of Selena, and Kaltor is willing to take rear-guard position through the bottleneck for 1-2 rounds of cover on the way out.

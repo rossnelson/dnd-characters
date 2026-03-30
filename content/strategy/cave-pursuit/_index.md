@@ -1,19 +1,19 @@
 ---
 title: "Cave Pursuit: Deeper Into the Dark"
 date: 2026-03-27
-description: "Party is past the bottleneck, in unknown open territory - one ogre dead, one missing, something infernal ahead"
+description: "The bloodied ogre is running - the party is in active pursuit, chasing it deeper into the cave"
 tags: ["combat", "tactics", "cave", "dungeon", "pursuit"]
 ---
 
 ## What You Know
 
-- The party is **inside the cave, past the entry bottleneck**, in an open cavern area of unknown size
+- The party is **inside the cave, past the entry bottleneck**, in active pursuit of a fleeing ogre
 - **One ogre is dead** at the bottleneck behind you - that path is clear for now
-- **The second ogre retreated ahead and has disappeared** - you don't know where it is
-- Visibility is limited to **60ft darkvision** - no map, no intel beyond what you can currently see
-- The infernal whisper ("come to us") came from deeper in - something is still ahead
-- Human footprints went IN originally - possible captives still unaccounted for
-- **Theren and Elaris were the vanguard; assume the full party has now regrouped**
+- **The bloodied ogre is running away from the party**, heading deeper into the cave
+- You are chasing it. It has 40ft movement; most of you have 30ft. **It is faster than you**
+- Visibility is limited to **60ft darkvision** - the ogre could be right at the edge of your sight or already pulling away
+- The ogre is almost certainly running toward something: reinforcements, a defended position, or a rallying point
+- **This is a pursuit, not a cautious advance. Every round you don't close the gap is a round it gets closer to help**
 
 ## Current Party Status
 
@@ -26,7 +26,7 @@ tags: ["combat", "tactics", "cave", "dungeon", "pursuit"]
 | **Elaris** | Lore Bard | 24/27 | Lightly hurt |
 | **Selena** | Life Cleric | 20/20 | Full HP |
 
-**Barzer is at 4 HP. Any hit from any enemy will likely drop him to 0. He cannot engage until healed.**
+**Barzer is at 4 HP. Any hit from any enemy will likely drop him to 0. He cannot join a sprint. He is the anchor that limits how hard the party can push this pursuit.**
 
 ## Darkvision Roster
 
@@ -59,34 +59,30 @@ Before advancing a single step, Selena must use Healing Word on Barzer. At 4 HP 
 
 Do this before the party moves.
 
-## Tactical Reality Change: Open Cavern vs. Bottleneck
+## The Core Danger: It's Leading You Somewhere
 
-The bottleneck is behind you. You have now lost your primary defensive advantage.
+A fleeing ogre is not a solved problem. It is bait.
 
-In the bottleneck:
-- Enemies could only reach you 1-2 at a time
-- Kaltor could lock down the entire enemy advance solo
+Ogres do not run blind. If it's fleeing deeper into its own cave, it knows what's back there. The party does not. When the chase ends - when it reaches its destination - you will arrive at whatever it was running toward. Strung out from the chase, out of position, and possibly winded.
 
-In an open cavern:
-- Enemies can spread out and attack from multiple angles
-- The party can be surrounded
-- The missing ogre could be flanking you right now
+**The ogre's goal is to reach its friends. Your goal is to stop it before it does, or be ready for what's waiting when it arrives.**
 
-This changes everything about how you engage. See the updated strategy documents for open-cavern tactics.
+## Speed Reality Check
 
-## The Missing Ogre Problem
+| Character | Speed | Race | Can they keep up? |
+|-----------|-------|------|-------------------|
+| Ogre | 40ft | - | It's faster than everyone |
+| Theren | 35ft | Wood Elf | Closest - still 5ft short |
+| Everyone else | 30ft | Various | Falling behind every round |
 
-The ogre that retreated is somewhere ahead. You do not know:
-- Whether it's alone or has joined the other unknown threats
-- Whether it's waiting in ambush just outside your 60ft darkvision
-- Whether it's between you and the infernal source, or already there
+**Without Dash**: The ogre gains 5-10ft per round on every party member. Over 3-4 rounds it's completely gone into the dark beyond 60ft.
 
-Treat it as hostile until proven otherwise. Assume it knows you're here.
+**With Dash**: Double movement, but you cannot attack that turn. The party has to decide: burn actions to close the gap, or fire while running and hope to slow it.
 
 ## Questions to Decide Now
 
-1. **Healing priority**: Selena heals Barzer immediately - confirm this happens before movement
-2. **Marching order**: Open cavern changes the column - see the advance document
-3. **Barzer's role**: At low HP even after healing, does he stay back or engage? (Recommend: rear of column, Shield reaction ready, no front-line exposure)
-4. **The retreat signal**: You are deeper now - the signal must account for a longer exit path
-5. **Advance or hold?**: Is there any reason to pause further, or does the party move immediately?
+1. **Heal Barzer first**: Selena uses Healing Word (bonus action) on Barzer before moving - non-negotiable. He cannot sprint into a fight at 4 HP
+2. **Who sprints?**: Kaltor and Theren can Dash ahead; Theren is the fastest at 35ft. Do faster characters push ahead and risk separating from the group?
+3. **Slow it down**: Theren can fire while moving (move-attack-move). Can Nysera or Elaris get off a Ray of Frost, Command ("Halt"), or Ensnaring Strike to cut its speed?
+4. **Barzer's position**: He cannot sprint. If the party strings out, he and Selena are at the back, exposed, and separated from Kaltor's protection
+5. **Abort threshold**: At what point do you stop chasing and consolidate? See the chase document

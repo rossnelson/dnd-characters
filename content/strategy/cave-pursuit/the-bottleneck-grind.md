@@ -1,171 +1,133 @@
 ---
-title: "Open Cavern Combat"
+title: "When the Chase Ends"
 date: 2026-03-27
-description: "Fighting without the bottleneck - flanking threats, open terrain, and how to adapt"
-tags: ["combat", "tactics", "cave", "open-terrain"]
+description: "What happens when the ogre reaches its destination - or you catch it first"
+tags: ["combat", "tactics", "cave", "pursuit", "ambush"]
 weight: 2
 ---
 
-The bottleneck is behind you. The cave geometry that made the first fight manageable is gone. In open terrain, enemies can spread out, flank, and attack from multiple directions simultaneously. Kaltor can no longer single-handedly block the entire enemy force. The party has to fight smarter.
+The chase ends one of three ways. None of them are simple. The key danger in all three: the party arrives out of formation, possibly strung out, after a sprint. Do not let the end of the chase catch you disorganized.
 
-## What Changed
-
-In the bottleneck:
-- Kaltor blocked everything. One enemy could reach the party at a time
-- Action economy massively favored the party
-- Spellcasters could fire freely with zero risk
-
-In an open cavern:
-- Enemies can attack from the left, right, and front at the same time
-- Multiple enemies can reach Barzer and Selena if the line breaks
-- Flanking grants Advantage to enemies (if using optional rule) or simply puts squishies in danger
-
-**The core tactical principle shifts**: Instead of "hold the chokepoint", the new principle is **"create local superiority at the point of contact while protecting the back line"**.
-
-## Core Positioning Rules in Open Terrain
-
-1. **Kaltor does NOT stand alone at the front**. In open terrain, Nysera flanks him on one side to prevent enemies from going around him
-2. **Barzer stays 15-20ft behind the front line**, not adjacent to Kaltor. His Shield reaction and Magic Missile work from distance
-3. **Elaris and Selena stay at max Healing Word range (60ft) from the front line** - they should never be in melee range unless things have gone catastrophically wrong
-4. **Theren positions for Longbow fire**: 10-20ft behind Kaltor, clear sightline, mobile enough to step sideways if flanked
-
-## Tactical Combos for Open Terrain
-
-### Situation A: The Missing Ogre Charges From Ahead
-
-Standard engagement - the ogre comes straight at you.
-
-| Round | Priority Action |
-|-------|----------------|
-| 1 | Kaltor intercepts. Theren fires Longbow (Hunter's Mark + Colossus Slayer). Elaris drops Bless on Kaltor + Theren + Nysera. Nysera casts Moonbeam centered on the ogre |
-| 2 | Kaltor attacks. Theren Longbow. Nysera moves Moonbeam (bonus action) to stay on target. Barzer holds Magic Missile for kill-shot when ogre drops below 15 HP |
-| 3 | Ogre should be near dead. Barzer fires Magic Missile to guarantee the kill. Selena Healing Word on Theren or Nysera if they took hits |
-
-**Do not let this become a prolonged fight.** One ogre against the full party should end in 2-3 rounds.
+**Before any engagement begins: get into formation. Take 5 seconds. Kaltor in front. Barzer in the back.**
 
 ---
 
-### Situation B: Ogre Tries to Go Around Kaltor
+## Scenario 1: You Catch the Ogre Before It Reaches Help
 
-Open terrain means the ogre might not play along and walk into Kaltor's sword. It may try to reach Barzer or Elaris directly.
+The ogre is slowed, cornered, or just didn't have enough of a head start. You have it isolated.
 
-- **Nysera shifts position** to cut off the flank - Flaming Sphere placed between the ogre's likely path and the back line forces it to divert or take 2d6 fire
-- **Theren uses Ready Action**: "When the ogre moves past Kaltor, I fire." This triggers before it reaches the back line
-- **Kaltor uses his reaction for an Opportunity Attack** as it passes - that longsword hits hard and may stop the charge
-- **Barzer's Shield reaction**: If the ogre reaches Barzer and attacks, Shield brings AC to 18. Use it. Barzer surviving is worth the slot
+This is the best outcome. Finish it fast.
 
----
+**Round structure:**
+- **Kaltor** closes to melee and engages - his full HP absorbs the ogre's last desperate attacks
+- **Theren** fires Longbow. Hunter's Mark + Colossus Slayer (already hit, so it's below max HP). Stay 10-20ft back for clean shots
+- **Nysera** Moonbeam on the ogre - it's still moving, even cornered, and 2d6 radiant per round adds up
+- **Elaris** Bless on Kaltor, Theren, Nysera if not already active
+- **Barzer** holds Magic Missile for the kill-shot when the ogre drops below ~15 HP. Auto-hit guarantees the finish
+- **Selena** Sacred Flame + Healing Word if anyone took hits during the chase
 
-### Situation C: Multiple Enemies From Multiple Directions
+A bloodied ogre against a full party is a 2-round fight. Do not draw it out. Do not monologue. Kill it and regroup.
 
-This is the worst case. Two ogres splitting around the party, or ogre plus goblins, or anything that attacks from more than one direction simultaneously.
-
-**Recognition**: If Theren's scouting spots two separate approach vectors, call it immediately. This is not a "stand and fight" situation by default.
-
-**Options if you choose to fight:**
-
-1. **Flaming Sphere as a wall**: Nysera places it to block one approach vector entirely. Enemies coming from that direction must go through 2d6 fire or stop. Kaltor handles the other vector
-2. **Elaris drops Hideous Laughter** on the most dangerous enemy among the secondary group - removes it from the fight for as long as concentration holds
-3. **Barzer uses Fog Cloud** to cut off the secondary approach - enemies in the fog are blind, they'll move slowly and unpredictably. This buys time to finish the primary group first
-4. **Theren and Selena watch the flanks** - Selena uses Sacred Flame at range, Theren fires Longbow at whoever is most likely to reach the back line
-
-**If there are 3+ enemies approaching**: See the retreat document. Open terrain against 3+ foes on a hurt party is not a winnable fight on current resources.
+**After it drops**: Stop. Full stop. Don't push deeper immediately. Listen. Do you hear anything ahead? Movement, grunts, weapon rattling? The ogre was running toward something. That something may have heard the fight.
 
 ---
 
-### Situation D: Ambush - Enemies Were Waiting for You
+## Scenario 2: The Ogre Reaches a Defended Position
 
-The missing ogre has had time to prepare. It may have positioned itself in your blind zone (beyond 60ft) and charged when you entered its range.
+This is the most dangerous outcome. The ogre runs through a tunnel mouth or into a larger chamber, and when the front runners arrive, they're looking at the ogre plus whatever else is in there.
 
-**Surprise round**: If the party is surprised, you lose your first round of actions. This is why Theren scouts ahead - a successful Perception check prevents the surprise.
+**The party is now the one walking into a prepared defense.**
 
-**If surprised anyway:**
-- **Kaltor's first non-surprised turn**: Interpose himself between the threat and the back line
-- **Barzer's first turn**: Shield reaction if hit, otherwise Magic Missile at the attacker - the auto-hit matters when you're disoriented
-- **Selena**: Sanctuary on Barzer immediately (4 HP even after healing is still critical - protect him first)
-- **Theren and Nysera**: Strike hard in round 1 to prevent the fight from going to round 3+
+The ogre reversed your tactical situation. You had the bottleneck. Now it does.
 
----
+### Immediate Rules
 
-### Situation E: Finding Human Captives
+- **Stop at the threshold.** Do not enter an unknown chamber on a pursuit charge. Theren hits the entrance, sees what's inside, and the party waits for that report
+- **Do not let momentum carry you in.** A chase creates psychological pressure to keep going. Resist it
+- **Kaltor anchors at the entrance** - the tunnel mouth, the doorway, whatever the chokepoint is. The party did not just spend a fight exploiting a bottleneck to throw that lesson away
 
-Stop. Do not advance past them.
+### What You Might Be Walking Into
 
-1. **Elaris moves to captives** - Healing Word if any are injured
-2. **Selena casts Sanctuary** on the most injured captive - protects them from targeting
-3. **Kaltor and Theren hold** the direction of deeper threats
-4. **Nysera Wild Shape** into a non-threatening form if captives are panicked - a druid-wolf is not reassuring
-5. **Barzer covers the rear** with Fog Cloud ready if the party extracts
-6. **Do not push further toward the infernal source with captives present** - extract them first
+| Situation | What To Do |
+|-----------|-----------|
+| Ogre + 1-2 goblins | Manageable - Theren identifies, party positions at the entrance, controlled fight |
+| Ogre + another ogre | Do not enter. Draw them out with ranged attacks. Let them come through the chokepoint to you |
+| Ogre + unknown infernal | Do not enter. Barzer/Theren identify from range. Withdraw if unidentified |
+| Ogre + captives visible | Hold fire - assess before engaging. Captives change the rules of engagement |
+| Ogre disappeared into the dark | See Scenario 3 |
 
----
+### Turning the Tables Back
 
-## Engagement Rules: Open Terrain Version
+If there's a defensible entrance, you hold it. What worked for the ogres at the cave mouth can work for the party here.
 
-The bottleneck rules were generous. Open terrain is less forgiving.
+- **Kaltor takes the doorway** - one enemy through at a time
+- **Theren fires past Kaltor** from behind, Colossus Slayer active on any already-hit target
+- **Nysera drops Flaming Sphere** in the threshold - enemies must walk through fire or route around, breaking their charge
+- **Elaris** Bless, then Hideous Laughter on the biggest threat if they're massing
+- **Barzer** hangs back, fires Magic Missile for kill-shots, Shield reaction ready
+- **Selena** heals as needed, watches for enemies routing around the flanks
 
-| What You Find | Fight or Withdraw? |
-|---------------|-------------------|
-| 1 ogre (the missing one) | Fight - full party, manageable |
-| 1 ogre + 2-3 goblins | Fight if Theren identifies them first and the party can position |
-| 2 fresh ogres | Fight only if there's a defensible position - otherwise withdraw |
-| 3+ enemies in open space | Withdraw - resource cost too high |
-| Unidentified infernal entity | Identify before engaging. Unknown = withdraw |
-| Captives present | Secure captives, then reassess |
+**The worst possible play**: charging into the chamber because you were already running. Stop at the line. Regroup. Make them come to you.
 
 ---
 
-## The Infernal Source Decision Tree
+## Scenario 3: The Ogre Disappears
+
+The ogre crossed out of your 60ft darkvision. Or ducked into a side passage. Or found a tunnel the party didn't know about. It's gone.
+
+You are now deep in an unknown cave. Alone. Without knowing where it went.
+
+**This is the stop condition.** Do not push further into the dark without regrouping.
+
+### What To Do
+
+1. **Hold position** - Kaltor stops, everyone consolidates on him
+2. **Theren: Perception check** - listen for movement, echoes, anything. +5 Perception is your best tool
+3. **Barzer: Arcana check** - anything infernal nearby gives off a detectable aura if Barzer focuses
+4. **Wait 30 seconds before moving** - rushing deeper without knowing where the ogre went is how you find it in an ambush
+5. **Assess exits**: How many tunnel openings are visible? Which direction did the ogre's tracks last indicate? Tracks are still readable
+
+### If You Advance Anyway
+
+You are moving blind through unknown cave with:
+- A missing ogre that knows this cave better than you
+- A hurt party (Theren 16/28, Barzer just healed from 4, Nysera 16/24)
+- No map, no intel, 60ft visibility
+
+If you advance: Theren scouts 15ft ahead. The party moves in tight formation. The formation from the chase (strung out) must be rebuilt before going further. Take the time.
+
+---
+
+## The Formation Problem After a Chase
+
+Whatever scenario plays out, the party must stop being a string of sprinters and become a fighting unit before contact.
+
+**Regroup formation (take one round, don't skip this):**
 
 ```
-Something infernal is ahead
-        |
-        ├── Can you identify it? (Barzer: Arcana, Theren: Nature/Religion)
-        |         |
-        |         ├── YES: Minor fiend / imp / low CR → Fight if party is stable
-        |         └── NO: Unknown → Do not engage, retreat and identify
-        |
-        └── Is the party at fighting strength?
-                  |
-                  ├── Barzer above 10 HP, Theren above 12 HP, Nysera above 12 HP?
-                  |         |
-                  |         ├── YES → Proceed carefully with terrain assessment
-                  |         └── NO → Retreat for resources first
-                  |
-                  └── Are captives present?
-                            |
-                            ├── YES → Extract before engaging the infernal source
-                            └── NO → Proceed per resource check above
+              [THEREN] ← scout, 10-15ft ahead
+
+   [KALTOR] ←          → [NYSERA]    ← front line
+
+   [ELARIS] ←          → [BARZER]    ← mid, spread
+
+              [SELENA]               ← rear
 ```
 
----
-
-## Concentration Management in Open Terrain
-
-Multiple concentration spells competing is the key internal resource conflict.
-
-| Caster | Best Concentration Spell | Notes |
-|--------|--------------------------|-------|
-| Theren | Hunter's Mark | On the primary target at all times |
-| Elaris | Bless | Cast first, maintain all fight - the +1d4 on Kaltor/Theren/Nysera attacks is worth more than any one offensive spell |
-| Nysera | Moonbeam (single target) or Flaming Sphere (area control) | Moonbeam vs. a single ogre; Sphere when you need to block a route or cover area |
-| Barzer | No concentration needed | Magic Missile is instant, no concentration |
-
-**The critical rule**: Nysera should not cast Moonbeam AND Bless. Elaris handles Bless. Nysera handles area/damage concentration. If Elaris goes down or loses concentration, Nysera can pick up Bless - but that's an emergency pivot, not the plan.
+Barzer belongs mid-rear, behind Kaltor's line of protection. If the chase strung him out behind with Selena, that's fine - but confirm everyone knows their position before the next engagement starts.
 
 ---
 
 ## Pros
-- Full party action economy
-- Universal darkvision means no light management
-- Kaltor at full HP is a genuine frontline anchor even in open terrain
-- Nysera's Flaming Sphere creates area denial without requiring a chokepoint
+- A caught ogre is a dead ogre - bloodied, alone, no backup
+- The tunnel approach to a defended position gives the party a natural chokepoint to exploit
+- Theren's Perception gives advance warning before the party commits
 
 ## Cons
-- No chokepoint means enemies can reach the back line if the front line is bypassed
-- Barzer remains fragile - even after healing he can't absorb hits
-- Theren and Nysera are hurt - a bad round on either could take them out of the fight
-- Open terrain means no guaranteed angle for ranged fire - Theren may have to move each round for clean shots
+- Arriving at a defended position winded and out of formation is the ogre's entire plan
+- The party doesn't know what's in the chamber until Theren looks
+- Barzer is still the most exposed - 4 HP (now healed, but low) and deepest in an unknown cave
+- Spell slots were already depleted from the first fight - every slot here is precious
 
 ## Best If
-Theren spots the threat before it reaches melee range, the party has time to position, and Kaltor/Nysera establish a front line before enemies close. Speed of positioning is the key variable in open terrain.
+The chase ends at Scenario 1. If it ends at Scenario 2, the party holds the entrance and does not enter the unknown chamber under pursuit momentum. The bottleneck lesson applies everywhere.
