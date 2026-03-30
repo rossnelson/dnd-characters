@@ -551,11 +551,13 @@ tbody tr:last-child td {
 /* Strategy Cards */
 .strategy-cards {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
 .strategy-cards > * {
-  flex: 1;
+  flex: 1 1 calc(33.333% - 1rem);
+  min-width: 200px;
 }
 
 .strategy-card {
@@ -614,6 +616,115 @@ tbody tr:last-child td {
   color: var(--color-rust);
 }
 
+/* Highlight Cards */
+.highlight-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.highlight-cards > * {
+  flex: 1 1 calc(33.333% - 1rem);
+  min-width: 220px;
+}
+
+.highlight-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background: var(--color-parchment-light);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: left;
+  transition: all 0.2s ease;
+  position: relative;
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+
+.highlight-card:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.highlight-card h3 {
+  margin: 0.25rem 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: var(--color-ink);
+}
+
+.highlight-card:hover h3 {
+  color: var(--color-rust);
+}
+
+.highlight-card p {
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--color-ink-muted);
+  flex-grow: 1;
+  line-height: 1.5;
+}
+
+.highlight-card .read-more {
+  font-family: 'Fondamento', serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-rust);
+}
+
+.highlight-card--dramatic {
+  border-left-color: #8B0000;
+}
+
+.highlight-card--comedic {
+  border-left-color: #DAA520;
+}
+
+.highlight-card--clutch {
+  border-left-color: #2E8B57;
+}
+
+.highlight-card--epic {
+  border-left-color: #4B0082;
+}
+
+.highlight-card__type {
+  display: inline-block;
+  font-family: 'Fondamento', serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 2px;
+  margin-bottom: 0.5rem;
+  color: var(--color-parchment-light);
+}
+
+.highlight-card--dramatic .highlight-card__type { background: #8B0000; }
+.highlight-card--comedic .highlight-card__type { background: #DAA520; }
+.highlight-card--clutch .highlight-card__type { background: #2E8B57; }
+.highlight-card--epic .highlight-card__type { background: #4B0082; }
+
+.highlight-card__characters {
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+  margin-bottom: 0.5rem;
+}
+
+/* Session Group */
+.highlight-session-group {
+  margin-bottom: 3rem;
+}
+
+.highlight-session-group h2 {
+  margin-bottom: 1.5rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   h1 {
@@ -642,6 +753,10 @@ tbody tr:last-child td {
   }
 
   .strategy-cards {
+    flex-direction: column;
+  }
+
+  .highlight-cards {
     flex-direction: column;
   }
 }

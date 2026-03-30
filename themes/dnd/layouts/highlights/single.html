@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ $type := .Params.moment_type | default "epic" }}
+<div class="hero">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.session }}
+  <p class="subtitle">{{ . }}</p>
+  {{ end }}
+</div>
+
+<div class="main-content">
+  <div style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+    <span class="highlight-card__type highlight-card--{{ $type }}" style="background: {{ if eq $type "dramatic" }}#8B0000{{ else if eq $type "comedic" }}#DAA520{{ else if eq $type "clutch" }}#2E8B57{{ else }}#4B0082{{ end }}; color: #faf6f0; display: inline-block; font-family: 'Fondamento', serif; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; padding: 0.25rem 0.6rem; border-radius: 2px;">{{ $type }}</span>
+    {{ with .Params.characters }}
+    <span style="font-size: 0.9rem; color: var(--color-ink-muted);">{{ delimit . ", " }}</span>
+    {{ end }}
+  </div>
+
+  <article class="prose" style="border-left: 4px solid {{ if eq $type "dramatic" }}#8B0000{{ else if eq $type "comedic" }}#DAA520{{ else if eq $type "clutch" }}#2E8B57{{ else }}#4B0082{{ end }}; padding-left: 1.5rem; max-width: none;">
+    {{ .Content }}
+  </article>
+
+  <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--color-border);">
+    <a href="{{ "/highlights/" | relURL }}" style="font-family: 'Fondamento', serif; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;">&larr; All Highlights</a>
+  </div>
+</div>
+{{ end }}

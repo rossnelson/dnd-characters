@@ -19,6 +19,7 @@
     {
       "id": 208021097,
       "level": 3,
+      "isStartingClass": true,
       "definition": {
         "name": "Wizard",
         "hitDice": 6
@@ -62,7 +63,7 @@
   ],
   "baseHitPoints": 14,
   "bonusHitPoints": 0,
-  "removedHitPoints": 2,
+  "removedHitPoints": 19,
   "temporaryHitPoints": 0,
   "currentXp": 900,
   "alignmentId": 0,
@@ -693,7 +694,8 @@
     "appearance": ""
   },
   "preferences": {
-    "useHomebrewContent": false
+    "useHomebrewContent": false,
+    "hitPointType": 1
   },
   "deathSaves": {
     "failCount": 0,

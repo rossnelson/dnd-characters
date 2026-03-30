@@ -19,6 +19,7 @@
     {
       "id": 208778282,
       "level": 3,
+      "isStartingClass": true,
       "definition": {
         "name": "Bard",
         "hitDice": 8
@@ -62,7 +63,7 @@
   ],
   "baseHitPoints": 18,
   "bonusHitPoints": 0,
-  "removedHitPoints": 0,
+  "removedHitPoints": 3,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 0,
@@ -91,7 +92,7 @@
       "id": 871295925,
       "definition": {
         "name": "Studded Leather",
-        "type": "Light Armor",
+        "type": "",
         "armorClass": 12,
         "damage": null,
         "description": "\u003cp\u003eMade from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.\u003c/p\u003e"
@@ -508,7 +509,8 @@
     "appearance": ""
   },
   "preferences": {
-    "useHomebrewContent": false
+    "useHomebrewContent": false,
+    "hitPointType": 1
   },
   "deathSaves": {
     "failCount": 0,
@@ -617,24 +619,6 @@
       },
       {
         "type": "proficiency",
-        "subType": "persuasion",
-        "value": null,
-        "fixedValue": null
-      },
-      {
-        "type": "proficiency",
-        "subType": "investigation",
-        "value": null,
-        "fixedValue": null
-      },
-      {
-        "type": "proficiency",
-        "subType": "deception",
-        "value": null,
-        "fixedValue": null
-      },
-      {
-        "type": "proficiency",
         "subType": "light-armor",
         "value": null,
         "fixedValue": null
@@ -714,6 +698,24 @@
       {
         "type": "proficiency",
         "subType": "performance",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "persuasion",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "investigation",
+        "value": null,
+        "fixedValue": null
+      },
+      {
+        "type": "proficiency",
+        "subType": "deception",
         "value": null,
         "fixedValue": null
       }

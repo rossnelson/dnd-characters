@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="hero">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.description }}
+  <p class="subtitle">{{ . }}</p>
+  {{ end }}
+</div>
+
+<div class="main-content">
+  {{ if .Content }}
+  <div class="prose" style="margin-bottom: 2rem;">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  {{ if .Pages }}
+  {{/* Group highlights by session */}}
+  {{ $sessions := slice }}
+  {{ range .Pages.ByParam "weight" }}
+    {{ $session := .Params.session }}
+    {{ if not (in $sessions $session) }}
+      {{ $sessions = $sessions | append $session }}
+    {{ end }}
+  {{ end }}
+
+  {{ range $sessions }}
+  {{ $session := . }}
+  <div class="highlight-session-group">
+    <h2>{{ $session }}</h2>
+    <div class="highlight-cards">
+      {{ range ($.Pages.ByParam "weight") }}
+        {{ if eq .Params.session $session }}
+        {{ $type := .Params.moment_type | default "epic" }}
+        <a href="{{ .RelPermalink }}" class="highlight-card highlight-card--{{ $type }}">
+          <span class="highlight-card__type">{{ $type }}</span>
+          <h3>{{ .Title }}</h3>
+          {{ with .Params.characters }}
+          <p class="highlight-card__characters">{{ delimit . ", " }}</p>
+          {{ end }}
+          {{ with .Params.description }}
+          <p>{{ . }}</p>
+          {{ end }}
+          <span class="read-more">Read the moment</span>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+</div>
+{{ end }}

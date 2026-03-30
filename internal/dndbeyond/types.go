@@ -75,10 +75,11 @@ type SpeedInfo struct {
 }
 
 type Class struct {
-	ID             int     `json:"id"`
-	Level          int     `json:"level"`
-	Definition     *ClassDefinition `json:"definition"`
-	SubclassDefinition *SubclassDefinition `json:"subclassDefinition"`
+	ID                 int                  `json:"id"`
+	Level              int                  `json:"level"`
+	IsStartingClass    bool                 `json:"isStartingClass"`
+	Definition         *ClassDefinition     `json:"definition"`
+	SubclassDefinition *SubclassDefinition  `json:"subclassDefinition"`
 }
 
 type ClassDefinition struct {
@@ -214,6 +215,7 @@ type Traits struct {
 
 type Preferences struct {
 	UseHomebrewContent bool `json:"useHomebrewContent"`
+	HitPointType       *int `json:"hitPointType"`
 }
 
 type DeathSaves struct {
@@ -248,26 +250,34 @@ func (c *Character) PrimaryClass() string {
 func (c *Character) MaxHP() int {
 	conMod := c.StatModifier(StatConstitution)
 	level := c.TotalLevel()
-	hp := c.BaseHitPoints + c.BonusHitPoints + (conMod * level)
-	hp += c.bonusHPPerLevel() * level
-	return hp
+
+	baseHP := c.BaseHitPoints
+	if c.Preferences != nil && c.Preferences.HitPointType != nil && *c.Preferences.HitPointType == 1 {
+		// hitPointType 1 = FIXED: calculate from hit die averages
+		baseHP = c.fixedHitPoints()
+	}
+
+	return baseHP + c.BonusHitPoints + (conMod * level)
 }
 
-func (c *Character) bonusHPPerLevel() int {
-	if c.Modifiers == nil {
-		return 0
-	}
-	bonus := 0
-	for _, mod := range c.allModifiers() {
-		if mod.SubType == "hit-points-per-level" || (mod.SubType == "hit-points" && mod.Type == "bonus") {
-			if mod.Value != nil {
-				bonus += *mod.Value
-			} else if mod.FixedValue != nil {
-				bonus += *mod.FixedValue
-			}
+// fixedHitPoints calculates HP using fixed/average values:
+// Level 1 of starting class: max die value
+// Each subsequent level: ceil(die/2) + 1
+func (c *Character) fixedHitPoints() int {
+	hp := 0
+	for _, class := range c.Classes {
+		if class.Definition == nil {
+			continue
+		}
+		die := class.Definition.HitDice
+		fixedPerLevel := die/2 + 1
+		if class.IsStartingClass {
+			hp += die + (class.Level-1)*fixedPerLevel
+		} else {
+			hp += class.Level * fixedPerLevel
 		}
 	}
-	return bonus
+	return hp
 }
 
 func (c *Character) allModifiers() []Modifier {
@@ -296,7 +306,6 @@ func (c *Character) GetStat(statID int) int {
 			break
 		}
 	}
-	// Apply modifier bonuses (racial, feat, etc.)
 	statSubTypes := map[int]string{
 		StatStrength: "strength-score", StatDexterity: "dexterity-score",
 		StatConstitution: "constitution-score", StatIntelligence: "intelligence-score",
@@ -306,6 +315,17 @@ func (c *Character) GetStat(statID int) int {
 	if !ok {
 		return base
 	}
+	// Apply "set" overrides first (e.g., Amulet of Health sets CON to 19)
+	for _, mod := range c.allModifiers() {
+		if mod.SubType == subType && mod.Type == "set" {
+			if mod.FixedValue != nil && *mod.FixedValue > base {
+				base = *mod.FixedValue
+			} else if mod.Value != nil && *mod.Value > base {
+				base = *mod.Value
+			}
+		}
+	}
+	// Then apply bonuses (racial, feat, etc.)
 	for _, mod := range c.allModifiers() {
 		if mod.SubType == subType && mod.Type == "bonus" {
 			if mod.FixedValue != nil {

@@ -19,6 +19,7 @@
     {
       "id": 208778239,
       "level": 3,
+      "isStartingClass": true,
       "definition": {
         "name": "Druid",
         "hitDice": 8
@@ -616,7 +617,8 @@
     "appearance": ""
   },
   "preferences": {
-    "useHomebrewContent": false
+    "useHomebrewContent": false,
+    "hitPointType": 1
   },
   "deathSaves": {
     "failCount": 0,

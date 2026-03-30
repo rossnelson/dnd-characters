@@ -19,6 +19,7 @@
     {
       "id": 208776862,
       "level": 3,
+      "isStartingClass": true,
       "definition": {
         "name": "Ranger",
         "hitDice": 10
@@ -62,7 +63,7 @@
   ],
   "baseHitPoints": 16,
   "bonusHitPoints": 0,
-  "removedHitPoints": 4,
+  "removedHitPoints": 12,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 2,
@@ -590,7 +591,8 @@
     "appearance": ""
   },
   "preferences": {
-    "useHomebrewContent": false
+    "useHomebrewContent": false,
+    "hitPointType": 1
   },
   "deathSaves": {
     "failCount": 1,

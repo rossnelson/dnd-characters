@@ -1,6 +1,6 @@
 ---
 title: "Nysera - High Elf Circle of the Land (Forest) Druid"
-date: 2026-03-27
+date: 2026-03-29
 description: "High Elf Circle of the Land (Forest) Druid - Level 3"
 character_name: "Nysera"
 character_race: "High Elf"
@@ -9,8 +9,8 @@ character_level: 3
 player: "sfdwarren"
 dndbeyond_id: 151315901
 tags: ["high-elf", "circle-of-the-land-(forest)-druid", "active"]
-hp_current: 22
-hp_max: 30
+hp_current: 16
+hp_max: 24
 gp: 437
 sp: 4
 cp: 0

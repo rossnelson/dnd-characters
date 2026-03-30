@@ -1,0 +1,60 @@
+{{ define "main" }}
+<!-- Hero Header -->
+<div class="hero">
+  <h1>{{ .Title }}</h1>
+  {{ if not .Date.IsZero }}
+  <p class="subtitle">{{ .Date | time.Format "January 2, 2006" }}</p>
+  {{ end }}
+</div>
+
+<!-- Content Section -->
+<div class="main-content">
+  <!-- Session Intro -->
+  {{ with .Params.session_name }}
+  <div class="prose" style="margin-bottom: 1.5rem;">
+    <h1>{{ . }}</h1>
+    {{ with $.Params.session_time }}
+    <p><strong>Session time:</strong> {{ . }}</p>
+    {{ end }}
+    {{ with $.Params.session_summary }}
+    <p style="font-style: italic; color: var(--color-ink-muted);">{{ . }}</p>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <!-- Session Highlights -->
+  {{ $sessionTitle := .Title }}
+  {{ $highlights := where site.RegularPages "Params.session" $sessionTitle }}
+  {{ with $highlights }}
+  <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 2px solid var(--color-border);">
+    <h2 style="text-align: center; margin-bottom: 1.5rem;">Highlights</h2>
+    <div class="highlight-cards">
+      {{ range . }}
+      <a href="{{ .RelPermalink }}" class="highlight-card highlight-card--{{ .Params.moment_type }}">
+        <span class="highlight-card__type">{{ .Params.moment_type }}</span>
+        <h3>{{ .Title }}</h3>
+        {{ with .Params.characters }}
+        <div class="highlight-card__characters">{{ delimit . ", " }}</div>
+        {{ end }}
+        <p>{{ .Params.description }}</p>
+        <span class="read-more">Read the moment →</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <article class="prose">
+    {{ .Content }}
+  </article>
+
+  {{ if .Params.tags }}
+  <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--color-border);">
+    <span style="font-family: 'Fondamento', serif; font-size: 0.9rem; color: var(--color-ink-muted);">Tags:</span>
+    {{ range .Params.tags }}
+    <a href="{{ "tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

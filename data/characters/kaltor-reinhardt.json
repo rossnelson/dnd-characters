@@ -19,6 +19,7 @@
     {
       "id": 207960769,
       "level": 3,
+      "isStartingClass": true,
       "definition": {
         "name": "Paladin",
         "hitDice": 10
@@ -510,7 +511,8 @@
     "appearance": ""
   },
   "preferences": {
-    "useHomebrewContent": false
+    "useHomebrewContent": false,
+    "hitPointType": 1
   },
   "deathSaves": {
     "failCount": 0,

@@ -19,6 +19,7 @@
     {
       "id": 209022669,
       "level": 3,
+      "isStartingClass": true,
       "definition": {
         "name": "Cleric",
         "hitDice": 8
@@ -589,7 +590,8 @@
     "appearance": ""
   },
   "preferences": {
-    "useHomebrewContent": true
+    "useHomebrewContent": true,
+    "hitPointType": 2
   },
   "deathSaves": {
     "failCount": 0,
